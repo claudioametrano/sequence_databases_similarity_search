@@ -1,0 +1,56 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Large subunit ribosomal nucleic acid for Prokaryotes
+           4,047 sequences; 11,856,071 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NZ_CP010849.1 Streptomyces cyaneogriseus subsp. noncyanogenus 23S...  28.3    4.9  
+
+
+>NZ_CP010849.1 Streptomyces cyaneogriseus subsp. noncyanogenus 23S ribosomal 
+RNA sequence
+Length=3150
+
+ Score = 28.3 bits (30),  Expect = 4.9
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  133   TGCTGTCTGAGCTGG  147
+             |||||||||||||||
+Sbjct  1966  TGCTGTCTGAGCTGG  1980
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1646252020
+
+
+  Database: Large subunit ribosomal nucleic acid for Prokaryotes
+    Posted date:  Dec 5, 2022  9:53 AM
+  Number of letters in database: 11,856,071
+  Number of sequences in database:  4,047
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

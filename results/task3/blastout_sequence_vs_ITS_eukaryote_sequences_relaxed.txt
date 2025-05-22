@@ -1,0 +1,770 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ITS eukaryote BLAST
+           77,582 sequences; 60,710,056 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+KU203777.1 Tuber cryptobrumale <ITS1 5.8S ITS2 LSU>                   61.7    4e-09
+MW166489.1 Tuber brumale var. gorii <SSU ITS1 5.8S ITS2>              55.4    2e-07
+OM256757.1 Tuber pseudofulgens <ITS1 5.8S ITS2 LSU>                   45.5    3e-04
+MW632951.1 Tuber zambonelliae <SSU ITS1 5.8S ITS2 LSU>                44.6    3e-04
+MT006095.1 Tuber buendiae <SSU ITS1 5.8S ITS2 LSU>                    44.6    3e-04
+MH115295.1 Tuber crassitunicatum <ITS1 5.8S ITS2 LSU>                 44.6    3e-04
+ON527894.1 Gyromitra americanigigas <ITS1 5.8S ITS2>                  41.0    0.004
+MH938663.1 Gyromitra gigas <SSU ITS1 5.8S ITS2>                       41.0    0.004
+MH115303.1 Tuber lishanense <ITS1 5.8S ITS2 LSU>                      41.0    0.004
+LC514671.1 Leucangium microspermum <SSU ITS1 5.8S ITS2 LSU>           41.0    0.004
+KX904889.1 Tuber badium <SSU ITS1 5.8S ITS2 LSU>                      41.0    0.004
+JX458715.1 Tuber neoexcavatum <ITS1 5.8S ITS2 LSU>                    41.0    0.004
+MK211283.2 Tuber theleascum <ITS1 5.8S ITS2>                          39.2    0.013
+MH115318.1 Tuber piceatum <ITS1 5.8S ITS2 LSU>                        39.2    0.013
+KU739791.1 Helvella bachu <SSU ITS1 5.8S ITS2>                        38.3    0.046
+GQ119354.1 Kalapuya brunnea <ITS1 5.8S ITS2 LSU>                      38.3    0.046
+MN712289.1 Tarzetta sepultarioides <SSU ITS1 5.8S ITS2>               37.4    0.046
+MG846967.1 Gyromitra xinjiangensis <ITS1 5.8S ITS2 LSU>               37.4    0.046
+MN712324.1 Tarzetta melitensis <SSU ITS1 5.8S ITS2>                   36.5    0.16 
+KX904887.1 Tuber verrucosivolvum <ITS1 5.8S ITS2 LSU>                 36.5    0.16 
+OM256769.1 Tuber luyashanense <ITS1 5.8S ITS2 LSU>                    35.6    0.16 
+KR493476.1 Helvella pseudolacunosa <ITS1 5.8S ITS2 LSU>               35.6    0.16 
+MW546604.1 Trichophaeopsis asturiensis <SSU ITS1 5.8S ITS2>           34.6    0.56 
+MW075385.1 Gyromitra korfii <ITS1 5.8S ITS2 LSU>                      34.6    0.56 
+MH938672.1 Gyromitra ticiniana <SSU ITS1 5.8S ITS2>                   34.6    0.56 
+MG846994.1 Gyromitra pseudogigas <ITS1 5.8S ITS2 LSU>                 34.6    0.56 
+MF116159.1 Gyromitra khanspurensis <SSU ITS1 5.8S ITS2>               34.6    0.56 
+MT939295.1 Pachyphlodes excavata <SSU ITS1 5.8S ITS2>                 33.7    0.56 
+MN437515.1 Tuber lucentum <ITS1 5.8S ITS2>                            33.7    0.56 
+KJ742702.1 Tuber alboumbilicum <SSU ITS1 5.8S ITS2 LSU>               33.7    0.56 
+EU427549.1 Pachyphlodes marronina <ITS1 5.8S ITS2 LSU>                33.7    0.56 
+MK192827.1 Pachyphlodes wulushanensis <ITS1 5.8S ITS2 LSU>            32.8    2.0  
+MK192821.1 Hydnobolites yunnanensis <ITS1 5.8S ITS2 LSU>              32.8    2.0  
+JN102472.1 Pachyphlodes annagardnerae <ITS1 5.8S ITS2 LSU>            32.8    2.0  
+JN102469.1 Pachyphlodes nemoralis <ITS1 5.8S ITS2 LSU>                32.8    2.0  
+MZ575619.1 Geoscypha montana <SSU ITS1 5.8S ITS2>                     31.0    6.8  
+MK514542.1 Hansenopezia decora <SSU ITS1 5.8S ITS2 LSU>               31.0    6.8  
+MF611781.1 Tuber floridanum <ITS1 5.8S ITS2 LSU>                      31.0    6.8  
+KP144083.1 Geoglossum geesterani <SSU ITS1 5.8S ITS2>                 31.0    6.8  
+KC878618.1 Hydnotrya laojunshanensis <SSU ITS1 5.8S ITS2 LSU>         31.0    6.8  
+JX122785.1 Chaenothecopsis khayensis <SSU ITS1 5.8S ITS2 LSU>         31.0    6.8  
+HQ176472.1 Oxytropis lambertii <SSU ITS1 5.8S ITS2 LSU>               30.1    6.8  
+KC779647.1 Bionia bella <SSU ITS1 5.8S ITS2 LSU>                      30.1    6.8  
+OM256781.1 Tuber huiliense <ITS1 5.8S ITS2 LSU>                       30.1    6.8  
+MW340905.1 Tuber davidlopezii <SSU ITS1 5.8S ITS2 LSU>                30.1    6.8  
+MT939294.1 Pachyphlodes atropurpurea <ITS1 5.8S ITS2 LSU>             30.1    6.8  
+KX262075.1 Tuber baoshanense <SSU ITS1 5.8S ITS2 LSU>                 30.1    6.8  
+KP019346.1 Choiromyces helanshanensis <ITS1 5.8S ITS2>                30.1    6.8  
+KC416109.1 Caloplaca substerilis <ITS1 5.8S ITS2>                     30.1    6.8  
+JQ978648.1 Tuber panzhihuanense <SSU ITS1 5.8S ITS2>                  30.1    6.8  
+DQ898183.1 Tuber latisporum <SSU ITS1 5.8S ITS2 LSU>                  30.1    6.8  
+AY830854.1 Pachyphlodes austro-oregonensis <ITS1 5.8S ITS2>           30.1    6.8  
+
+
+>KU203777.1 Tuber cryptobrumale <ITS1 5.8S ITS2 LSU>
+Length=1479
+
+ Score = 61.7 bits (67),  Expect = 4e-09
+ Identities = 41/46 (89%), Gaps = 0/46 (0%)
+ Strand=Plus/Plus
+
+Query  38  AAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGA  83
+           ||||||||||| ||| || |||||||||||| |||||| |||||||
+Sbjct  41  AAACCTCTCTGTGTACCAATCCATGTTGCTTTCACAGGCTAAGTGA  86
+
+
+ Score = 33.7 bits (36),  Expect = 0.56
+ Identities = 51/73 (70%), Gaps = 0/73 (0%)
+ Strand=Plus/Plus
+
+Query  91   GGCACCTGTGGGAGATCTCTATGTTAACGGAGTATTTGATTGTGCTGTCTGAGCTGGCCA  150
+            ||| ||||||| || |||  |  |||||  | | | |||   |   ||||||  ||||||
+Sbjct  391  GGCTCCTGTGGAAGGTCTTCACCTTAACCAATTGTATGAGCATCTAGTCTGACATGGCCA  450
+
+Query  151  TGTGTCAGATTTA  163
+             ||| ||||||||
+Sbjct  451  AGTGCCAGATTTA  463
+
+
+>MW166489.1 Tuber brumale var. gorii <SSU ITS1 5.8S ITS2>
+Length=880
+
+ Score = 55.4 bits (60),  Expect = 2e-07
+ Identities = 39/45 (87%), Gaps = 0/45 (0%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGA  83
+            || ||||||| ||| || |||||||||||| |||||| |||||||
+Sbjct  81   AATCTCTCTGTGTACCAATCCATGTTGCTTTCACAGGCTAAGTGA  125
+
+
+ Score = 42.8 bits (46),  Expect = 0.001
+ Identities = 53/73 (73%), Gaps = 0/73 (0%)
+ Strand=Plus/Plus
+
+Query  91   GGCACCTGTGGGAGATCTCTATGTTAACGGAGTATTTGATTGTGCTGTCTGAGCTGGCCA  150
+            ||| ||||||| || |||  |  |||||  | | | ||| | ||  ||||||  ||||||
+Sbjct  431  GGCTCCTGTGGAAGGTCTTCACCTTAACAAATTGTATGAGTATGTAGTCTGATATGGCCA  490
+
+Query  151  TGTGTCAGATTTA  163
+             ||| ||||||||
+Sbjct  491  AGTGCCAGATTTA  503
+
+
+>OM256757.1 Tuber pseudofulgens <ITS1 5.8S ITS2 LSU>
+Length=667
+
+ Score = 45.5 bits (49),  Expect = 3e-04
+ Identities = 38/47 (81%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||||||| ||| |  ||||| |||||| | ||||
+Sbjct  67   CCCGACCTCAAACCTCTCTGAGTACCCATCCATATTGCTTTCCCAGG  113
+
+
+>MW632951.1 Tuber zambonelliae <SSU ITS1 5.8S ITS2 LSU>
+Length=644
+
+ Score = 44.6 bits (48),  Expect = 3e-04
+ Identities = 38/46 (83%), Gaps = 1/46 (2%)
+ Strand=Plus/Plus
+
+Query  24   GTATTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTT  68
+            || |||||  || |||| |||||||| ||| || ||||||||||||
+Sbjct  90   GTGTTCCCTGACCCAAACCCTCTCTGTGTACCAATCCATGTTGCTT  135
+
+
+>MT006095.1 Tuber buendiae <SSU ITS1 5.8S ITS2 LSU>
+Length=643
+
+ Score = 44.6 bits (48),  Expect = 3e-04
+ Identities = 41/51 (80%), Gaps = 1/51 (2%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||||  || |||| |||| ||| ||| || |||||||||||| | |||||
+Sbjct  86   TTCCCTGACCCAAACCCTCCCTGTGTACCAATCCATGTTGCTTTCCCAGGT  136
+
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            |||||||||| |||||| |||
+Sbjct  196  GCTGTCTGAGGTGGCCAAGTG  216
+
+
+>MH115295.1 Tuber crassitunicatum <ITS1 5.8S ITS2 LSU>
+Length=618
+
+ Score = 44.6 bits (48),  Expect = 3e-04
+ Identities = 41/51 (80%), Gaps = 1/51 (2%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||||  || |||| ||| |||| ||| || |||||||||||| | |||||
+Sbjct  66   TTCCCTGACCCAAATCCTTTCTGTGTACCAATCCATGTTGCTTTCCCAGGT  116
+
+
+>ON527894.1 Gyromitra americanigigas <ITS1 5.8S ITS2>
+Length=718
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 25/27 (93%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||| ||||| |||||||||||||||||
+Sbjct  202  CTCGGCGTACCACTCCATGTTGCTTCC  228
+
+
+>MH938663.1 Gyromitra gigas <SSU ITS1 5.8S ITS2>
+Length=767
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 25/27 (93%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||| ||||| |||||||||||||||||
+Sbjct  267  CTCGGCGTACCACTCCATGTTGCTTCC  293
+
+
+>MH115303.1 Tuber lishanense <ITS1 5.8S ITS2 LSU>
+Length=752
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 55/72 (76%), Gaps = 5/72 (7%)
+ Strand=Plus/Plus
+
+Query  8    TTTGGGATACC-GTTGTGTATTCCCGAACACAAACC-T-CTCTGCGTATCACTCCATGTT  64
+            ||||||||||| ||   || ||||  ||||| | || | ||| | ||| || ||||||||
+Sbjct  44   TTTGGGATACCTGTCAGGTTTTCC--AACACTACCCCTCCTCCGTGTACCAATCCATGTT  101
+
+Query  65   GCTTCCACAGGT  76
+            |||| | |||||
+Sbjct  102  GCTTTCCCAGGT  113
+
+
+>LC514671.1 Leucangium microspermum <SSU ITS1 5.8S ITS2 LSU>
+Length=807
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 31/37 (84%), Gaps = 0/37 (0%)
+ Strand=Plus/Plus
+
+Query  34   ACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||||||||| ||| ||||| |  |||| |||||||||
+Sbjct  261  ACACAAACCACTCCGCGTACCTTTCCACGTTGCTTCC  297
+
+
+>KX904889.1 Tuber badium <SSU ITS1 5.8S ITS2 LSU>
+Length=739
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 37/47 (79%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  131  CCCGACCCCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  177
+
+
+>JX458715.1 Tuber neoexcavatum <ITS1 5.8S ITS2 LSU>
+Length=669
+
+ Score = 41.0 bits (44),  Expect = 0.004
+ Identities = 37/47 (79%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  63   CCCGACCTCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  109
+
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  204  GCTGTCTGAGTGGGCCATGTG  224
+
+
+>MK211283.2 Tuber theleascum <ITS1 5.8S ITS2>
+Length=515
+
+ Score = 39.2 bits (42),  Expect = 0.013
+ Identities = 30/36 (83%), Gaps = 0/36 (0%)
+ Strand=Plus/Plus
+
+Query  41  CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+           |||| ||| ||| || |||||||||||| | |||||
+Sbjct  40  CCTCACTGTGTACCAATCCATGTTGCTTTCCCAGGT  75
+
+
+>MH115318.1 Tuber piceatum <ITS1 5.8S ITS2 LSU>
+Length=751
+
+ Score = 39.2 bits (42),  Expect = 0.013
+ Identities = 30/36 (83%), Gaps = 0/36 (0%)
+ Strand=Plus/Plus
+
+Query  41   CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||| ||| ||| || |||||||||||| | |||||
+Sbjct  76   CCTCCCTGTGTACCAATCCATGTTGCTTTCCCAGGT  111
+
+
+>KU739791.1 Helvella bachu <SSU ITS1 5.8S ITS2>
+Length=779
+
+ Score = 38.3 bits (41),  Expect = 0.046
+ Identities = 27/30 (90%), Gaps = 1/30 (3%)
+ Strand=Plus/Plus
+
+Query  42   CTCTCTGCGTATCACTCCA-TGTTGCTTCC  70
+            ||||||||||| | ||||| ||||||||||
+Sbjct  236  CTCTCTGCGTACCTCTCCACTGTTGCTTCC  265
+
+
+>GQ119354.1 Kalapuya brunnea <ITS1 5.8S ITS2 LSU>
+Length=1533
+
+ Score = 38.3 bits (41),  Expect = 0.046
+ Identities = 31/38 (82%), Gaps = 0/38 (0%)
+ Strand=Plus/Plus
+
+Query  33  AACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+           || |||||||  |||||||| |  ||| ||||||||||
+Sbjct  61  AAAACAAACCATTCTGCGTACCTTTCCCTGTTGCTTCC  98
+
+
+>MN712289.1 Tarzetta sepultarioides <SSU ITS1 5.8S ITS2>
+Length=559
+
+ Score = 37.4 bits (40),  Expect = 0.046
+ Identities = 32/40 (80%), Gaps = 0/40 (0%)
+ Strand=Plus/Plus
+
+Query  37   CAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            ||| || |||||||||||  | | |||||||||| | |||
+Sbjct  80   CAACCCACTCTGCGTATCTTTACCTGTTGCTTCCCCCGGT  119
+
+
+>MG846967.1 Gyromitra xinjiangensis <ITS1 5.8S ITS2 LSU>
+Length=744
+
+ Score = 37.4 bits (40),  Expect = 0.046
+ Identities = 31/37 (84%), Gaps = 1/37 (3%)
+ Strand=Plus/Plus
+
+Query  35   CACAAACCTCTCTGCGTATCA-CTCCATGTTGCTTCC  70
+            |||||| | ||| | ||| || |||||||||||||||
+Sbjct  211  CACAAAACCCTCCGTGTACCATCTCCATGTTGCTTCC  247
+
+
+>MN712324.1 Tarzetta melitensis <SSU ITS1 5.8S ITS2>
+Length=563
+
+ Score = 36.5 bits (39),  Expect = 0.16
+ Identities = 24/27 (89%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            |||||||||||  | ||||||||||||
+Sbjct  81   CTCTGCGTATCTTTACATGTTGCTTCC  107
+
+
+>KX904887.1 Tuber verrucosivolvum <ITS1 5.8S ITS2 LSU>
+Length=675
+
+ Score = 36.5 bits (39),  Expect = 0.16
+ Identities = 36/47 (77%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||| | | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  73   CCCAAGCTCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  119
+
+
+>OM256769.1 Tuber luyashanense <ITS1 5.8S ITS2 LSU>
+Length=621
+
+ Score = 35.6 bits (38),  Expect = 0.16
+ Identities = 33/42 (79%), Gaps = 4/42 (10%)
+ Strand=Plus/Plus
+
+Query  33  AACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAG  74
+           |||||||||    ||| ||||   |||||||||||||| |||
+Sbjct  46  AACACAAAC----CTGTGTATTCTTCCATGTTGCTTCCCCAG  83
+
+
+>KR493476.1 Helvella pseudolacunosa <ITS1 5.8S ITS2 LSU>
+Length=667
+
+ Score = 35.6 bits (38),  Expect = 0.16
+ Identities = 25/29 (86%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  42   CTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            |||||||||||  | ||| ||||||||||
+Sbjct  94   CTCTCTGCGTACGAATCCCTGTTGCTTCC  122
+
+
+>MW546604.1 Trichophaeopsis asturiensis <SSU ITS1 5.8S ITS2>
+Length=572
+
+ Score = 34.6 bits (37),  Expect = 0.56
+ Identities = 33/40 (83%), Gaps = 2/40 (5%)
+ Strand=Plus/Plus
+
+Query  36   ACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAG  74
+            ||||| || ||||||||| |  | | ||||||||||||||
+Sbjct  85   ACAAACCCACTCTGCGTA-CTTTACCTGTTGCTTCCACAG  123
+
+
+>MW075385.1 Gyromitra korfii <ITS1 5.8S ITS2 LSU>
+Length=749
+
+ Score = 34.6 bits (37),  Expect = 0.56
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  200  GTACCACTCCATGTTGCTTCC  220
+
+
+>MH938672.1 Gyromitra ticiniana <SSU ITS1 5.8S ITS2>
+Length=713
+
+ Score = 34.6 bits (37),  Expect = 0.56
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  231  GTACCACTCCATGTTGCTTCC  251
+
+
+>MG846994.1 Gyromitra pseudogigas <ITS1 5.8S ITS2 LSU>
+Length=718
+
+ Score = 34.6 bits (37),  Expect = 0.56
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  187  GTACCACTCCATGTTGCTTCC  207
+
+
+>MF116159.1 Gyromitra khanspurensis <SSU ITS1 5.8S ITS2>
+Length=758
+
+ Score = 34.6 bits (37),  Expect = 0.56
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  254  GTACCACTCCATGTTGCTTCC  274
+
+
+>MT939295.1 Pachyphlodes excavata <SSU ITS1 5.8S ITS2>
+Length=605
+
+ Score = 33.7 bits (36),  Expect = 0.56
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  55   ACTCCATGTTGCTTCCAC  72
+            ||||||||||||||||||
+Sbjct  123  ACTCCATGTTGCTTCCAC  140
+
+
+>MN437515.1 Tuber lucentum <ITS1 5.8S ITS2>
+Length=545
+
+ Score = 33.7 bits (36),  Expect = 0.56
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  48  GCGTATCACTCCATGTTGCTTCC  70
+           ||||| | |||||||||||||||
+Sbjct  24  GCGTACCTCTCCATGTTGCTTCC  46
+
+
+>KJ742702.1 Tuber alboumbilicum <SSU ITS1 5.8S ITS2 LSU>
+Length=655
+
+ Score = 33.7 bits (36),  Expect = 0.56
+ Identities = 36/48 (75%), Gaps = 0/48 (0%)
+ Strand=Plus/Plus
+
+Query  28   TCCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            |||| | || | || |  ||| ||||   |||||||||||||| ||||
+Sbjct  70   TCCCAAGCAAATACATTCCTGTGTATTCTTCCATGTTGCTTCCCCAGG  117
+
+
+>EU427549.1 Pachyphlodes marronina <ITS1 5.8S ITS2 LSU>
+Length=1464
+
+ Score = 33.7 bits (36),  Expect = 0.56
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  55  ACTCCATGTTGCTTCCAC  72
+           ||||||||||||||||||
+Sbjct  63  ACTCCATGTTGCTTCCAC  80
+
+
+>MK192827.1 Pachyphlodes wulushanensis <ITS1 5.8S ITS2 LSU>
+Length=653
+
+ Score = 32.8 bits (35),  Expect = 2.0
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47   TGCGTATC-ACTCCATGTTGCTTCCAC  72
+            || ||||| | ||||||||||||||||
+Sbjct  75   TGTGTATCTATTCCATGTTGCTTCCAC  101
+
+
+>MK192821.1 Hydnobolites yunnanensis <ITS1 5.8S ITS2 LSU>
+Length=562
+
+ Score = 32.8 bits (35),  Expect = 2.0
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  53  TCACTCCATGTTGCTTCCAC  72
+           ||| ||||||||||||||||
+Sbjct  41  TCATTCCATGTTGCTTCCAC  60
+
+
+>JN102472.1 Pachyphlodes annagardnerae <ITS1 5.8S ITS2 LSU>
+Length=635
+
+ Score = 32.8 bits (35),  Expect = 2.0
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATC-ACTCCATGTTGCTTCCAC  72
+           || ||||| |||||| |||||||||||
+Sbjct  56  TGTGTATCTACTCCACGTTGCTTCCAC  82
+
+
+>JN102469.1 Pachyphlodes nemoralis <ITS1 5.8S ITS2 LSU>
+Length=648
+
+ Score = 32.8 bits (35),  Expect = 2.0
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATC-ACTCCATGTTGCTTCCAC  72
+           || |||||  |||||||||||||||||
+Sbjct  37  TGTGTATCTGCTCCATGTTGCTTCCAC  63
+
+
+>MZ575619.1 Geoscypha montana <SSU ITS1 5.8S ITS2>
+Length=623
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAGG  75
+            |||||||||||||||| ||
+Sbjct  120  TCCATGTTGCTTCCACTGG  138
+
+
+>MK514542.1 Hansenopezia decora <SSU ITS1 5.8S ITS2 LSU>
+Length=630
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAGG  75
+            |||||||||||||||| ||
+Sbjct  108  TCCATGTTGCTTCCACTGG  126
+
+
+>MF611781.1 Tuber floridanum <ITS1 5.8S ITS2 LSU>
+Length=584
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 24/29 (83%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATCACTCCATGTTGCTTCCACAGG  75
+           || |||||  |||||||||||| | ||||
+Sbjct  7   TGTGTATCCTTCCATGTTGCTTTCCCAGG  35
+
+
+>KP144083.1 Geoglossum geesterani <SSU ITS1 5.8S ITS2>
+Length=477
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  125  TTTGATTGTGCTGTCTGAG  143
+            ||||||| |||||||||||
+Sbjct  133  TTTGATTATGCTGTCTGAG  151
+
+
+>KC878618.1 Hydnotrya laojunshanensis <SSU ITS1 5.8S ITS2 LSU>
+Length=869
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 28/33 (85%), Gaps = 2/33 (6%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTA-TCACTCCATGTTGCTTCC  70
+            |||| ||||||| |  || ||||||||||||||
+Sbjct  308  AACC-CTCTGCGCACCCATTCCATGTTGCTTCC  339
+
+
+>JX122785.1 Chaenothecopsis khayensis <SSU ITS1 5.8S ITS2 LSU>
+Length=594
+
+ Score = 31.0 bits (33),  Expect = 6.8
+ Identities = 26/31 (84%), Gaps = 1/31 (3%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTC  69
+            |||| || || |||||  |||||||||||||
+Sbjct  89   AACC-CTTTGTGTATCTGTCCATGTTGCTTC  118
+
+
+>HQ176472.1 Oxytropis lambertii <SSU ITS1 5.8S ITS2 LSU>
+Length=811
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAACC  42
+            ||||||||||||||||
+Sbjct  260  TTCCCGAACACAAACC  275
+
+
+>KC779647.1 Bionia bella <SSU ITS1 5.8S ITS2 LSU>
+Length=852
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  46   CTGCGTATCACTCCATGTTGC  66
+            ||| || ||||||||||||||
+Sbjct  519  CTGGGTGTCACTCCATGTTGC  539
+
+
+>OM256781.1 Tuber huiliense <ITS1 5.8S ITS2 LSU>
+Length=579
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  123  GCTGTCTGAGAAGGCCATGTG  143
+
+
+>MW340905.1 Tuber davidlopezii <SSU ITS1 5.8S ITS2 LSU>
+Length=673
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 49/67 (73%), Gaps = 3/67 (4%)
+ Strand=Plus/Plus
+
+Query  30   CCGAACACAA-ACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGACCA-T  87
+            || |||| || || ||  || |||||   ||||||||||| | ||||  | ||| ||| |
+Sbjct  81   CCCAACAAAACACATCCATGTGTATCCTCCCATGTTGCTTTCCCAGGCCA-GTGGCCACT  139
+
+Query  88   GCTGGCA  94
+            |||| ||
+Sbjct  140  GCTGCCA  146
+
+
+>MT939294.1 Pachyphlodes atropurpurea <ITS1 5.8S ITS2 LSU>
+Length=639
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  57  TCCATGTTGCTTCCAC  72
+           ||||||||||||||||
+Sbjct  54  TCCATGTTGCTTCCAC  69
+
+
+>KX262075.1 Tuber baoshanense <SSU ITS1 5.8S ITS2 LSU>
+Length=663
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  204  GCTGTCTGAGAAGGCCATGTG  224
+
+
+>KP019346.1 Choiromyces helanshanensis <ITS1 5.8S ITS2>
+Length=511
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 25/31 (81%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  46  CTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+           ||||||| | ||||| ||||||| | | |||
+Sbjct  37  CTGCGTACCTCTCCACGTTGCTTTCCCGGGT  67
+
+
+>KC416109.1 Caloplaca substerilis <ITS1 5.8S ITS2>
+Length=498
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 22/26 (85%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  44  CTCTGCGTATCACTCCATGTTGCTTC  69
+           || |||||||||  || |||||||||
+Sbjct  58  CTGTGCGTATCAACCCCTGTTGCTTC  83
+
+
+>JQ978648.1 Tuber panzhihuanense <SSU ITS1 5.8S ITS2>
+Length=615
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  192  GCTGTCTGAGAAGGCCATGTG  212
+
+
+>DQ898183.1 Tuber latisporum <SSU ITS1 5.8S ITS2 LSU>
+Length=646
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  201  GCTGTCTGAGAAGGCCATGTG  221
+
+
+>AY830854.1 Pachyphlodes austro-oregonensis <ITS1 5.8S ITS2>
+Length=486
+
+ Score = 30.1 bits (32),  Expect = 6.8
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  57  TCCATGTTGCTTCCAC  72
+           ||||||||||||||||
+Sbjct  25  TCCATGTTGCTTCCAC  40
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8099623512
+
+
+  Database: ITS eukaryote BLAST
+    Posted date:  Apr 28, 2025  5:36 AM
+  Number of letters in database: 60,710,056
+  Number of sequences in database:  77,582
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

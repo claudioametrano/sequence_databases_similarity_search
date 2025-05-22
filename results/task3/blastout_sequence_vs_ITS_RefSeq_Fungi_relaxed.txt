@@ -1,0 +1,1293 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Internal transcribed spacer region (ITS) from Fungi type and
+reference material
+           18,500 sequences; 10,990,630 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NR_173755.1 Tuber cryptobrumale HNHM BP107922 ITS region; from TY...  61.7    7e-10
+NR_173957.1 Tuber brumale var. gorii AGMT 1019 ITS region; from T...  55.4    3e-08
+NR_182567.1 Tuber pseudofulgens BJTC FAN399 ITS region; from TYPE...  45.5    6e-05
+NR_186934.1 Geomorium geodon SGO 169913 ITS region; from TYPE mat...  44.6    6e-05
+NR_191213.1 Tuber melanorufum BJTC FAN1273 ITS region; from TYPE ...  44.6    6e-05
+NR_184354.1 Tuber crassitunicatum BJTC FAN465 ITS region; from TY...  44.6    6e-05
+NR_174649.1 Tuber zambonelliae MUB Fung-0995 ITS region; from TYP...  44.6    6e-05
+NR_171295.1 Tuber buendiae MUB Fung-0974 ITS region; from TYPE ma...  44.6    6e-05
+NR_198142.1 Tuber caryophilum ITCV 1888 ITS region; from TYPE mat...  42.8    2e-04
+NR_173795.1 Discina gigas TUR A 208088 ITS region; from TYPE mate...  41.0    7e-04
+NR_160619.1 Tuber lishanense BJTC FAN718 ITS region; from TYPE ma...  41.0    7e-04
+NR_155922.1 Tuber badium HKAS 88789 ITS region; from TYPE material    41.0    7e-04
+NR_182739.1 Gyromitra americanigigas MICH 352014 ITS region; from...  41.0    7e-04
+NR_153211.1 Tuber neoexcavatum BJTC Fan 184 ITS region; from TYPE...  41.0    7e-04
+NR_169665.1 Leucangium microspermum KPM NC 27881 ITS region; from...  41.0    7e-04
+NR_164592.1 Tuber theleascum ITCV 908 ITS region; from TYPE material  39.2    0.002
+NR_160620.1 Tuber piceatum HMAS 97125 ITS region; from TYPE material  39.2    0.002
+NR_155171.1 Helvella bachu HKAS 88105 ITS region; from TYPE material  38.3    0.008
+NR_191282.1 Helvella multiformis BJTC FM1130 ITS region; from TYP...  38.3    0.008
+NR_191281.1 Helvella albopatella BJTC FM2610-A ITS region; from T...  38.3    0.008
+NR_121453.1 Kalapuya brunnea OSC 131234 ITS region; from TYPE mat...  38.3    0.008
+NR_172761.1 Paragyromitra xinjiangensis HMAS 24212 ITS region; fr...  37.4    0.008
+NR_191285.1 Helvella sulcatoides BJTC FM1416 ITS region; from TYP...  37.4    0.008
+NR_198217.1 Tuber mohedanoi MUB Fung-998 ITS region; from TYPE ma...  37.4    0.008
+NR_169706.1 Tarzetta sepultarioides LY NV 2017.08.03 ITS region; ...  37.4    0.008
+NR_154956.1 Tuber verrucosivolvum HKAS 88863 ITS region; from TYP...  36.5    0.030
+NR_169708.1 Tarzetta melitensis LY CS871 ITS region; from TYPE ma...  36.5    0.030
+NR_155165.1 Helvella pseudolacunosa HKAS 87594 ITS region; from T...  35.6    0.030
+NR_182568.1 Tuber luyashanense BJTC FAN1031 ITS region; from TYPE...  35.6    0.030
+NR_173796.1 Discina ticiniana TUR A 208095 ITS region; from TYPE ...  34.6    0.10 
+NR_172762.1 Discina pseudogigas HMAS 46539 ITS region; from TYPE ...  34.6    0.10 
+NR_156340.1 Discina khanspurensis LAH 35074 ITS region; from TYPE...  34.6    0.10 
+NR_173955.1 Gyromitra korfii CUP 28997 ITS region; from TYPE mate...  34.6    0.10 
+NR_172201.1 Trichophaeopsis asturiensis LY NV 2013.06.19 ITS regi...  34.6    0.10 
+NR_166544.1 Pachyphlodes marronina ISC RH299 ITS region; from TYP...  33.7    0.10 
+NR_184909.1 Tuber lucentum MUB Fung-j825 ITS region; from TYPE ma...  33.7    0.10 
+NR_191222.1 Tarzetta tibetensis HKAS 127117 ITS region; from TYPE...  33.7    0.10 
+NR_182349.1 Pachyphlodes excavata HKAS 107305 ITS region; from TY...  33.7    0.10 
+NR_155904.1 Tuber alboumbilicum YAAS L2324 ITS region; from TYPE ...  33.7    0.10 
+NR_166269.1 Pachyphlodes wulushanensis BJTC FAN923 ITS region; fr...  32.8    0.36 
+NR_166267.1 Hydnobolites yunnanensis BJTC FAN732 ITS region; from...  32.8    0.36 
+NR_158792.1 Pachyphlodes nemoralis K(M) 173683 ITS region; from T...  32.8    0.36 
+NR_199202.1 Tuber songlu HKAS 95771 ITS region; from TYPE material    32.8    0.36 
+NR_198355.1 Tuber mongolicum HMJAU 65125 ITS region; from TYPE ma...  32.8    0.36 
+NR_198457.1 Helvella orentitomentosa MFLU 23-0099 ITS region; fro...  32.8    0.36 
+NR_174634.1 Pachyphlodes annagardnerae ISC RH46 ITS region; from ...  32.8    0.36 
+NR_191284.1 Helvella alborava BJTC C316-A ITS region; from TYPE m...  31.9    0.36 
+NR_160485.1 Tuber floridanum FLAS F-61240 ITS region; from TYPE m...  31.0    1.3  
+NR_191283.1 Helvella nigrorava BJTC ZH67 ITS region; from TYPE ma...  31.0    1.3  
+NR_189929.1 Chaenothecopsis hongheensis HKAS 122673 ITS region; f...  31.0    1.3  
+NR_132092.1 Geoglossum geesterani AH 44218 ITS region; from TYPE ...  31.0    1.3  
+NR_175176.1 Geoscypha montana LY NV 2013.08.31 ITS region; from T...  31.0    1.3  
+NR_174044.1 Hansenopezia decora CNF 2/10621 ITS region; from TYPE...  31.0    1.3  
+NR_132886.1 Hydnotrya laojunshanensis YAAS L2425 ITS region; from...  31.0    1.3  
+NR_120165.1 Chaenothecopsis khayensis H JR 04G058 ITS region; fro...  31.0    1.3  
+NR_154285.1 Pachyphlodes austro-oregonensis SOC 775 ITS region; f...  30.1    1.3  
+NR_153899.1 Choiromyces helanshanensis HKAS 80634 ITS region; fro...  30.1    1.3  
+NR_182569.1 Tuber huiliense BJTC FAN288 ITS region; from TYPE mat...  30.1    1.3  
+NR_182348.1 Pachyphlodes atropurpurea HKAS 107304 ITS region; fro...  30.1    1.3  
+NR_178156.1 Tuber davidlopezii MUB Fung-1001 ITS region; from TYP...  30.1    1.3  
+NR_178114.1 Tuber baoshanense HKAS 88788 ITS region; from TYPE ma...  30.1    1.3  
+NR_151836.1 Caloplaca substerilis CBFS J. Vondrak 7920 ITS region...  30.1    1.3  
+NR_120126.1 Tuber panzhihuanense HKAS 72015 ITS region; from TYPE...  30.1    1.3  
+NR_119620.1 Tuber latisporum HKAS 44315 ITS region; from TYPE mat...  30.1    1.3  
+NR_166270.1 Pachyphlodes cinnabarina HMAS 96735 ITS region; from ...  29.2    4.4  
+NR_165213.1 Coprotus epithecioides CNF 2/10450 ITS region; from T...  29.2    4.4  
+NR_158836.1 Peziza fruticosa AMB 17135 ITS region; from TYPE mate...  29.2    4.4  
+NR_148104.1 Peziza nordica FH 00304781 ITS region; from TYPE mate...  29.2    4.4  
+NR_148194.1 Peziza montirivicola M 0274465 ITS region; from TYPE ...  29.2    4.4  
+NR_182570.1 Tuber sinoborchi BJTC FAN171 ITS region; from TYPE ma...  29.2    4.4  
+NR_175743.1 Tarzetta confusa HKAS 115755 ITS region; from TYPE ma...  29.2    4.4  
+NR_173019.1 Peziza ligni CBS 146637 ITS region; from TYPE material    29.2    4.4  
+NR_148069.1 Peziza oliviae OSC 148300 ITS region; from TYPE material  29.2    4.4  
+NR_119621.1 Tuber zhongdianense HKAS Wang-0299 ITS region; from T...  29.2    4.4  
+NR_158788.1 Peziza eriniae FLAS 58918 ITS region; from TYPE material  29.2    4.4  
+NR_148063.1 Peziza lohjaoensis H 30.V.1982 ITS region; from TYPE ...  29.2    4.4  
+NR_166268.1 Hydnobolites roseus BJTC FAN680 ITS region; from TYPE...  28.3    4.4  
+NR_165234.1 Marthamyces johnstonii CPC 35761 ITS region; from TYP...  28.3    4.4  
+NR_159044.1 Tuber aztecorum ITCV 993 ITS region; from TYPE material   28.3    4.4  
+NR_166042.1 Sporoschismopsis angustata CBS 136360 ITS region; fro...  28.3    4.4  
+NR_190917.1 Helvella liquii HKAS 90563 ITS region; from TYPE mate...  28.3    4.4  
+NR_190916.1 Helvella pseudoatra HKAS 74023 ITS region; from TYPE ...  28.3    4.4  
+NR_161073.1 Hydnotrya brunneospora HMAS 97138 ITS region; from TY...  28.3    4.4  
+NR_161071.1 Hydnotrya nigricans BJTC FAN349 ITS region; from TYPE...  28.3    4.4  
+NR_154033.1 Eremiomyces innocentii MUB Fung-j153 ITS region; from...  28.3    4.4  
+NR_158854.1 Peziza retrocurvatoides LY N.V. 2015.10.01 ITS region...  28.3    4.4  
+NR_147441.1 Tuber wumengense BJTC FAN218A ITS region; from TYPE m...  28.3    4.4  
+NR_182412.1 Tuber excelsum-reticulatum BJTC FAN863 ITS region; fr...  28.3    4.4  
+NR_198120.1 Tuber mixtecorum ITCV GJ21880 ITS region; from TYPE m...  28.3    4.4  
+NR_119865.1 Tuber castilloi ITCV 149 ITS region; from TYPE material   28.3    4.4  
+
+
+>NR_173755.1 Tuber cryptobrumale HNHM BP107922 ITS region; from TYPE material
+Length=934
+
+ Score = 61.7 bits (67),  Expect = 7e-10
+ Identities = 41/46 (89%), Gaps = 0/46 (0%)
+ Strand=Plus/Plus
+
+Query  38  AAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGA  83
+           ||||||||||| ||| || |||||||||||| |||||| |||||||
+Sbjct  41  AAACCTCTCTGTGTACCAATCCATGTTGCTTTCACAGGCTAAGTGA  86
+
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 51/73 (70%), Gaps = 0/73 (0%)
+ Strand=Plus/Plus
+
+Query  91   GGCACCTGTGGGAGATCTCTATGTTAACGGAGTATTTGATTGTGCTGTCTGAGCTGGCCA  150
+            ||| ||||||| || |||  |  |||||  | | | |||   |   ||||||  ||||||
+Sbjct  391  GGCTCCTGTGGAAGGTCTTCACCTTAACCAATTGTATGAGCATCTAGTCTGACATGGCCA  450
+
+Query  151  TGTGTCAGATTTA  163
+             ||| ||||||||
+Sbjct  451  AGTGCCAGATTTA  463
+
+
+>NR_173957.1 Tuber brumale var. gorii AGMT 1019 ITS region; from TYPE material
+Length=880
+
+ Score = 55.4 bits (60),  Expect = 3e-08
+ Identities = 39/45 (87%), Gaps = 0/45 (0%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGA  83
+            || ||||||| ||| || |||||||||||| |||||| |||||||
+Sbjct  81   AATCTCTCTGTGTACCAATCCATGTTGCTTTCACAGGCTAAGTGA  125
+
+
+ Score = 42.8 bits (46),  Expect = 2e-04
+ Identities = 53/73 (73%), Gaps = 0/73 (0%)
+ Strand=Plus/Plus
+
+Query  91   GGCACCTGTGGGAGATCTCTATGTTAACGGAGTATTTGATTGTGCTGTCTGAGCTGGCCA  150
+            ||| ||||||| || |||  |  |||||  | | | ||| | ||  ||||||  ||||||
+Sbjct  431  GGCTCCTGTGGAAGGTCTTCACCTTAACAAATTGTATGAGTATGTAGTCTGATATGGCCA  490
+
+Query  151  TGTGTCAGATTTA  163
+             ||| ||||||||
+Sbjct  491  AGTGCCAGATTTA  503
+
+
+>NR_182567.1 Tuber pseudofulgens BJTC FAN399 ITS region; from TYPE material
+Length=667
+
+ Score = 45.5 bits (49),  Expect = 6e-05
+ Identities = 38/47 (81%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||||||| ||| |  ||||| |||||| | ||||
+Sbjct  67   CCCGACCTCAAACCTCTCTGAGTACCCATCCATATTGCTTTCCCAGG  113
+
+
+>NR_186934.1 Geomorium geodon SGO 169913 ITS region; from TYPE material
+Length=675
+
+ Score = 44.6 bits (48),  Expect = 6e-05
+ Identities = 33/39 (85%), Gaps = 0/39 (0%)
+ Strand=Plus/Plus
+
+Query  37   CAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||| |||||| ||||| | |||| |||||||||| ||||
+Sbjct  84   CAACCCTCTCCGCGTACCTCTCCGTGTTGCTTCCCCAGG  122
+
+
+>NR_191213.1 Tuber melanorufum BJTC FAN1273 ITS region; from TYPE material
+Length=757
+
+ Score = 44.6 bits (48),  Expect = 6e-05
+ Identities = 41/51 (80%), Gaps = 1/51 (2%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||||  || |||| |||| ||||||| || || ||||||||| | |||||
+Sbjct  58   TTCCCTGACCCAAATCCTCCCTGCGTACCAATCAATGTTGCTTTCCCAGGT  108
+
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 34/42 (81%), Gaps = 0/42 (0%)
+ Strand=Plus/Plus
+
+Query  120  GAGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATT  161
+            ||||| |||| |  ||||||||||||||||  ||| || |||
+Sbjct  281  GAGTAATTGAATCAGCTGTCTGAGCTGGCCCAGTGCCATATT  322
+
+
+>NR_184354.1 Tuber crassitunicatum BJTC FAN465 ITS region; from TYPE material
+Length=618
+
+ Score = 44.6 bits (48),  Expect = 6e-05
+ Identities = 41/51 (80%), Gaps = 1/51 (2%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||||  || |||| ||| |||| ||| || |||||||||||| | |||||
+Sbjct  66   TTCCCTGACCCAAATCCTTTCTGTGTACCAATCCATGTTGCTTTCCCAGGT  116
+
+
+>NR_174649.1 Tuber zambonelliae MUB Fung-0995 ITS region; from TYPE material
+Length=644
+
+ Score = 44.6 bits (48),  Expect = 6e-05
+ Identities = 38/46 (83%), Gaps = 1/46 (2%)
+ Strand=Plus/Plus
+
+Query  24   GTATTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTT  68
+            || |||||  || |||| |||||||| ||| || ||||||||||||
+Sbjct  90   GTGTTCCCTGACCCAAACCCTCTCTGTGTACCAATCCATGTTGCTT  135
+
+
+>NR_171295.1 Tuber buendiae MUB Fung-0974 ITS region; from TYPE material
+Length=643
+
+ Score = 44.6 bits (48),  Expect = 6e-05
+ Identities = 41/51 (80%), Gaps = 1/51 (2%)
+ Strand=Plus/Plus
+
+Query  27   TTCCCGAACACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||||  || |||| |||| ||| ||| || |||||||||||| | |||||
+Sbjct  86   TTCCCTGACCCAAACCCTCCCTGTGTACCAATCCATGTTGCTTTCCCAGGT  136
+
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            |||||||||| |||||| |||
+Sbjct  196  GCTGTCTGAGGTGGCCAAGTG  216
+
+
+>NR_198142.1 Tuber caryophilum ITCV 1888 ITS region; from TYPE material
+Length=597
+
+ Score = 42.8 bits (46),  Expect = 2e-04
+ Identities = 32/38 (84%), Gaps = 0/38 (0%)
+ Strand=Plus/Plus
+
+Query  41   CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTA  78
+            |||| ||| ||| || |||||||||||| | |||||||
+Sbjct  77   CCTCACTGTGTACCAATCCATGTTGCTTTCCCAGGTTA  114
+
+
+>NR_173795.1 Discina gigas TUR A 208088 ITS region; from TYPE material
+Length=767
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 25/27 (93%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||| ||||| |||||||||||||||||
+Sbjct  267  CTCGGCGTACCACTCCATGTTGCTTCC  293
+
+
+>NR_160619.1 Tuber lishanense BJTC FAN718 ITS region; from TYPE material
+Length=752
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 55/72 (76%), Gaps = 5/72 (7%)
+ Strand=Plus/Plus
+
+Query  8    TTTGGGATACC-GTTGTGTATTCCCGAACACAAACC-T-CTCTGCGTATCACTCCATGTT  64
+            ||||||||||| ||   || ||||  ||||| | || | ||| | ||| || ||||||||
+Sbjct  44   TTTGGGATACCTGTCAGGTTTTCC--AACACTACCCCTCCTCCGTGTACCAATCCATGTT  101
+
+Query  65   GCTTCCACAGGT  76
+            |||| | |||||
+Sbjct  102  GCTTTCCCAGGT  113
+
+
+>NR_155922.1 Tuber badium HKAS 88789 ITS region; from TYPE material
+Length=806
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 37/47 (79%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  131  CCCGACCCCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  177
+
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  135  CTGTCTGAGCTGGCCATGTG  154
+            |||||||||  |||||||||
+Sbjct  269  CTGTCTGAGTGGGCCATGTG  288
+
+
+>NR_182739.1 Gyromitra americanigigas MICH 352014 ITS region; from TYPE material
+Length=718
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 25/27 (93%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||| ||||| |||||||||||||||||
+Sbjct  202  CTCGGCGTACCACTCCATGTTGCTTCC  228
+
+
+>NR_153211.1 Tuber neoexcavatum BJTC Fan 184 ITS region; from TYPE material
+Length=669
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 37/47 (79%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||||| | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  63   CCCGACCTCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  109
+
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  204  GCTGTCTGAGTGGGCCATGTG  224
+
+
+>NR_169665.1 Leucangium microspermum KPM NC 27881 ITS region; from TYPE material
+Length=807
+
+ Score = 41.0 bits (44),  Expect = 7e-04
+ Identities = 31/37 (84%), Gaps = 0/37 (0%)
+ Strand=Plus/Plus
+
+Query  34   ACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||||||||| ||| ||||| |  |||| |||||||||
+Sbjct  261  ACACAAACCACTCCGCGTACCTTTCCACGTTGCTTCC  297
+
+
+>NR_164592.1 Tuber theleascum ITCV 908 ITS region; from TYPE material
+Length=515
+
+ Score = 39.2 bits (42),  Expect = 0.002
+ Identities = 30/36 (83%), Gaps = 0/36 (0%)
+ Strand=Plus/Plus
+
+Query  41  CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+           |||| ||| ||| || |||||||||||| | |||||
+Sbjct  40  CCTCACTGTGTACCAATCCATGTTGCTTTCCCAGGT  75
+
+
+>NR_160620.1 Tuber piceatum HMAS 97125 ITS region; from TYPE material
+Length=751
+
+ Score = 39.2 bits (42),  Expect = 0.002
+ Identities = 30/36 (83%), Gaps = 0/36 (0%)
+ Strand=Plus/Plus
+
+Query  41   CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            |||| ||| ||| || |||||||||||| | |||||
+Sbjct  76   CCTCCCTGTGTACCAATCCATGTTGCTTTCCCAGGT  111
+
+
+>NR_155171.1 Helvella bachu HKAS 88105 ITS region; from TYPE material
+Length=779
+
+ Score = 38.3 bits (41),  Expect = 0.008
+ Identities = 27/30 (90%), Gaps = 1/30 (3%)
+ Strand=Plus/Plus
+
+Query  42   CTCTCTGCGTATCACTCCA-TGTTGCTTCC  70
+            ||||||||||| | ||||| ||||||||||
+Sbjct  236  CTCTCTGCGTACCTCTCCACTGTTGCTTCC  265
+
+
+>NR_191282.1 Helvella multiformis BJTC FM1130 ITS region; from TYPE material
+Length=601
+
+ Score = 38.3 bits (41),  Expect = 0.008
+ Identities = 35/42 (83%), Gaps = 2/42 (5%)
+ Strand=Plus/Plus
+
+Query  29  CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+           ||| ||| || ||| ||||||||| || ||| ||||||||||
+Sbjct  54  CCCAAAC-CACACC-CTCTGCGTACCAATCCCTGTTGCTTCC  93
+
+
+>NR_191281.1 Helvella albopatella BJTC FM2610-A ITS region; from TYPE material
+Length=721
+
+ Score = 38.3 bits (41),  Expect = 0.008
+ Identities = 38/46 (83%), Gaps = 4/46 (9%)
+ Strand=Plus/Plus
+
+Query  26   ATTCCCGAACACAAACCTCTCTGCGTATCAC-TCCATGTTGCTTCC  70
+            || ||||||| | |  ||||||||||| ||| ||| ||||||||||
+Sbjct  151  ATCCCCGAACCCCA--CTCTCTGCGTA-CACATCCCTGTTGCTTCC  193
+
+
+>NR_121453.1 Kalapuya brunnea OSC 131234 ITS region; from TYPE material
+Length=678
+
+ Score = 38.3 bits (41),  Expect = 0.008
+ Identities = 31/38 (82%), Gaps = 0/38 (0%)
+ Strand=Plus/Plus
+
+Query  33  AACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+           || |||||||  |||||||| |  ||| ||||||||||
+Sbjct  61  AAAACAAACCATTCTGCGTACCTTTCCCTGTTGCTTCC  98
+
+
+>NR_172761.1 Paragyromitra xinjiangensis HMAS 24212 ITS region; from TYPE 
+material
+Length=744
+
+ Score = 37.4 bits (40),  Expect = 0.008
+ Identities = 31/37 (84%), Gaps = 1/37 (3%)
+ Strand=Plus/Plus
+
+Query  35   CACAAACCTCTCTGCGTATCA-CTCCATGTTGCTTCC  70
+            |||||| | ||| | ||| || |||||||||||||||
+Sbjct  211  CACAAAACCCTCCGTGTACCATCTCCATGTTGCTTCC  247
+
+
+>NR_191285.1 Helvella sulcatoides BJTC FM1416 ITS region; from TYPE material
+Length=696
+
+ Score = 37.4 bits (40),  Expect = 0.008
+ Identities = 34/42 (81%), Gaps = 1/42 (2%)
+ Strand=Plus/Plus
+
+Query  29  CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+           ||||| | || | |||||||||||  | ||| ||||||||||
+Sbjct  57  CCCGACCCCACA-CTCTCTGCGTACGAATCCCTGTTGCTTCC  97
+
+
+>NR_198217.1 Tuber mohedanoi MUB Fung-998 ITS region; from TYPE material
+Length=645
+
+ Score = 37.4 bits (40),  Expect = 0.008
+ Identities = 42/56 (75%), Gaps = 3/56 (5%)
+ Strand=Plus/Plus
+
+Query  24   GTATTCCCGAACACAAA---CCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            || |||||  || ||||   |||||| | ||| || |||||||||||| | | |||
+Sbjct  90   GTGTTCCCTGACCCAAACACCCTCTCCGTGTACCAATCCATGTTGCTTTCCCGGGT  145
+
+
+>NR_169706.1 Tarzetta sepultarioides LY NV 2017.08.03 ITS region; from TYPE 
+material
+Length=559
+
+ Score = 37.4 bits (40),  Expect = 0.008
+ Identities = 32/40 (80%), Gaps = 0/40 (0%)
+ Strand=Plus/Plus
+
+Query  37   CAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+            ||| || |||||||||||  | | |||||||||| | |||
+Sbjct  80   CAACCCACTCTGCGTATCTTTACCTGTTGCTTCCCCCGGT  119
+
+
+>NR_154956.1 Tuber verrucosivolvum HKAS 88863 ITS region; from TYPE material
+Length=675
+
+ Score = 36.5 bits (39),  Expect = 0.030
+ Identities = 36/47 (77%), Gaps = 0/47 (0%)
+ Strand=Plus/Plus
+
+Query  29   CCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            ||| | | |||||||| | | ||| |  |||||||||||| | ||||
+Sbjct  73   CCCAAGCTCAAACCTCCCCGAGTACCCATCCATGTTGCTTTCCCAGG  119
+
+
+>NR_169708.1 Tarzetta melitensis LY CS871 ITS region; from TYPE material
+Length=563
+
+ Score = 36.5 bits (39),  Expect = 0.030
+ Identities = 24/27 (89%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            |||||||||||  | ||||||||||||
+Sbjct  81   CTCTGCGTATCTTTACATGTTGCTTCC  107
+
+
+>NR_155165.1 Helvella pseudolacunosa HKAS 87594 ITS region; from TYPE material
+Length=667
+
+ Score = 35.6 bits (38),  Expect = 0.030
+ Identities = 25/29 (86%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  42   CTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            |||||||||||  | ||| ||||||||||
+Sbjct  94   CTCTCTGCGTACGAATCCCTGTTGCTTCC  122
+
+
+>NR_182568.1 Tuber luyashanense BJTC FAN1031 ITS region; from TYPE material
+Length=621
+
+ Score = 35.6 bits (38),  Expect = 0.030
+ Identities = 33/42 (79%), Gaps = 4/42 (10%)
+ Strand=Plus/Plus
+
+Query  33  AACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAG  74
+           |||||||||    ||| ||||   |||||||||||||| |||
+Sbjct  46  AACACAAAC----CTGTGTATTCTTCCATGTTGCTTCCCCAG  83
+
+
+>NR_173796.1 Discina ticiniana TUR A 208095 ITS region; from TYPE material
+Length=713
+
+ Score = 34.6 bits (37),  Expect = 0.10
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  231  GTACCACTCCATGTTGCTTCC  251
+
+
+>NR_172762.1 Discina pseudogigas HMAS 46539 ITS region; from TYPE material
+Length=718
+
+ Score = 34.6 bits (37),  Expect = 0.10
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  187  GTACCACTCCATGTTGCTTCC  207
+
+
+>NR_156340.1 Discina khanspurensis LAH 35074 ITS region; from TYPE material
+Length=758
+
+ Score = 34.6 bits (37),  Expect = 0.10
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  254  GTACCACTCCATGTTGCTTCC  274
+
+
+>NR_173955.1 Gyromitra korfii CUP 28997 ITS region; from TYPE material
+Length=749
+
+ Score = 34.6 bits (37),  Expect = 0.10
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  50   GTATCACTCCATGTTGCTTCC  70
+            ||| |||||||||||||||||
+Sbjct  200  GTACCACTCCATGTTGCTTCC  220
+
+
+>NR_172201.1 Trichophaeopsis asturiensis LY NV 2013.06.19 ITS region; from 
+TYPE material
+Length=572
+
+ Score = 34.6 bits (37),  Expect = 0.10
+ Identities = 33/40 (83%), Gaps = 2/40 (5%)
+ Strand=Plus/Plus
+
+Query  36   ACAAA-CCTCTCTGCGTATCACTCCATGTTGCTTCCACAG  74
+            ||||| || ||||||||| |  | | ||||||||||||||
+Sbjct  85   ACAAACCCACTCTGCGTA-CTTTACCTGTTGCTTCCACAG  123
+
+
+>NR_166544.1 Pachyphlodes marronina ISC RH299 ITS region; from TYPE material
+Length=648
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  55  ACTCCATGTTGCTTCCAC  72
+           ||||||||||||||||||
+Sbjct  63  ACTCCATGTTGCTTCCAC  80
+
+
+>NR_184909.1 Tuber lucentum MUB Fung-j825 ITS region; from TYPE material
+Length=545
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  48  GCGTATCACTCCATGTTGCTTCC  70
+           ||||| | |||||||||||||||
+Sbjct  24  GCGTACCTCTCCATGTTGCTTCC  46
+
+
+>NR_191222.1 Tarzetta tibetensis HKAS 127117 ITS region; from TYPE material
+Length=582
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 27/33 (82%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  38   AAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            || || | |||||||||  | ||||||||||||
+Sbjct  73   AACCCACCCTGCGTATCTATACATGTTGCTTCC  105
+
+
+>NR_182349.1 Pachyphlodes excavata HKAS 107305 ITS region; from TYPE material
+Length=605
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  55   ACTCCATGTTGCTTCCAC  72
+            ||||||||||||||||||
+Sbjct  123  ACTCCATGTTGCTTCCAC  140
+
+
+>NR_155904.1 Tuber alboumbilicum YAAS L2324 ITS region; from TYPE material
+Length=655
+
+ Score = 33.7 bits (36),  Expect = 0.10
+ Identities = 36/48 (75%), Gaps = 0/48 (0%)
+ Strand=Plus/Plus
+
+Query  28   TCCCGAACACAAACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            |||| | || | || |  ||| ||||   |||||||||||||| ||||
+Sbjct  70   TCCCAAGCAAATACATTCCTGTGTATTCTTCCATGTTGCTTCCCCAGG  117
+
+
+>NR_166269.1 Pachyphlodes wulushanensis BJTC FAN923 ITS region; from TYPE 
+material
+Length=653
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47   TGCGTATC-ACTCCATGTTGCTTCCAC  72
+            || ||||| | ||||||||||||||||
+Sbjct  75   TGTGTATCTATTCCATGTTGCTTCCAC  101
+
+
+>NR_166267.1 Hydnobolites yunnanensis BJTC FAN732 ITS region; from TYPE material
+Length=562
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  53  TCACTCCATGTTGCTTCCAC  72
+           ||| ||||||||||||||||
+Sbjct  41  TCATTCCATGTTGCTTCCAC  60
+
+
+>NR_158792.1 Pachyphlodes nemoralis K(M) 173683 ITS region; from TYPE material
+Length=648
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATC-ACTCCATGTTGCTTCCAC  72
+           || |||||  |||||||||||||||||
+Sbjct  37  TGTGTATCTGCTCCATGTTGCTTCCAC  63
+
+
+>NR_199202.1 Tuber songlu HKAS 95771 ITS region; from TYPE material
+Length=634
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 28/35 (80%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  40  ACCTCTCTGCGTATCACTCCATGTTGCTTCCACAG  74
+           || |||||| ||||    ||||||||||||| |||
+Sbjct  64  ACATCTCTGTGTATGCTCCCATGTTGCTTCCCCAG  98
+
+
+>NR_198355.1 Tuber mongolicum HMJAU 65125 ITS region; from TYPE material
+Length=628
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 38/49 (78%), Gaps = 2/49 (4%)
+ Strand=Plus/Plus
+
+Query  47   TGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGACCA-TGCTGGCA  94
+            ||||||||   ||||||||||| | ||||  | ||| ||| ||||| ||
+Sbjct  62   TGCGTATCCTCCCATGTTGCTTTCCCAGGCCA-GTGGCCACTGCTGCCA  109
+
+
+>NR_198457.1 Helvella orentitomentosa MFLU 23-0099 ITS region; from TYPE material
+Length=733
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 37/46 (80%), Gaps = 3/46 (7%)
+ Strand=Plus/Plus
+
+Query  26   ATTCCCGAACACAAACCTCTCTGCGTATCAC-TCCATGTTGCTTCC  70
+            ||| ||| ||||  | ||| ||||||| ||| ||| ||||||||||
+Sbjct  180  ATTTCCG-ACACCCAACTCCCTGCGTA-CACATCCCTGTTGCTTCC  223
+
+
+>NR_174634.1 Pachyphlodes annagardnerae ISC RH46 ITS region; from TYPE material
+Length=635
+
+ Score = 32.8 bits (35),  Expect = 0.36
+ Identities = 24/27 (89%), Gaps = 1/27 (4%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATC-ACTCCATGTTGCTTCCAC  72
+           || ||||| |||||| |||||||||||
+Sbjct  56  TGTGTATCTACTCCACGTTGCTTCCAC  82
+
+
+>NR_191284.1 Helvella alborava BJTC C316-A ITS region; from TYPE material
+Length=655
+
+ Score = 31.9 bits (34),  Expect = 0.36
+ Identities = 23/27 (85%), Gaps = 0/27 (0%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCACTCCATGTTGCTTCC  70
+            ||||||||| |  ||| ||||||||||
+Sbjct  123  CTCTGCGTACCCATCCCTGTTGCTTCC  149
+
+
+>NR_160485.1 Tuber floridanum FLAS F-61240 ITS region; from TYPE material
+Length=584
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 24/29 (83%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  47  TGCGTATCACTCCATGTTGCTTCCACAGG  75
+           || |||||  |||||||||||| | ||||
+Sbjct  7   TGTGTATCCTTCCATGTTGCTTTCCCAGG  35
+
+
+>NR_191283.1 Helvella nigrorava BJTC ZH67 ITS region; from TYPE material
+Length=659
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 25/28 (89%), Gaps = 2/28 (7%)
+ Strand=Plus/Plus
+
+Query  44   CTCTGCGTATCAC-TCCATGTTGCTTCC  70
+            ||||||||| ||| ||| ||||||||||
+Sbjct  124  CTCTGCGTA-CACATCCCTGTTGCTTCC  150
+
+
+>NR_189929.1 Chaenothecopsis hongheensis HKAS 122673 ITS region; from TYPE 
+material
+Length=585
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 26/31 (84%), Gaps = 1/31 (3%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTC  69
+            |||| || |||||||   |||||||||||||
+Sbjct  76   AACCCCT-TGCGTATTTGTCCATGTTGCTTC  105
+
+
+>NR_132092.1 Geoglossum geesterani AH 44218 ITS region; from TYPE material
+Length=477
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  125  TTTGATTGTGCTGTCTGAG  143
+            ||||||| |||||||||||
+Sbjct  133  TTTGATTATGCTGTCTGAG  151
+
+
+>NR_175176.1 Geoscypha montana LY NV 2013.08.31 ITS region; from TYPE material
+Length=623
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAGG  75
+            |||||||||||||||| ||
+Sbjct  120  TCCATGTTGCTTCCACTGG  138
+
+
+>NR_174044.1 Hansenopezia decora CNF 2/10621 ITS region; from TYPE material
+Length=630
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAGG  75
+            |||||||||||||||| ||
+Sbjct  108  TCCATGTTGCTTCCACTGG  126
+
+
+>NR_132886.1 Hydnotrya laojunshanensis YAAS L2425 ITS region; from TYPE material
+Length=869
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 28/33 (85%), Gaps = 2/33 (6%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTA-TCACTCCATGTTGCTTCC  70
+            |||| ||||||| |  || ||||||||||||||
+Sbjct  308  AACC-CTCTGCGCACCCATTCCATGTTGCTTCC  339
+
+
+>NR_120165.1 Chaenothecopsis khayensis H JR 04G058 ITS region; from TYPE material
+Length=594
+
+ Score = 31.0 bits (33),  Expect = 1.3
+ Identities = 26/31 (84%), Gaps = 1/31 (3%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTC  69
+            |||| || || |||||  |||||||||||||
+Sbjct  89   AACC-CTTTGTGTATCTGTCCATGTTGCTTC  118
+
+
+>NR_154285.1 Pachyphlodes austro-oregonensis SOC 775 ITS region; from TYPE 
+material
+Length=486
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  57  TCCATGTTGCTTCCAC  72
+           ||||||||||||||||
+Sbjct  25  TCCATGTTGCTTCCAC  40
+
+
+>NR_153899.1 Choiromyces helanshanensis HKAS 80634 ITS region; from TYPE material
+Length=511
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 25/31 (81%), Gaps = 0/31 (0%)
+ Strand=Plus/Plus
+
+Query  46  CTGCGTATCACTCCATGTTGCTTCCACAGGT  76
+           ||||||| | ||||| ||||||| | | |||
+Sbjct  37  CTGCGTACCTCTCCACGTTGCTTTCCCGGGT  67
+
+
+>NR_182569.1 Tuber huiliense BJTC FAN288 ITS region; from TYPE material
+Length=579
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  123  GCTGTCTGAGAAGGCCATGTG  143
+
+
+>NR_182348.1 Pachyphlodes atropurpurea HKAS 107304 ITS region; from TYPE material
+Length=639
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  57  TCCATGTTGCTTCCAC  72
+           ||||||||||||||||
+Sbjct  54  TCCATGTTGCTTCCAC  69
+
+
+>NR_178156.1 Tuber davidlopezii MUB Fung-1001 ITS region; from TYPE material
+Length=673
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 49/67 (73%), Gaps = 3/67 (4%)
+ Strand=Plus/Plus
+
+Query  30   CCGAACACAA-ACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGGTTAAGTGACCA-T  87
+            || |||| || || ||  || |||||   ||||||||||| | ||||  | ||| ||| |
+Sbjct  81   CCCAACAAAACACATCCATGTGTATCCTCCCATGTTGCTTTCCCAGGCCA-GTGGCCACT  139
+
+Query  88   GCTGGCA  94
+            |||| ||
+Sbjct  140  GCTGCCA  146
+
+
+>NR_178114.1 Tuber baoshanense HKAS 88788 ITS region; from TYPE material
+Length=663
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  204  GCTGTCTGAGAAGGCCATGTG  224
+
+
+>NR_151836.1 Caloplaca substerilis CBFS J. Vondrak 7920 ITS region; from TYPE 
+material
+Length=498
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 22/26 (85%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  44  CTCTGCGTATCACTCCATGTTGCTTC  69
+           || |||||||||  || |||||||||
+Sbjct  58  CTGTGCGTATCAACCCCTGTTGCTTC  83
+
+
+>NR_120126.1 Tuber panzhihuanense HKAS 72015 ITS region; from TYPE material
+Length=615
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  192  GCTGTCTGAGAAGGCCATGTG  212
+
+
+>NR_119620.1 Tuber latisporum HKAS 44315 ITS region; from TYPE material
+Length=646
+
+ Score = 30.1 bits (32),  Expect = 1.3
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  134  GCTGTCTGAGCTGGCCATGTG  154
+            ||||||||||  |||||||||
+Sbjct  201  GCTGTCTGAGAAGGCCATGTG  221
+
+
+>NR_166270.1 Pachyphlodes cinnabarina HMAS 96735 ITS region; from TYPE material
+Length=713
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  55   ACTCCATGTTGCTTCCAC  72
+            || |||||||||||||||
+Sbjct  102  ACCCCATGTTGCTTCCAC  119
+
+
+>NR_165213.1 Coprotus epithecioides CNF 2/10450 ITS region; from TYPE material
+Length=711
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 26/33 (79%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  38   AAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            || || ||||||||| |  | | ||||||||||
+Sbjct  106  AACCCCCTCTGCGTACCTGTACCTGTTGCTTCC  138
+
+
+>NR_158836.1 Peziza fruticosa AMB 17135 ITS region; from TYPE material
+Length=612
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCACAGG  75
+            ||||||||||||||| ||
+Sbjct  115  CCATGTTGCTTCCACTGG  132
+
+
+>NR_148104.1 Peziza nordica FH 00304781 ITS region; from TYPE material
+Length=637
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCACAGG  75
+            ||||||||||||||| ||
+Sbjct  97   CCATGTTGCTTCCACTGG  114
+
+
+>NR_148194.1 Peziza montirivicola M 0274465 ITS region; from TYPE material
+Length=586
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58  CCATGTTGCTTCCACAGG  75
+           ||||||||||||||| ||
+Sbjct  51  CCATGTTGCTTCCACTGG  68
+
+
+>NR_182570.1 Tuber sinoborchi BJTC FAN171 ITS region; from TYPE material
+Length=656
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAG  74
+            |||||||||||||| |||
+Sbjct  92   TCCATGTTGCTTCCCCAG  109
+
+
+>NR_175743.1 Tarzetta confusa HKAS 115755 ITS region; from TYPE material
+Length=616
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 26/33 (79%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  38   AAACCTCTCTGCGTATCACTCCATGTTGCTTCC  70
+            || || ||||||||| |  | | ||||||||||
+Sbjct  71   AATCCACTCTGCGTACCTTTACCTGTTGCTTCC  103
+
+
+>NR_173019.1 Peziza ligni CBS 146637 ITS region; from TYPE material
+Length=599
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCACAGG  75
+            ||||||||||||||| ||
+Sbjct  86   CCATGTTGCTTCCACTGG  103
+
+
+>NR_148069.1 Peziza oliviae OSC 148300 ITS region; from TYPE material
+Length=669
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCACAGG  75
+            ||||||||||||||| ||
+Sbjct  116  CCATGTTGCTTCCACTGG  133
+
+
+>NR_119621.1 Tuber zhongdianense HKAS Wang-0299 ITS region; from TYPE material
+Length=639
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  57   TCCATGTTGCTTCCACAG  74
+            |||||||||||||| |||
+Sbjct  111  TCCATGTTGCTTCCCCAG  128
+
+
+>NR_158788.1 Peziza eriniae FLAS 58918 ITS region; from TYPE material
+Length=615
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58  CCATGTTGCTTCCACAGG  75
+           ||||||||||||||| ||
+Sbjct  54  CCATGTTGCTTCCACTGG  71
+
+
+>NR_148063.1 Peziza lohjaoensis H 30.V.1982 ITS region; from TYPE material
+Length=614
+
+ Score = 29.2 bits (31),  Expect = 4.4
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCACAGG  75
+            ||||||||||||||| ||
+Sbjct  98   CCATGTTGCTTCCACTGG  115
+
+
+>NR_166268.1 Hydnobolites roseus BJTC FAN680 ITS region; from TYPE material
+Length=559
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  53  TCACTCCATGTTGCTTCCAC  72
+           ||| || |||||||||||||
+Sbjct  40  TCATTCTATGTTGCTTCCAC  59
+
+
+>NR_165234.1 Marthamyces johnstonii CPC 35761 ITS region; from TYPE material
+Length=593
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 29/37 (78%), Gaps = 1/37 (3%)
+ Strand=Plus/Plus
+
+Query  39   AACCTCTCTGCGTATCACTCCATGTTGCTTCCACAGG  75
+            |||| |||||  ||| |  ||||||||||||  ||||
+Sbjct  130  AACC-CTCTGTTTATTATACCATGTTGCTTCGGCAGG  165
+
+
+>NR_159044.1 Tuber aztecorum ITCV 993 ITS region; from TYPE material
+Length=581
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  135  CTGTCTGAGCTGGCCATGTG  154
+            |||||||||  |||||||||
+Sbjct  124  CTGTCTGAGAAGGCCATGTG  143
+
+
+>NR_166042.1 Sporoschismopsis angustata CBS 136360 ITS region; from TYPE material
+Length=556
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  38   AAACCTCTCTGCGTA  52
+            |||||||||||||||
+Sbjct  426  AAACCTCTCTGCGTA  440
+
+
+>NR_190917.1 Helvella liquii HKAS 90563 ITS region; from TYPE material
+Length=601
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 21/25 (84%), Gaps = 0/25 (0%)
+ Strand=Plus/Plus
+
+Query  46   CTGCGTATCACTCCATGTTGCTTCC  70
+            ||||||| |   |||||||||||||
+Sbjct  83   CTGCGTACCGAACCATGTTGCTTCC  107
+
+
+>NR_190916.1 Helvella pseudoatra HKAS 74023 ITS region; from TYPE material
+Length=606
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 21/25 (84%), Gaps = 0/25 (0%)
+ Strand=Plus/Plus
+
+Query  46   CTGCGTATCACTCCATGTTGCTTCC  70
+            ||||||| |   |||||||||||||
+Sbjct  89   CTGCGTACCGAACCATGTTGCTTCC  113
+
+
+>NR_161073.1 Hydnotrya brunneospora HMAS 97138 ITS region; from TYPE material
+Length=766
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 29/37 (78%), Gaps = 1/37 (3%)
+ Strand=Plus/Plus
+
+Query  35   CACAAACCTCTCTGCGTATCAC-TCCATGTTGCTTCC  70
+            |||| | | ||| | ||| | | ||||||||||||||
+Sbjct  214  CACATAACCCTCCGAGTACCCCTTCCATGTTGCTTCC  250
+
+
+>NR_161071.1 Hydnotrya nigricans BJTC FAN349 ITS region; from TYPE material
+Length=750
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 29/37 (78%), Gaps = 1/37 (3%)
+ Strand=Plus/Plus
+
+Query  35   CACAAACCTCTCTGCGTATCAC-TCCATGTTGCTTCC  70
+            |||| | | ||| | ||| | | ||||||||||||||
+Sbjct  198  CACATAACCCTCCGAGTACCGCTTCCATGTTGCTTCC  234
+
+
+>NR_154033.1 Eremiomyces innocentii MUB Fung-j153 ITS region; from TYPE material
+Length=557
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  58  CCATGTTGCTTCCAC  72
+           |||||||||||||||
+Sbjct  55  CCATGTTGCTTCCAC  69
+
+
+>NR_158854.1 Peziza retrocurvatoides LY N.V. 2015.10.01 ITS region; from TYPE 
+material
+Length=579
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  58   CCATGTTGCTTCCAC  72
+            |||||||||||||||
+Sbjct  95   CCATGTTGCTTCCAC  109
+
+
+>NR_147441.1 Tuber wumengense BJTC FAN218A ITS region; from TYPE material
+Length=549
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  135  CTGTCTGAGCTGGCCATGTG  154
+            |||||||||  |||||||||
+Sbjct  90   CTGTCTGAGAAGGCCATGTG  109
+
+
+>NR_182412.1 Tuber excelsum-reticulatum BJTC FAN863 ITS region; from TYPE 
+material
+Length=523
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  135  CTGTCTGAGCTGGCCATGTG  154
+            |||||||||  |||||||||
+Sbjct  68   CTGTCTGAGAAGGCCATGTG  87
+
+
+>NR_198120.1 Tuber mixtecorum ITCV GJ21880 ITS region; from TYPE material
+Length=556
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 31/39 (79%), Gaps = 2/39 (5%)
+ Strand=Plus/Plus
+
+Query  57  TCCATGTTGCTTCCACAGGTTAAGTGACCAT-GCTGGCA  94
+           |||||||||||||| | ||   |||| |||| |||| ||
+Sbjct  27  TCCATGTTGCTTCC-CTGGACCAGTGGCCATTGCTGCCA  64
+
+
+>NR_119865.1 Tuber castilloi ITCV 149 ITS region; from TYPE material
+Length=593
+
+ Score = 28.3 bits (30),  Expect = 4.4
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  135  CTGTCTGAGCTGGCCATGTG  154
+            |||||||||  |||||||||
+Sbjct  106  CTGTCTGAGAAGGCCATGTG  125
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1489683330
+
+
+  Database: Internal transcribed spacer region (ITS) from Fungi type and
+reference material
+    Posted date:  Apr 30, 2025  5:36 AM
+  Number of letters in database: 10,990,630
+  Number of sequences in database:  18,500
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

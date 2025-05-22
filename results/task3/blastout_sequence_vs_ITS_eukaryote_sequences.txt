@@ -1,0 +1,42 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ITS eukaryote BLAST
+           77,582 sequences; 60,710,056 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 8308519470
+
+
+  Database: ITS eukaryote BLAST
+    Posted date:  Apr 28, 2025  5:36 AM
+  Number of letters in database: 60,710,056
+  Number of sequences in database:  77,582
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

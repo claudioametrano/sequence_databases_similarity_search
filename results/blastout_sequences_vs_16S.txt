@@ -1,0 +1,165 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: 16S ribosomal RNA (Bacteria and Archaea type strains)
+           27,035 sequences; 39,158,143 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NR_104910.1 Geotoga petraea strain T5 16S ribosomal RNA, partial ...  32.8    1.3  
+NR_042767.1 Methanofollis formosanus strain ML15 16S ribosomal RN...  31.0    4.5  
+NR_114489.1 Methanoculleus bourgensis MS2 16S ribosomal RNA, part...  31.0    4.5  
+NR_197645.1 Methanoculleus oceani strain CWC-02 16S ribosomal RNA...  30.1    4.5  
+NR_028253.1 Methanoculleus palmolei strain DSM 4273 16S ribosomal...  30.1    4.5  
+NR_118529.1 Methanocalculus natronophilus strain Z-7105 16S ribos...  30.1    4.5  
+NR_043961.1 Methanoculleus receptaculi strain ZC-2 16S ribosomal ...  30.1    4.5  
+NR_042786.1 Methanoculleus bourgensis MS2 16S ribosomal RNA, part...  30.1    4.5  
+NR_104562.1 Methanocalculus taiwanensis strain P2F9704a 16S ribos...  30.1    4.5  
+
+
+>NR_104910.1 Geotoga petraea strain T5 16S ribosomal RNA, partial sequence
+Length=1434
+
+ Score = 32.8 bits (35),  Expect = 1.3
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  93    CACCTGTGGGAGATCTCTAT  112
+             |||||||| |||||||||||
+Sbjct  1024  CACCTGTGTGAGATCTCTAT  1005
+
+
+>NR_042767.1 Methanofollis formosanus strain ML15 16S ribosomal RNA, partial 
+sequence
+Length=1287
+
+ Score = 31.0 bits (33),  Expect = 4.5
+ Identities = 21/24 (88%), Gaps = 0/24 (0%)
+ Strand=Plus/Minus
+
+Query  79    AGTGACCATGCTGGCACCTGTGGG  102
+             || ||||||||||||| |||| ||
+Sbjct  1032  AGAGACCATGCTGGCAACTGTTGG  1009
+
+
+>NR_114489.1 Methanoculleus bourgensis MS2 16S ribosomal RNA, partial sequence
+Length=1411
+
+ Score = 31.0 bits (33),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1066  GACCATGCTGGCAACTGTNGG  1046
+
+
+>NR_197645.1 Methanoculleus oceani strain CWC-02 16S ribosomal RNA, partial 
+sequence
+Length=1398
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1048  GACCATGCTGGCAACTGTTGG  1028
+
+
+>NR_028253.1 Methanoculleus palmolei strain DSM 4273 16S ribosomal RNA, partial 
+sequence
+Length=1431
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1050  GACCATGCTGGCAACTGTTGG  1030
+
+
+>NR_118529.1 Methanocalculus natronophilus strain Z-7105 16S ribosomal RNA, 
+partial sequence
+Length=1417
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1055  GACCATGCTGGCAACTGTTGG  1035
+
+
+>NR_043961.1 Methanoculleus receptaculi strain ZC-2 16S ribosomal RNA, partial 
+sequence
+Length=1340
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1016  GACCATGCTGGCAACTGTTGG  996
+
+
+>NR_042786.1 Methanoculleus bourgensis MS2 16S ribosomal RNA, partial sequence
+Length=1255
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82   GACCATGCTGGCACCTGTGGG  102
+            ||||||||||||| |||| ||
+Sbjct  984  GACCATGCTGGCAACTGTTGG  964
+
+
+>NR_104562.1 Methanocalculus taiwanensis strain P2F9704a 16S ribosomal RNA, 
+partial sequence
+Length=1369
+
+ Score = 30.1 bits (32),  Expect = 4.5
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  82    GACCATGCTGGCACCTGTGGG  102
+             ||||||||||||| |||| ||
+Sbjct  1010  GACCATGCTGGCAACTGTTGG  990
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5349035252
+
+
+  Database: 16S ribosomal RNA (Bacteria and Archaea type strains)
+    Posted date:  Apr 29, 2025  5:36 AM
+  Number of letters in database: 39,158,143
+  Number of sequences in database:  27,035
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

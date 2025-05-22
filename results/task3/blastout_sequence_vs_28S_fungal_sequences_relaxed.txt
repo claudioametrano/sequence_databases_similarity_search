@@ -1,0 +1,72 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: 28S ribosomal RNA sequences (LSU) from Fungi type and reference
+material
+           11,354 sequences; 10,974,548 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NG_058675.1 Boletus griseiceps HKAS 82692 28S rRNA gene, partial ...  28.3    4.5  
+NG_055122.1 Pichia kluyveri NRRL Y-11519 28S rRNA, partial sequen...  28.3    4.5  
+
+
+>NG_058675.1 Boletus griseiceps HKAS 82692 28S rRNA gene, partial sequence; 
+from TYPE material
+Length=1306
+
+ Score = 28.3 bits (30),  Expect = 4.5
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  149  CATGTGTCAGATTTA  163
+            |||||||||||||||
+Sbjct  919  CATGTGTCAGATTTA  933
+
+
+>NG_055122.1 Pichia kluyveri NRRL Y-11519 28S rRNA, partial sequence; from 
+TYPE material
+Length=3218
+
+ Score = 28.3 bits (30),  Expect = 4.5
+ Identities = 21/25 (84%), Gaps = 0/25 (0%)
+ Strand=Plus/Plus
+
+Query  131   TGTGCTGTCTGAGCTGGCCATGTGT  155
+             ||||||  ||| |||||||||| ||
+Sbjct  1893  TGTGCTTCCTGTGCTGGCCATGCGT  1917
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1510590246
+
+
+  Database: 28S ribosomal RNA sequences (LSU) from Fungi type and reference
+material
+    Posted date:  May 1, 2025  5:36 AM
+  Number of letters in database: 10,974,548
+  Number of sequences in database:  11,354
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

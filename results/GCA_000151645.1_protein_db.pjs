@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "GCA_000151645.1_protein_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa",
+  "number-of-letters": 3280570,
+  "number-of-sequences": 7496,
+  "last-updated": "2025-05-20T18:51:00",
+  "number-of-volumes": 1,
+  "bytes-total": 4397147,
+  "bytes-to-cache": 3348187,
+  "files": [
+    "GCA_000151645.1_protein_db.pdb",
+    "GCA_000151645.1_protein_db.phr",
+    "GCA_000151645.1_protein_db.pin",
+    "GCA_000151645.1_protein_db.pot",
+    "GCA_000151645.1_protein_db.psq",
+    "GCA_000151645.1_protein_db.ptf",
+    "GCA_000151645.1_protein_db.pto"
+  ]
+}
