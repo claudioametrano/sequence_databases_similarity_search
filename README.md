@@ -89,6 +89,7 @@ It has the enormous advantage to be developed by NBCI itself and it is integrate
  ![blastscreen](images/blast_browser.png)
 ![blastn_blastp_etc](images/blastn_blastp_etc.png)
 credit: [allan.haldane@temple.edu](mailto:allan.haldane@temple.edu)
+
 ### Bit score and E-value
 Bit Score:	Quality of alignment, higher score = better alignment;	Normalized measure of similarity            
 E-Value: measures the expected number of “random” sequences with
@@ -125,7 +126,6 @@ We will learn how to use the command line blast tool, also known as BLAST+. We w
 - retrieve information from blast hits
 
 #### Local BLAST
-
 Show available pre-packaged databases available on NCBI servers by the helper script
 ```bash
 update_blastdb.pl --showall
