@@ -10,7 +10,7 @@ It deals with the primary Nucleotide (and protein) databases (e.g. NCBI Genbank)
 - Iqtree2
 - mafft
 ### Software required (locally)
-- a fasta file reader (MEGA, Aliview, Jalview, Bioedit ...)
+- a fasta file reader (Aliview, MEGA, Jalview, Bioedit ...)
 - Terminal (Win, Linux and Mac) to ssh into the HPC and (optionally) GUI file client (e.g. Filezilla)
 - (optionally) Figtree, iTOL works from browser 
 
