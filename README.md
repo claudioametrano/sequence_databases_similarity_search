@@ -1,4 +1,4 @@
-# Sequence Databases and similarity Search
+# Sequence databases and similarity search
 This repository contains the materials for the "Databases in ecology and comparative genomics course": day 1.
 It deals with the primary Nucleotide (and protein) databases (e.g. NCBI Genbank) and the way to interrogate them!
 
