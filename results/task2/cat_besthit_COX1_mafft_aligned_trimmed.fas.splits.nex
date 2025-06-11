@@ -1,0 +1,62 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=9;
+TAXLABELS
+[1] 'PP815713.1_Anopheles_pretoriensis_isolate_MOLS13_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial'
+[2] 'MF170952.1_Danio_rerio_voucher_ZMUD_055/B_cytochrome_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial'
+[3] 'MG605130.1_Drosophila_melanogaster_voucher_dromel87_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial'
+[4] 'MT445415.1_Gallus_gallus_isolate_VT1638_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial'
+[5] 'KC292251.1_Homo_sapiens_cytochrome_c_oxidase_subunit_I__COX1__gene__COX1-C6128T_allele__complete_cds__mitochondrial'
+[6] 'MN228578.1_Mus_musculus_musculus_voucher_24133_cytochrome_oxidase_subunit_I__Cox1__gene__partial_cds__mitochondrial'
+[7] 'AY972718.1_Pan_troglodytes_isolate_PR00837_cytochrome_c_oxidase_subunit_I__COXI__gene__partial_cds__mitochondrial'
+[8] 'MH624134.1_Rattus_norvegicus_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial'
+[9] 'CP006555.1_16338-16851_Saccharomyces_cerevisiae_YJM1463_mitochondrion__complete_genome'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=9 nsplits=38;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 4,
+	100	 5,
+	100	 7,
+	100	 5 7,
+	99	 4 5 7,
+	100	 8,
+	78	 4 5 7 8,
+	100	 6,
+	84	 1 2 3 9,
+	88	 1 3 9,
+	100	 9,
+	90	 1 3,
+	100	 3,
+	100	 1,
+	4	 2 9,
+	15	 4 5 6 7,
+	5	 8 9,
+	3	 1 2 3 6,
+	7	 1 2 3,
+	6	 1 3 6 9,
+	1	 1 3 8 9,
+	1	 1 3 6,
+	3	 1 9,
+	0	 6 9,
+	8	 3 9,
+	2	 2 6,
+	3	 6 8,
+	0	 2 6 9,
+	0	 4 8 9,
+	0	 2 6 8,
+	1	 2 4 5 7,
+	1	 4 8,
+	1	 2 8,
+	0	 5 7 8 9,
+	0	 1 3 8,
+	0	 2 8 9,
+	0	 5 7 8,
+;
+END; [Splits]
+

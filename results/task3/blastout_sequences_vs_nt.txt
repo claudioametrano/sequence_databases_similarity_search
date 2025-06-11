@@ -16,7 +16,7 @@ Query= Who_am_i_?
 
 Length=164
 
-RID: 2W3M7S9D013
+RID: 4GBDZXNP016
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
@@ -83,98 +83,98 @@ AF106879.1 Tuber melanosporum clone A62 18S ribosomal RNA gene, p...  303     1e
 AF106877.1 Tuber melanosporum clone A71 18S ribosomal RNA gene, p...  303     1e-77
 AF167096.1 Tuber melanosporum strain 1015 17S ribosomal RNA gene,...  303     1e-77
 U89359.1 Tuber melanosporum internal transcribed spacer sequence      303     1e-77
-MT374043.1 Tuber sp. voucher FLAS-F-61967 JBP-2013-2-9-n1 interna...  298     6e-76
-MF590056.1 Tuber melanosporum strain mwr-3 internal transcribed s...  298     6e-76
-MF590054.1 Tuber melanosporum strain mwr-1 internal transcribed s...  298     6e-76
-PQ525351.1 Tuber melanosporum voucher FLAS:F-72613 small subunit ...  298     6e-76
-OP978684.1 Tuber melanosporum strain T-1724 internal transcribed ...  298     6e-76
-OP978685.1 Tuber melanosporum strain T-779 internal transcribed s...  298     6e-76
-OP978688.1 Tuber melanosporum strain T-781 internal transcribed s...  298     6e-76
-OP978680.1 Tuber melanosporum strain T-780 internal transcribed s...  298     6e-76
-OP978687.1 Tuber melanosporum strain T-774 internal transcribed s...  298     6e-76
-OP978686.1 Tuber melanosporum strain T-777 internal transcribed s...  298     6e-76
-OP978681.1 Tuber melanosporum strain T-1713 internal transcribed ...  298     6e-76
-OP978678.1 Tuber melanosporum strain T-769 internal transcribed s...  298     6e-76
-OP978677.1 Tuber melanosporum strain T-772 internal transcribed s...  298     6e-76
-OP978676.1 Tuber melanosporum strain T-771 internal transcribed s...  298     6e-76
-OP978675.1 Tuber melanosporum strain T-1797 internal transcribed ...  298     6e-76
-OP978682.1 Tuber melanosporum strain T-773 small subunit ribosoma...  298     6e-76
-OP978673.1 Tuber melanosporum strain T-1718 internal transcribed ...  298     6e-76
-KM659873.1 Tuber melanosporum isolate MelBal3 18S ribosomal RNA g...  298     6e-76
-KM659872.1 Tuber melanosporum isolate MelCR2-00 18S ribosomal RNA...  298     6e-76
-KM659870.1 Tuber melanosporum isolate MelBal1 internal transcribe...  298     6e-76
-KM659869.1 Tuber melanosporum isolate BTR3 internal transcribed s...  298     6e-76
-KF742775.1 Tuber sp. W-10-3-33 18S ribosomal RNA gene, partial se...  298     6e-76
-KF742774.1 Tuber sp. W-10-3-16 18S ribosomal RNA gene, partial se...  298     6e-76
-KF742762.1 Tuber sp. Pr-11-5-47 18S ribosomal RNA gene, partial s...  298     6e-76
-KF742737.1 Tuber sp. N-10-8-9 internal transcribed spacer 1, part...  298     6e-76
-JQ639008.1 Tuber melanosporum strain U 18S ribosomal RNA gene, pa...  298     6e-76
-JX625373.1 Uncultured Tuber clone M1EbP1 internal transcribed spa...  298     6e-76
-JN392090.1 Uncultured Tuber clone CDTIII39 18S ribosomal RNA gene...  298     6e-76
-MN104005.1 Tuber melanosporum strain Tme77 internal transcribed s...  298     6e-76
-MN104004.1 Tuber melanosporum strain Tme66 internal transcribed s...  298     6e-76
-MN104003.1 Tuber melanosporum strain Tme55 internal transcribed s...  298     6e-76
-MN104000.1 Tuber melanosporum strain Tmel1 internal transcribed s...  298     6e-76
-FM205587.1 Tuber nigrum 18S rRNA gene (partial), ITS1, 5.8S rRNA ...  298     6e-76
-AF106875.1 Tuber melanosporum clone A49 18S ribosomal RNA gene, p...  298     6e-76
-FN397196.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     6e-76
-FN397195.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     6e-76
-FN391361.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     6e-76
-FN391329.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     6e-76
-EU753270.1 Tuber melanosporum 18S ribosomal RNA gene, partial seq...  298     6e-76
-DQ375525.1 Tuber melanosporum isolate Tmel-euO4 18S ribosomal RNA...  298     6e-76
-DQ388875.1 Tuber melanosporum isolate Tmel-eu03 18S ribosomal RNA...  298     6e-76
-AF106878.1 Tuber melanosporum clone A59 18S ribosomal RNA gene, p...  298     6e-76
-AF106876.1 Tuber melanosporum clone A51 18S ribosomal RNA gene, p...  298     6e-76
-AF106874.1 Tuber melanosporum clone A34 18S ribosomal RNA gene, p...  298     6e-76
-AF300826.1 Tuber melanosporum isolate Ascocarpe MelBc 18S ribosom...  298     6e-76
-AF300825.1 Tuber melanosporum isolate Ascocarpe MelW 18S ribosoma...  298     6e-76
-AF132501.1 Tuber melanosporum 18S ribosomal RNA gene, partial seq...  298     6e-76
-AF167097.1 Tuber melanosporum Asco 17S ribosomal RNA gene, partia...  298     6e-76
+MT374043.1 Tuber sp. voucher FLAS-F-61967 JBP-2013-2-9-n1 interna...  298     5e-76
+MF590056.1 Tuber melanosporum strain mwr-3 internal transcribed s...  298     5e-76
+MF590054.1 Tuber melanosporum strain mwr-1 internal transcribed s...  298     5e-76
+PQ525351.1 Tuber melanosporum voucher FLAS:F-72613 small subunit ...  298     5e-76
+OP978684.1 Tuber melanosporum strain T-1724 internal transcribed ...  298     5e-76
+OP978685.1 Tuber melanosporum strain T-779 internal transcribed s...  298     5e-76
+OP978688.1 Tuber melanosporum strain T-781 internal transcribed s...  298     5e-76
+OP978680.1 Tuber melanosporum strain T-780 internal transcribed s...  298     5e-76
+OP978687.1 Tuber melanosporum strain T-774 internal transcribed s...  298     5e-76
+OP978686.1 Tuber melanosporum strain T-777 internal transcribed s...  298     5e-76
+OP978681.1 Tuber melanosporum strain T-1713 internal transcribed ...  298     5e-76
+OP978678.1 Tuber melanosporum strain T-769 internal transcribed s...  298     5e-76
+OP978677.1 Tuber melanosporum strain T-772 internal transcribed s...  298     5e-76
+OP978676.1 Tuber melanosporum strain T-771 internal transcribed s...  298     5e-76
+OP978675.1 Tuber melanosporum strain T-1797 internal transcribed ...  298     5e-76
+OP978682.1 Tuber melanosporum strain T-773 small subunit ribosoma...  298     5e-76
+OP978673.1 Tuber melanosporum strain T-1718 internal transcribed ...  298     5e-76
+KM659873.1 Tuber melanosporum isolate MelBal3 18S ribosomal RNA g...  298     5e-76
+KM659872.1 Tuber melanosporum isolate MelCR2-00 18S ribosomal RNA...  298     5e-76
+KM659870.1 Tuber melanosporum isolate MelBal1 internal transcribe...  298     5e-76
+KM659869.1 Tuber melanosporum isolate BTR3 internal transcribed s...  298     5e-76
+KF742775.1 Tuber sp. W-10-3-33 18S ribosomal RNA gene, partial se...  298     5e-76
+KF742774.1 Tuber sp. W-10-3-16 18S ribosomal RNA gene, partial se...  298     5e-76
+KF742762.1 Tuber sp. Pr-11-5-47 18S ribosomal RNA gene, partial s...  298     5e-76
+KF742737.1 Tuber sp. N-10-8-9 internal transcribed spacer 1, part...  298     5e-76
+JQ639008.1 Tuber melanosporum strain U 18S ribosomal RNA gene, pa...  298     5e-76
+JX625373.1 Uncultured Tuber clone M1EbP1 internal transcribed spa...  298     5e-76
+JN392090.1 Uncultured Tuber clone CDTIII39 18S ribosomal RNA gene...  298     5e-76
+MN104005.1 Tuber melanosporum strain Tme77 internal transcribed s...  298     5e-76
+MN104004.1 Tuber melanosporum strain Tme66 internal transcribed s...  298     5e-76
+MN104003.1 Tuber melanosporum strain Tme55 internal transcribed s...  298     5e-76
+MN104000.1 Tuber melanosporum strain Tmel1 internal transcribed s...  298     5e-76
+FM205587.1 Tuber nigrum 18S rRNA gene (partial), ITS1, 5.8S rRNA ...  298     5e-76
+AF106875.1 Tuber melanosporum clone A49 18S ribosomal RNA gene, p...  298     5e-76
+FN397196.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     5e-76
+FN397195.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     5e-76
+FN391361.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     5e-76
+FN391329.1 Uncultured fungus genomic DNA sequence containing 18S ...  298     5e-76
+EU753270.1 Tuber melanosporum 18S ribosomal RNA gene, partial seq...  298     5e-76
+DQ375525.1 Tuber melanosporum isolate Tmel-euO4 18S ribosomal RNA...  298     5e-76
+DQ388875.1 Tuber melanosporum isolate Tmel-eu03 18S ribosomal RNA...  298     5e-76
+AF106878.1 Tuber melanosporum clone A59 18S ribosomal RNA gene, p...  298     5e-76
+AF106876.1 Tuber melanosporum clone A51 18S ribosomal RNA gene, p...  298     5e-76
+AF106874.1 Tuber melanosporum clone A34 18S ribosomal RNA gene, p...  298     5e-76
+AF300826.1 Tuber melanosporum isolate Ascocarpe MelBc 18S ribosom...  298     5e-76
+AF300825.1 Tuber melanosporum isolate Ascocarpe MelW 18S ribosoma...  298     5e-76
+AF132501.1 Tuber melanosporum 18S ribosomal RNA gene, partial seq...  298     5e-76
+AF167097.1 Tuber melanosporum Asco 17S ribosomal RNA gene, partia...  298     5e-76
 OP978679.1 Tuber melanosporum strain T-1794 internal transcribed ...  296     2e-75
 KF742738.1 Tuber sp. N-10-8-21 18S ribosomal RNA gene, partial se...  296     2e-75
 FM205569.1 Tuber melanosporum 18S rRNA gene (partial), ITS1, 5.8S...  296     2e-75
 AF106873.1 Tuber melanosporum clone A33 18S ribosomal RNA gene, p...  296     2e-75
-KF742739.1 Tuber sp. N-10-8-26 18S ribosomal RNA gene, partial se...  294     7e-75
-HE613438.1 Uncultured Tuber genomic DNA containing 18S rRNA gene ...  292     3e-74
-FN397165.1 Uncultured fungus genomic DNA sequence containing 18S ...  292     3e-74
-PP833659.1 Tuber melanosporum clone LMGI 23/23 internal transcrib...  291     9e-74
-JQ638960.1 Tuber melanosporum strain L 18S ribosomal RNA gene, pa...  291     9e-74
-AF300827.1 Tuber melanosporum isolate Ascocarpe MelCr1 18S riboso...  291     9e-74
+KF742739.1 Tuber sp. N-10-8-26 18S ribosomal RNA gene, partial se...  294     6e-75
+HE613438.1 Uncultured Tuber genomic DNA containing 18S rRNA gene ...  292     2e-74
+FN397165.1 Uncultured fungus genomic DNA sequence containing 18S ...  292     2e-74
+PP833659.1 Tuber melanosporum clone LMGI 23/23 internal transcrib...  291     8e-74
+JQ638960.1 Tuber melanosporum strain L 18S ribosomal RNA gene, pa...  291     8e-74
+AF300827.1 Tuber melanosporum isolate Ascocarpe MelCr1 18S riboso...  291     8e-74
 JF264440.1 Tuber melanosporum voucher PERU-170611 internal transc...  287     1e-72
-JF926889.1 Uncultured fungus clone OTU02-S-36-VNQM-a 18S ribosoma...  278     7e-70
-JF926887.1 Uncultured fungus clone OTU02-S-33-VNQM-a 18S ribosoma...  278     7e-70
-JF926885.1 Uncultured fungus clone OTU02-S-178-MCQM-c 18S ribosom...  278     7e-70
-JF926883.1 Uncultured fungus clone OTU02-S-176-MCQM-c 18S ribosom...  278     7e-70
-JF926882.1 Uncultured fungus clone OTU02-S-172-MCQM-c 18S ribosom...  278     7e-70
-JF926873.1 Uncultured fungus clone OTU02-S-157-MCQM-c 18S ribosom...  278     7e-70
-JF926871.1 Uncultured fungus clone OTU02-S-155-MCQM-c 18S ribosom...  278     7e-70
-JF926869.1 Uncultured fungus clone OTU02-S-152-MCQM-c 18S ribosom...  278     7e-70
-JF926868.1 Uncultured fungus clone OTU02-S-151-MCQM-c 18S ribosom...  278     7e-70
-JF926867.1 Uncultured fungus clone OTU02-S-149-MCQM-c 18S ribosom...  278     7e-70
-JF926865.1 Uncultured fungus clone OTU02-S-147-MCQM-c 18S ribosom...  278     7e-70
-JF926864.1 Uncultured fungus clone OTU02-S-144-MCQM-c 18S ribosom...  278     7e-70
-JF926861.1 Uncultured fungus clone OTU02-R-28-p7-MCQM-a 18S ribos...  278     7e-70
-JF926852.1 Uncultured fungus clone OTU02-R-104-p8-MCQM-b 18S ribo...  278     7e-70
-JF926851.1 Uncultured fungus clone OTU02-R-100-p7-MCQM-b 18S ribo...  278     7e-70
-EU555392.1 Tuber melanosporum isolate MEL282 clone 48A internal t...  278     7e-70
-EU555387.1 Tuber melanosporum isolate MEL298 clone 23 internal tr...  278     7e-70
-EU555386.1 Tuber melanosporum isolate MEL199 clone 11 internal tr...  278     7e-70
-EU200434.1 Tuber melanosporum isolate MEL199 internal transcribed...  278     7e-70
-EU200422.1 Tuber melanosporum isolate 121 internal transcribed sp...  278     7e-70
-EU200410.1 Tuber melanosporum isolate MEL298 internal transcribed...  278     7e-70
-AJ548481.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     7e-70
-AJ583825.1 Tuber melanosporum ITS1, 5.8S rRNA gene, and ITS2, iso...  278     7e-70
-AJ583567.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     7e-70
-AJ583565.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     7e-70
-AJ583564.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     7e-70
-AJ583559.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     7e-70
-AJ459573.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     7e-70
-AJ459537.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     7e-70
-DQ388876.1 Tuber melanosporum isolate Tmel-eu05 18S ribosomal RNA...  276     3e-69
-KF742734.1 Tuber sp. N-10-6-18 18S ribosomal RNA gene, partial se...  274     9e-69
-JF908742.1 Tuber melanosporum voucher 17109 18S ribosomal RNA gen...  274     9e-69
-EU200433.1 Tuber melanosporum isolate MEL178 internal transcribed...  274     9e-69
+JF926889.1 Uncultured fungus clone OTU02-S-36-VNQM-a 18S ribosoma...  278     6e-70
+JF926887.1 Uncultured fungus clone OTU02-S-33-VNQM-a 18S ribosoma...  278     6e-70
+JF926885.1 Uncultured fungus clone OTU02-S-178-MCQM-c 18S ribosom...  278     6e-70
+JF926883.1 Uncultured fungus clone OTU02-S-176-MCQM-c 18S ribosom...  278     6e-70
+JF926882.1 Uncultured fungus clone OTU02-S-172-MCQM-c 18S ribosom...  278     6e-70
+JF926873.1 Uncultured fungus clone OTU02-S-157-MCQM-c 18S ribosom...  278     6e-70
+JF926871.1 Uncultured fungus clone OTU02-S-155-MCQM-c 18S ribosom...  278     6e-70
+JF926869.1 Uncultured fungus clone OTU02-S-152-MCQM-c 18S ribosom...  278     6e-70
+JF926868.1 Uncultured fungus clone OTU02-S-151-MCQM-c 18S ribosom...  278     6e-70
+JF926867.1 Uncultured fungus clone OTU02-S-149-MCQM-c 18S ribosom...  278     6e-70
+JF926865.1 Uncultured fungus clone OTU02-S-147-MCQM-c 18S ribosom...  278     6e-70
+JF926864.1 Uncultured fungus clone OTU02-S-144-MCQM-c 18S ribosom...  278     6e-70
+JF926861.1 Uncultured fungus clone OTU02-R-28-p7-MCQM-a 18S ribos...  278     6e-70
+JF926852.1 Uncultured fungus clone OTU02-R-104-p8-MCQM-b 18S ribo...  278     6e-70
+JF926851.1 Uncultured fungus clone OTU02-R-100-p7-MCQM-b 18S ribo...  278     6e-70
+EU555392.1 Tuber melanosporum isolate MEL282 clone 48A internal t...  278     6e-70
+EU555387.1 Tuber melanosporum isolate MEL298 clone 23 internal tr...  278     6e-70
+EU555386.1 Tuber melanosporum isolate MEL199 clone 11 internal tr...  278     6e-70
+EU200434.1 Tuber melanosporum isolate MEL199 internal transcribed...  278     6e-70
+EU200422.1 Tuber melanosporum isolate 121 internal transcribed sp...  278     6e-70
+EU200410.1 Tuber melanosporum isolate MEL298 internal transcribed...  278     6e-70
+AJ548481.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     6e-70
+AJ583825.1 Tuber melanosporum ITS1, 5.8S rRNA gene, and ITS2, iso...  278     6e-70
+AJ583567.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     6e-70
+AJ583565.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     6e-70
+AJ583564.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     6e-70
+AJ583559.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  278     6e-70
+AJ459573.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     6e-70
+AJ459537.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  278     6e-70
+DQ388876.1 Tuber melanosporum isolate Tmel-eu05 18S ribosomal RNA...  276     2e-69
+KF742734.1 Tuber sp. N-10-6-18 18S ribosomal RNA gene, partial se...  274     8e-69
+JF908742.1 Tuber melanosporum voucher 17109 18S ribosomal RNA gen...  274     8e-69
+EU200433.1 Tuber melanosporum isolate MEL178 internal transcribed...  274     8e-69
 JF926891.1 Uncultured fungus clone OTU02-S-63-MCQM-a 18S ribosoma...  272     3e-68
 JF926890.1 Uncultured fungus clone TU02-S-61-MCQM-a 18S ribosomal...  272     3e-68
 JF926888.1 Uncultured fungus clone OTU02-S-35-VNQM-a 18S ribosoma...  272     3e-68
@@ -199,48 +199,48 @@ AJ583560.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isol...  272     3e
 AJ459578.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  272     3e-68
 AJ459536.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isol...  272     3e-68
 PQ653584.1 Tuber melanosporum voucher FLAS-F-72933 BL208 internal...  268     4e-67
-OP978691.1 Tuber melanosporum strain T-1788 internal transcribed ...  265     6e-66
-AJ786646.1 Tuber melanosporum 5.8S rRNA gene, ITS1 (partial) and ...  259     3e-64
+OP978691.1 Tuber melanosporum strain T-1788 internal transcribed ...  265     5e-66
+AJ786646.1 Tuber melanosporum 5.8S rRNA gene, ITS1 (partial) and ...  259     2e-64
 Y09790.1 T.melanosporum ITS DNA, isolate ascocarpe M2                 255     3e-63
-OK625307.1 Tuber sp. voucher wsp973_2_YNAU020 small subunit ribos...  248     6e-61
-OK625306.1 Tuber sp. voucher wsp973_1_YNAU019 small subunit ribos...  248     6e-61
-OR665397.1 Tuber sp. voucher YNAU0107 small subunit ribosomal RNA...  243     3e-59
-OR250186.1 Tuber sp. voucher YNAU0491 small subunit ribosomal RNA...  243     3e-59
-OP978683.1 Tuber melanosporum strain T-768 internal transcribed s...  231     6e-56
+OK625307.1 Tuber sp. voucher wsp973_2_YNAU020 small subunit ribos...  248     5e-61
+OK625306.1 Tuber sp. voucher wsp973_1_YNAU019 small subunit ribos...  248     5e-61
+OR665397.1 Tuber sp. voucher YNAU0107 small subunit ribosomal RNA...  243     2e-59
+OR250186.1 Tuber sp. voucher YNAU0491 small subunit ribosomal RNA...  243     2e-59
+OP978683.1 Tuber melanosporum strain T-768 internal transcribed s...  231     5e-56
 KM659874.1 Tuber melanosporum isolate Mel28 internal transcribed ...  230     2e-55
 KF591751.1 Tuber melanosporum voucher 61FR internal transcribed s...  230     2e-55
 MN104017.1 Tuber longispinosum strain Tind66 internal transcribed...  230     2e-55
-MF693844.1 Tuber melanosporum isolate SB1-5 internal transcribed ...  228     7e-55
-MK346098.1 Tuber indicum strain QJ3 small subunit ribosomal RNA g...  226     3e-54
-MK346097.1 Tuber indicum strain QJ2 small subunit ribosomal RNA g...  226     3e-54
-MK110376.1 Tuber formosanum voucher CFSZ 20315 small subunit ribo...  226     3e-54
-MF405798.1 Uncultured Tuber clone XT12572 18S ribosomal RNA gene,...  226     3e-54
-KX444405.1 Uncultured Tuber clone LKS717 18S ribosomal RNA gene, ...  226     3e-54
-OM287857.1 Tuber formosanum voucher BJTC FAN1184 internal transcr...  226     3e-54
-OM287854.1 Tuber formosanum voucher BJTC FAN1181 small subunit ri...  226     3e-54
-OM287852.1 Tuber formosanum voucher BJTC FAN1179 internal transcr...  226     3e-54
-JF748091.1 Uncultured Tuber clone LP100025 internal transcribed s...  226     3e-54
-LC415751.1 Tuber indicum YNB17104 genes for 18S rRNA, ITS1, 5.8S ...  224     1e-53
-LC415707.1 Tuber indicum YNB17044 genes for 18S rRNA, ITS1, 5.8S ...  224     1e-53
-LC312217.1 Tuber indicum genes for 18S rRNA, ITS 1, 5.8S rRNA, IT...  224     1e-53
-LC312216.1 Tuber indicum genes for 18S rRNA, ITS 1, 5.8S rRNA, IT...  224     1e-53
-MF693845.1 Tuber melanosporum isolate SB2-6 internal transcribed ...  224     1e-53
-MZ570240.1 Tuber sinense isolate PANZIHUA123 small subunit riboso...  224     1e-53
-MW762803.1 Tuber sinense voucher CLZhao 21000 internal transcribe...  224     1e-53
-MW762801.1 Tuber sinense voucher CLZhao 20990 internal transcribe...  224     1e-53
-MW762800.1 Tuber sinense voucher CLZhao 20988 internal transcribe...  224     1e-53
-MW762799.1 Tuber sinense voucher CLZhao 20986 internal transcribe...  224     1e-53
-MW762797.1 Tuber sinense voucher CLZhao 20980 internal transcribe...  224     1e-53
-MW762793.1 Tuber sinense voucher CLZhao 20958 internal transcribe...  224     1e-53
-MW762792.1 Tuber sinense voucher CLZhao 20956 internal transcribe...  224     1e-53
-MW762791.1 Tuber sinense voucher CLZhao 20954 internal transcribe...  224     1e-53
-MW762786.1 Tuber sinense voucher CLZhao 20968 internal transcribe...  224     1e-53
-JQ638971.1 Tuber indicum strain N13 internal transcribed spacer 1...  224     1e-53
-GU979079.1 Tuber indicum isolate T90_HKAS49752 18S ribosomal RNA ...  224     1e-53
-GU979077.1 Tuber indicum isolate T38_HKAS47614 18S ribosomal RNA ...  224     1e-53
-DQ375510.1 Tuber indicum isolate Tind-yn09 18S ribosomal RNA gene...  224     1e-53
-DQ329364.1 Tuber indicum isolate Tind-hl01 18S ribosomal RNA gene...  224     1e-53
-Y09789.1 T.melanosporum ITS DNA, isolate ascocarpe M1                 224     1e-53
+MF693844.1 Tuber melanosporum isolate SB1-5 internal transcribed ...  228     6e-55
+MK346098.1 Tuber indicum strain QJ3 small subunit ribosomal RNA g...  226     2e-54
+MK346097.1 Tuber indicum strain QJ2 small subunit ribosomal RNA g...  226     2e-54
+MK110376.1 Tuber formosanum voucher CFSZ 20315 small subunit ribo...  226     2e-54
+MF405798.1 Uncultured Tuber clone XT12572 18S ribosomal RNA gene,...  226     2e-54
+KX444405.1 Uncultured Tuber clone LKS717 18S ribosomal RNA gene, ...  226     2e-54
+OM287857.1 Tuber formosanum voucher BJTC FAN1184 internal transcr...  226     2e-54
+OM287854.1 Tuber formosanum voucher BJTC FAN1181 small subunit ri...  226     2e-54
+OM287852.1 Tuber formosanum voucher BJTC FAN1179 internal transcr...  226     2e-54
+JF748091.1 Uncultured Tuber clone LP100025 internal transcribed s...  226     2e-54
+LC415751.1 Tuber indicum YNB17104 genes for 18S rRNA, ITS1, 5.8S ...  224     8e-54
+LC415707.1 Tuber indicum YNB17044 genes for 18S rRNA, ITS1, 5.8S ...  224     8e-54
+LC312217.1 Tuber indicum genes for 18S rRNA, ITS 1, 5.8S rRNA, IT...  224     8e-54
+LC312216.1 Tuber indicum genes for 18S rRNA, ITS 1, 5.8S rRNA, IT...  224     8e-54
+MF693845.1 Tuber melanosporum isolate SB2-6 internal transcribed ...  224     8e-54
+MZ570240.1 Tuber sinense isolate PANZIHUA123 small subunit riboso...  224     8e-54
+MW762803.1 Tuber sinense voucher CLZhao 21000 internal transcribe...  224     8e-54
+MW762801.1 Tuber sinense voucher CLZhao 20990 internal transcribe...  224     8e-54
+MW762800.1 Tuber sinense voucher CLZhao 20988 internal transcribe...  224     8e-54
+MW762799.1 Tuber sinense voucher CLZhao 20986 internal transcribe...  224     8e-54
+MW762797.1 Tuber sinense voucher CLZhao 20980 internal transcribe...  224     8e-54
+MW762793.1 Tuber sinense voucher CLZhao 20958 internal transcribe...  224     8e-54
+MW762792.1 Tuber sinense voucher CLZhao 20956 internal transcribe...  224     8e-54
+MW762791.1 Tuber sinense voucher CLZhao 20954 internal transcribe...  224     8e-54
+MW762786.1 Tuber sinense voucher CLZhao 20968 internal transcribe...  224     8e-54
+JQ638971.1 Tuber indicum strain N13 internal transcribed spacer 1...  224     8e-54
+GU979079.1 Tuber indicum isolate T90_HKAS49752 18S ribosomal RNA ...  224     8e-54
+GU979077.1 Tuber indicum isolate T38_HKAS47614 18S ribosomal RNA ...  224     8e-54
+DQ375510.1 Tuber indicum isolate Tind-yn09 18S ribosomal RNA gene...  224     8e-54
+DQ329364.1 Tuber indicum isolate Tind-hl01 18S ribosomal RNA gene...  224     8e-54
+Y09789.1 T.melanosporum ITS DNA, isolate ascocarpe M1                 224     8e-54
 LC415724.1 Tuber indicum YNB17075 genes for 18S rRNA, ITS1, 5.8S ...  222     3e-53
 OQ550517.1 Tuber indicum isolate mhll23-2 small subunit ribosomal...  222     3e-53
 OQ550516.1 Tuber indicum isolate mhll23-1 small subunit ribosomal...  222     3e-53
@@ -284,6 +284,7 @@ LC508580.1 Tuber himalayense FFPRI 460519 genes for 18S rRNA, ITS...  220     1e
 MK346214.1 Tuber indicum isolate MDJ-3 small subunit ribosomal RN...  220     1e-52
 MK346213.1 Tuber indicum isolate MDJ-2 small subunit ribosomal RN...  220     1e-52
 MK346212.1 Tuber indicum isolate MDJ-1 small subunit ribosomal RN...  220     1e-52
+PV664869.1 Tuber sp. voucher SbTf internal transcribed spacer 1, ...  220     1e-52
 LC415617.1 Tuber formosanum YNB17008 genes for 18S rRNA, ITS1, 5....  220     1e-52
 LC410162.1 Tuber himalayense S4 genes for 18S rRNA, ITS1, 5.8S rR...  220     1e-52
 LC410161.1 Tuber himalayense KYO0408_5_Qs genes for 18S rRNA, ITS...  220     1e-52
@@ -336,46 +337,46 @@ AB553403.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  219     4e
 DQ375526.1 Tuber sinense isolate Tsin-hd01 18S ribosomal RNA gene...  219     4e-52
 DQ375497.1 Tuber indicum isolate Tind-hl04 18S ribosomal RNA gene...  219     4e-52
 DQ329376.1 Tuber sinense isolate Tsin-hd03 18S ribosomal RNA gene...  219     4e-52
-MK346107.1 Tuber indicum strain HB3 small subunit ribosomal RNA g...  217     2e-51
-OM858876.1 Tuber formosanum isolate mhll-15 small subunit ribosom...  217     2e-51
-MW403815.1 Tuber formosanum isolate mhll-24 small subunit ribosom...  217     2e-51
-MW403814.1 Tuber formosanum isolate mhll-23 small subunit ribosom...  217     2e-51
-MW403813.1 Tuber formosanum isolate mhll-22 small subunit ribosom...  217     2e-51
-JQ638969.1 Tuber indicum strain N11 internal transcribed spacer 1...  217     2e-51
-JQ638953.1 Tuber indicum strain Cm16 18S ribosomal RNA gene, part...  217     2e-51
-MF628003.1 Tuber formosanum voucher BJTC:FAN748 internal transcri...  217     2e-51
-MF627999.1 Tuber formosanum voucher BJTC:FAN744 internal transcri...  217     2e-51
-MF627994.1 Tuber formosanum voucher BJTC:FAN739 small subunit rib...  217     2e-51
-MF627993.1 Tuber formosanum voucher BJTC:FAN738 small subunit rib...  217     2e-51
-MF627992.1 Tuber formosanum voucher BJTC:FAN737 internal transcri...  217     2e-51
-MF627991.1 Tuber formosanum voucher BJTC:FAN736 small subunit rib...  217     2e-51
-DQ375507.1 Tuber indicum isolate Tind-yn03 18S ribosomal RNA gene...  217     2e-51
-AF106881.1 Tuber indicum clone C98-9 18S ribosomal RNA gene, part...  217     2e-51
-MK346096.1 Tuber indicum strain QJ1 small subunit ribosomal RNA g...  215     6e-51
-MK346215.1 Tuber indicum isolate MDJ-4 small subunit ribosomal RN...  215     6e-51
-LC415655.1 Tuber formosanum YNB17215 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415640.1 Tuber formosanum YNB17183 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415639.1 Tuber formosanum YNB17181 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415636.1 Tuber formosanum YNB17162 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415634.1 Tuber formosanum YNB17155 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415633.1 Tuber formosanum YNB17154 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415632.1 Tuber formosanum YNB17145 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415631.1 Tuber formosanum YNB17141 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415630.1 Tuber formosanum YNB17135 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415629.1 Tuber formosanum YNB17042 genes for 18S rRNA, ITS1, 5....  215     6e-51
-LC415627.1 Tuber formosanum YNB17033 genes for 18S rRNA, ITS1, 5....  215     6e-51
-MF693846.1 Tuber melanosporum isolate SB3-1 internal transcribed ...  215     6e-51
-MF534549.1 Uncultured Ascomycota isolate CROP_denovo_1465 interna...  215     6e-51
-OM858873.1 Tuber formosanum isolate ahll-2 internal transcribed s...  215     6e-51
-OQ984155.1 Tuber indicum isolate A1-1 small subunit ribosomal RNA...  215     6e-51
-OQ750214.1 Tuber formosanum voucher HMJAU65130 small subunit ribo...  215     6e-51
-OM287860.1 Tuber formosanum voucher BJTC FAN1196 small subunit ri...  215     6e-51
-OM287853.1 Tuber formosanum voucher BJTC FAN1180 small subunit ri...  215     6e-51
-OM287851.1 Tuber formosanum voucher BJTC FAN1178 small subunit ri...  215     6e-51
-MW602967.1 Tuber himalayense voucher LE 324101 internal transcrib...  215     6e-51
-MW514312.1 Tuber himalayense isolate NIBRFG0000505337 small subun...  215     6e-51
-AB553388.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  215     6e-51
-DQ375496.1 Tuber indicum isolate Tind-hl02 internal transcribed s...  215     6e-51
+MK346107.1 Tuber indicum strain HB3 small subunit ribosomal RNA g...  217     1e-51
+OM858876.1 Tuber formosanum isolate mhll-15 small subunit ribosom...  217     1e-51
+MW403815.1 Tuber formosanum isolate mhll-24 small subunit ribosom...  217     1e-51
+MW403814.1 Tuber formosanum isolate mhll-23 small subunit ribosom...  217     1e-51
+MW403813.1 Tuber formosanum isolate mhll-22 small subunit ribosom...  217     1e-51
+JQ638969.1 Tuber indicum strain N11 internal transcribed spacer 1...  217     1e-51
+JQ638953.1 Tuber indicum strain Cm16 18S ribosomal RNA gene, part...  217     1e-51
+MF628003.1 Tuber formosanum voucher BJTC:FAN748 internal transcri...  217     1e-51
+MF627999.1 Tuber formosanum voucher BJTC:FAN744 internal transcri...  217     1e-51
+MF627994.1 Tuber formosanum voucher BJTC:FAN739 small subunit rib...  217     1e-51
+MF627993.1 Tuber formosanum voucher BJTC:FAN738 small subunit rib...  217     1e-51
+MF627992.1 Tuber formosanum voucher BJTC:FAN737 internal transcri...  217     1e-51
+MF627991.1 Tuber formosanum voucher BJTC:FAN736 small subunit rib...  217     1e-51
+DQ375507.1 Tuber indicum isolate Tind-yn03 18S ribosomal RNA gene...  217     1e-51
+AF106881.1 Tuber indicum clone C98-9 18S ribosomal RNA gene, part...  217     1e-51
+MK346096.1 Tuber indicum strain QJ1 small subunit ribosomal RNA g...  215     5e-51
+MK346215.1 Tuber indicum isolate MDJ-4 small subunit ribosomal RN...  215     5e-51
+LC415655.1 Tuber formosanum YNB17215 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415640.1 Tuber formosanum YNB17183 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415639.1 Tuber formosanum YNB17181 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415636.1 Tuber formosanum YNB17162 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415634.1 Tuber formosanum YNB17155 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415633.1 Tuber formosanum YNB17154 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415632.1 Tuber formosanum YNB17145 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415631.1 Tuber formosanum YNB17141 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415630.1 Tuber formosanum YNB17135 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415629.1 Tuber formosanum YNB17042 genes for 18S rRNA, ITS1, 5....  215     5e-51
+LC415627.1 Tuber formosanum YNB17033 genes for 18S rRNA, ITS1, 5....  215     5e-51
+MF693846.1 Tuber melanosporum isolate SB3-1 internal transcribed ...  215     5e-51
+MF534549.1 Uncultured Ascomycota isolate CROP_denovo_1465 interna...  215     5e-51
+OM858873.1 Tuber formosanum isolate ahll-2 internal transcribed s...  215     5e-51
+OQ984155.1 Tuber indicum isolate A1-1 small subunit ribosomal RNA...  215     5e-51
+OQ750214.1 Tuber formosanum voucher HMJAU65130 small subunit ribo...  215     5e-51
+OM287860.1 Tuber formosanum voucher BJTC FAN1196 small subunit ri...  215     5e-51
+OM287853.1 Tuber formosanum voucher BJTC FAN1180 small subunit ri...  215     5e-51
+OM287851.1 Tuber formosanum voucher BJTC FAN1178 small subunit ri...  215     5e-51
+MW602967.1 Tuber himalayense voucher LE 324101 internal transcrib...  215     5e-51
+MW514312.1 Tuber himalayense isolate NIBRFG0000505337 small subun...  215     5e-51
+AB553388.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  215     5e-51
+DQ375496.1 Tuber indicum isolate Tind-hl02 internal transcribed s...  215     5e-51
 LC415781.1 Tuber indicum YNB17136 genes for 18S rRNA, ITS1, 5.8S ...  213     2e-50
 LC415777.1 Tuber indicum YNB17131 genes for 18S rRNA, ITS1, 5.8S ...  213     2e-50
 LC415761.1 Tuber indicum YNB17115 genes for 18S rRNA, ITS1, 5.8S ...  213     2e-50
@@ -404,66 +405,66 @@ GU979073.1 Tuber indicum isolate T37_HKAS44988 18S ribosomal RNA ...  213     2e
 AB553427.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  213     2e-50
 AB553426.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  213     2e-50
 DQ375527.1 Tuber sinense isolate Tsin-hd02 18S ribosomal RNA gene...  213     2e-50
-LC410167.1 Tuber himalayense KYO4_Qa genes for 18S rRNA, ITS1, 5....  209     3e-49
-LC410166.1 Tuber himalayense KYO1_Qa genes for 18S rRNA, ITS1, 5....  209     3e-49
-LC410165.1 Tuber himalayense KYO0411_7_Pd genes for 18S rRNA, ITS...  209     3e-49
-LC410164.1 Tuber himalayense KYO0411_5_Pd genes for 18S rRNA, ITS...  209     3e-49
-LC410163.1 Tuber himalayense KYO3_Qa genes for 18S rRNA, ITS1, 5....  209     3e-49
-LC410152.1 Tuber himalayense OKA3_2_Qa genes for 18S rRNA, ITS1, ...  209     3e-49
-LC410151.1 Tuber himalayense OKA3_3_Qa genes for 18S rRNA, ITS1, ...  209     3e-49
-LC410150.1 Tuber himalayense KYO2_Qa genes for 18S rRNA, ITS1, 5....  209     3e-49
-LC312203.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  209     3e-49
-OQ235056.1 Tuber indicum isolate DL-Ti1 small subunit ribosomal R...  209     3e-49
-OQ054791.1 Tuber himalayense strain JJ22003 small subunit ribosom...  209     3e-49
-OQ054790.1 Tuber himalayense strain JJ22006 small subunit ribosom...  209     3e-49
-OQ054621.1 Tuber himalayense strain JJ22042 small subunit ribosom...  209     3e-49
-OQ054622.1 Tuber himalayense strain JJ22011 small subunit ribosom...  209     3e-49
-OQ054620.1 Tuber himalayense strain JJ22050 small subunit ribosom...  209     3e-49
-OQ054619.1 Tuber himalayense strain JJ22046 small subunit ribosom...  209     3e-49
-OQ054618.1 Tuber himalayense strain JJ22058 small subunit ribosom...  209     3e-49
-OQ054615.1 Tuber himalayense strain JJ22045 small subunit ribosom...  209     3e-49
-OQ054616.1 Tuber himalayense strain JJ22018 small subunit ribosom...  209     3e-49
-OQ054617.1 Tuber himalayense strain JJ22028 small subunit ribosom...  209     3e-49
-LC606027.1 Tuber himalayense TNS:F-64165 genes for 18S rRNA, ITS1...  209     3e-49
-MW403878.1 Tuber himalayense isolate 1001-2 small subunit ribosom...  209     3e-49
-MW393547.1 Tuber himalayense strain CB20001 small subunit ribosom...  209     3e-49
-AB553428.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  209     3e-49
-AB553398.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  209     3e-49
-AB553392.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  209     3e-49
-LC508589.1 Tuber longispinosum FFPRI 460530 genes for 18S rRNA, I...  207     1e-48
-LC508588.1 Tuber longispinosum FFPRI 460529 genes for 18S rRNA, I...  207     1e-48
-LC508587.1 Tuber longispinosum FFPRI 460528 genes for 18S rRNA, I...  207     1e-48
-LC508586.1 Tuber longispinosum FFPRI 460527 genes for 18S rRNA, I...  207     1e-48
-LC508585.1 Tuber longispinosum FFPRI 460526 genes for 18S rRNA, I...  207     1e-48
-LC410182.1 Tuber longispinosum 1_3_Qa genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410181.1 Tuber longispinosum 2_3_Qa genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410180.1 Tuber longispinosum daw genes for 18S rRNA, ITS1, 5.8S...  207     1e-48
-LC410179.1 Tuber longispinosum 2_1_Qa genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410178.1 Tuber longispinosum 3_1_Qa genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410177.1 Tuber longispinosum 1_2_Qa genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410176.1 Tuber longispinosum 4_1_Qp genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410175.1 Tuber longispinosum 3_1_Qp genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410174.1 Tuber longispinosum 4_3_Qs genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410171.1 Tuber longispinosum 3_3_Qs genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410170.1 Tuber longispinosum odaw1_Qs genes for 18S rRNA, ITS1,...  207     1e-48
-LC410169.1 Tuber longispinosum 2_2_Qs genes for 18S rRNA, ITS1, 5...  207     1e-48
-LC410168.1 Tuber longispinosum odaw4_Qs genes for 18S rRNA, ITS1,...  207     1e-48
-LC312204.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  207     1e-48
-LC606029.1 Tuber longispinosum TNS:F-70254 genes for 18S rRNA, IT...  207     1e-48
-LC606026.1 Tuber longispinosum TNS:F-64101 genes for 18S rRNA, IT...  207     1e-48
-MF627980.1 Tuber sinense voucher BJTC:FAN261 small subunit riboso...  207     1e-48
-AB553429.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553425.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553422.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553421.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553419.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553416.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553409.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553408.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     1e-48
-AB553394.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     1e-48
-AB553390.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     1e-48
-AB553389.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     1e-48
-FM205589.1 Tuber himalayense 18S rRNA gene (partial), ITS1, 5.8S ...  207     1e-48
+LC410167.1 Tuber himalayense KYO4_Qa genes for 18S rRNA, ITS1, 5....  209     2e-49
+LC410166.1 Tuber himalayense KYO1_Qa genes for 18S rRNA, ITS1, 5....  209     2e-49
+LC410165.1 Tuber himalayense KYO0411_7_Pd genes for 18S rRNA, ITS...  209     2e-49
+LC410164.1 Tuber himalayense KYO0411_5_Pd genes for 18S rRNA, ITS...  209     2e-49
+LC410163.1 Tuber himalayense KYO3_Qa genes for 18S rRNA, ITS1, 5....  209     2e-49
+LC410152.1 Tuber himalayense OKA3_2_Qa genes for 18S rRNA, ITS1, ...  209     2e-49
+LC410151.1 Tuber himalayense OKA3_3_Qa genes for 18S rRNA, ITS1, ...  209     2e-49
+LC410150.1 Tuber himalayense KYO2_Qa genes for 18S rRNA, ITS1, 5....  209     2e-49
+LC312203.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  209     2e-49
+OQ235056.1 Tuber indicum isolate DL-Ti1 small subunit ribosomal R...  209     2e-49
+OQ054791.1 Tuber himalayense strain JJ22003 small subunit ribosom...  209     2e-49
+OQ054790.1 Tuber himalayense strain JJ22006 small subunit ribosom...  209     2e-49
+OQ054621.1 Tuber himalayense strain JJ22042 small subunit ribosom...  209     2e-49
+OQ054622.1 Tuber himalayense strain JJ22011 small subunit ribosom...  209     2e-49
+OQ054620.1 Tuber himalayense strain JJ22050 small subunit ribosom...  209     2e-49
+OQ054619.1 Tuber himalayense strain JJ22046 small subunit ribosom...  209     2e-49
+OQ054618.1 Tuber himalayense strain JJ22058 small subunit ribosom...  209     2e-49
+OQ054615.1 Tuber himalayense strain JJ22045 small subunit ribosom...  209     2e-49
+OQ054616.1 Tuber himalayense strain JJ22018 small subunit ribosom...  209     2e-49
+OQ054617.1 Tuber himalayense strain JJ22028 small subunit ribosom...  209     2e-49
+LC606027.1 Tuber himalayense TNS:F-64165 genes for 18S rRNA, ITS1...  209     2e-49
+MW403878.1 Tuber himalayense isolate 1001-2 small subunit ribosom...  209     2e-49
+MW393547.1 Tuber himalayense strain CB20001 small subunit ribosom...  209     2e-49
+AB553428.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  209     2e-49
+AB553398.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  209     2e-49
+AB553392.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  209     2e-49
+LC508589.1 Tuber longispinosum FFPRI 460530 genes for 18S rRNA, I...  207     8e-49
+LC508588.1 Tuber longispinosum FFPRI 460529 genes for 18S rRNA, I...  207     8e-49
+LC508587.1 Tuber longispinosum FFPRI 460528 genes for 18S rRNA, I...  207     8e-49
+LC508586.1 Tuber longispinosum FFPRI 460527 genes for 18S rRNA, I...  207     8e-49
+LC508585.1 Tuber longispinosum FFPRI 460526 genes for 18S rRNA, I...  207     8e-49
+LC410182.1 Tuber longispinosum 1_3_Qa genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410181.1 Tuber longispinosum 2_3_Qa genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410180.1 Tuber longispinosum daw genes for 18S rRNA, ITS1, 5.8S...  207     8e-49
+LC410179.1 Tuber longispinosum 2_1_Qa genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410178.1 Tuber longispinosum 3_1_Qa genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410177.1 Tuber longispinosum 1_2_Qa genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410176.1 Tuber longispinosum 4_1_Qp genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410175.1 Tuber longispinosum 3_1_Qp genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410174.1 Tuber longispinosum 4_3_Qs genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410171.1 Tuber longispinosum 3_3_Qs genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410170.1 Tuber longispinosum odaw1_Qs genes for 18S rRNA, ITS1,...  207     8e-49
+LC410169.1 Tuber longispinosum 2_2_Qs genes for 18S rRNA, ITS1, 5...  207     8e-49
+LC410168.1 Tuber longispinosum odaw4_Qs genes for 18S rRNA, ITS1,...  207     8e-49
+LC312204.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  207     8e-49
+LC606029.1 Tuber longispinosum TNS:F-70254 genes for 18S rRNA, IT...  207     8e-49
+LC606026.1 Tuber longispinosum TNS:F-64101 genes for 18S rRNA, IT...  207     8e-49
+MF627980.1 Tuber sinense voucher BJTC:FAN261 small subunit riboso...  207     8e-49
+AB553429.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553425.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553422.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553421.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553419.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553416.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553409.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553408.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  207     8e-49
+AB553394.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     8e-49
+AB553390.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     8e-49
+AB553389.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  207     8e-49
+FM205589.1 Tuber himalayense 18S rRNA gene (partial), ITS1, 5.8S ...  207     8e-49
 OQ054794.1 Tuber himalayense strain JJ22005 internal transcribed ...  206     3e-48
 MK346106.1 Tuber indicum strain HB2 small subunit ribosomal RNA g...  204     1e-47
 MK346105.1 Tuber indicum strain HB1 small subunit ribosomal RNA g...  204     1e-47
@@ -505,21 +506,20 @@ MF627990.1 Tuber formosanum voucher BJTC:FAN735 small subunit rib...  204     1e
 MF627989.1 Tuber formosanum voucher BJTC:FAN734 small subunit rib...  204     1e-47
 MF627988.1 Tuber formosanum voucher BJTC:FAN720 small subunit rib...  204     1e-47
 AB553417.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  204     1e-47
-AB553424.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     5e-47
-AB553420.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     5e-47
-AB553412.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     5e-47
-AB553395.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  202     5e-47
-LC415637.1 Tuber formosanum YNB17163 genes for 18S rRNA, ITS1, 5....  200     2e-46
-OP978690.1 Tuber melanosporum strain T-1795 internal transcribed ...  200     2e-46
-OP978692.1 Tuber melanosporum strain T-1793 internal transcribed ...  200     2e-46
-LC312198.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  198     6e-46
-OQ054792.1 Tuber himalayense strain JJ22002 internal transcribed ...  198     6e-46
-AB553423.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  198     6e-46
+AB553424.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     4e-47
+AB553420.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     4e-47
+AB553412.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  202     4e-47
+AB553395.1 Tuber himalayense genes for ITS1, 5.8S rRNA, ITS2 and ...  202     4e-47
+LC415637.1 Tuber formosanum YNB17163 genes for 18S rRNA, ITS1, 5....  200     1e-46
+OP978690.1 Tuber melanosporum strain T-1795 internal transcribed ...  200     1e-46
+OP978692.1 Tuber melanosporum strain T-1793 internal transcribed ...  200     1e-46
+LC312198.1 Tuber himalayense genes for 18S rRNA, ITS 1, 5.8S rRNA...  198     5e-46
+OQ054792.1 Tuber himalayense strain JJ22002 internal transcribed ...  198     5e-46
+AB553423.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  198     5e-46
 LC410173.1 Tuber longispinosum 2_1_Qp genes for 18S rRNA, ITS1, 5...  196     2e-45
 LC410172.1 Tuber longispinosum 1_1_Qa genes for 18S rRNA, ITS1, 5...  196     2e-45
 AB553430.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  196     2e-45
 AB553413.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  196     2e-45
-AB553411.1 Tuber longispinosum genes for ITS1, 5.8S rRNA, ITS2 an...  196     2e-45
 
 
 >MN338092.1 Tuber melanosporum strain mel small subunit ribosomal RNA gene, 
@@ -1990,7 +1990,7 @@ internal transcribed spacer 2, complete sequence; and large
 subunit ribosomal RNA gene, partial sequence
 Length=598
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2013,7 +2013,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=582
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2040,7 +2040,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=582
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2063,7 +2063,7 @@ and 5.8S ribosomal RNA gene, complete sequence; and internal
 transcribed spacer 2, partial sequence
 Length=610
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2086,7 +2086,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=580
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2109,7 +2109,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=604
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2132,7 +2132,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=581
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2155,7 +2155,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=581
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2178,7 +2178,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=597
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2201,7 +2201,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=597
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2224,7 +2224,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=583
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2247,7 +2247,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=600
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2270,7 +2270,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=597
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2293,7 +2293,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=597
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2316,7 +2316,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=596
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2339,7 +2339,7 @@ RNA gene, and internal transcribed spacer 2, complete
 sequence; and large subunit ribosomal RNA gene, partial sequence
 Length=610
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2362,7 +2362,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=600
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2385,7 +2385,7 @@ RNA gene, complete sequence; and internal transcribed spacer
 2, partial sequence
 Length=571
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2408,7 +2408,7 @@ RNA gene, complete sequence; and internal transcribed
 spacer 2, partial sequence
 Length=610
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2431,7 +2431,7 @@ transcribed spacer 2, complete sequence; and 28S ribosomal RNA
 gene, partial sequence
 Length=604
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2454,7 +2454,7 @@ spacer 2, complete sequence; and 28S ribosomal RNA
 gene, partial sequence
 Length=603
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2477,7 +2477,7 @@ internal transcribed spacer 2, complete sequence; and 28S ribosomal
 RNA gene, partial sequence
 Length=632
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2500,7 +2500,7 @@ internal transcribed spacer 2, complete sequence; and 28S ribosomal
 RNA gene, partial sequence
 Length=638
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2523,7 +2523,7 @@ internal transcribed spacer 2, complete sequence; and 28S
 ribosomal RNA gene, partial sequence
 Length=661
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2545,7 +2545,7 @@ Sbjct  191  AGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  234
 transcribed spacer 2, partial sequence
 Length=551
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2568,7 +2568,7 @@ and internal transcribed spacer 2, complete sequence; and
 28S ribosomal RNA gene, partial sequence
 Length=590
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2590,7 +2590,7 @@ Sbjct  162  AGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  205
 complete sequence
 Length=533
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2613,7 +2613,7 @@ gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=619
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2636,7 +2636,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=590
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2659,7 +2659,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=584
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2682,7 +2682,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=583
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2705,7 +2705,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=589
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2728,7 +2728,7 @@ and 28S rRNA gene (partial), isolate 11MEL
 and 28S rRNA gene (partial), isolate 01NIG
 Length=581
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2755,7 +2755,7 @@ and internal transcribed spacer 2, complete sequence; and
 28S large subunit ribosomal RNA gene, partial sequence
 Length=619
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2776,7 +2776,7 @@ Sbjct  151  AGTATTTGATTATGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  194
 ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, clone iM05_P_1_B11
 Length=658
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2797,7 +2797,7 @@ Sbjct  189  AGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  232
 ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, clone iK14_P_2_E6
 Length=658
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2818,7 +2818,7 @@ Sbjct  189  AGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGCCAGATTTAG  232
 ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, clone 65
 Length=701
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2839,7 +2839,7 @@ Sbjct  185  AGTATTTGATTGTGCTGTCTAAGCTGGCCATGTGTCAGATTTAG  228
 ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, clone 33
 Length=654
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2862,7 +2862,7 @@ internal transcribed spacer 2, complete sequence; and 25S ribosomal
 RNA gene, partial sequence
 Length=620
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2885,7 +2885,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=619
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2908,7 +2908,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=610
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2931,7 +2931,7 @@ gene and internal transcribed spacer 2, complete sequence; and
 28S ribosomal RNA gene, partial sequence
 Length=620
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2954,7 +2954,7 @@ gene and internal transcribed spacer 2, complete sequence; and
 28S ribosomal RNA gene, partial sequence
 Length=620
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -2977,7 +2977,7 @@ gene and internal transcribed spacer 2, complete sequence; and
 28S ribosomal RNA gene, partial sequence
 Length=620
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3000,7 +3000,7 @@ ribosomal RNA gene and internal transcribed spacer 2, complete
 sequence; and 25S ribosomal RNA gene, partial sequence
 Length=618
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3023,7 +3023,7 @@ RNA gene and internal transcribed spacer 2, complete
 sequence; and 25S ribosomal RNA gene, partial sequence
 Length=620
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 164/165 (99%), Gaps = 1/165 (1%)
  Strand=Plus/Plus
 
@@ -3046,7 +3046,7 @@ transcribed spacer 2, complete sequence; and 28S ribosomal
 RNA gene, partial sequence
 Length=606
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3073,7 +3073,7 @@ and internal transcribed spacer 2, complete sequence; and
 28S large subunit ribosomal RNA gene, partial sequence
 Length=607
 
- Score = 298 bits (161),  Expect = 6e-76
+ Score = 298 bits (161),  Expect = 5e-76
  Identities = 163/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3186,7 +3186,7 @@ internal transcribed spacer 2, complete sequence; and 28S ribosomal
 RNA gene, partial sequence
 Length=635
 
- Score = 294 bits (159),  Expect = 7e-75
+ Score = 294 bits (159),  Expect = 6e-75
  Identities = 162/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3207,7 +3207,7 @@ Sbjct  177  AGTATTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  220
 and 5.8S rRNA gene, isolate C_RRF
 Length=251
 
- Score = 292 bits (158),  Expect = 3e-74
+ Score = 292 bits (158),  Expect = 2e-74
  Identities = 162/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3228,7 +3228,7 @@ Sbjct  151  AGTGTTTGATTGTGCTGTCTGAGCTGGCCATGTGTCAGATTTAG  194
 ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, clone 64
 Length=658
 
- Score = 292 bits (158),  Expect = 3e-74
+ Score = 292 bits (158),  Expect = 2e-74
  Identities = 162/164 (99%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3251,7 +3251,7 @@ transcribed spacer 2, complete sequence; and large subunit
 ribosomal RNA gene, partial sequence
 Length=581
 
- Score = 291 bits (157),  Expect = 9e-74
+ Score = 291 bits (157),  Expect = 8e-74
  Identities = 162/164 (99%), Gaps = 2/164 (1%)
  Strand=Plus/Plus
 
@@ -3274,7 +3274,7 @@ and internal transcribed spacer 2, complete sequence; and
 28S ribosomal RNA gene, partial sequence
 Length=573
 
- Score = 291 bits (157),  Expect = 9e-74
+ Score = 291 bits (157),  Expect = 8e-74
  Identities = 161/164 (98%), Gaps = 0/164 (0%)
  Strand=Plus/Plus
 
@@ -3297,7 +3297,7 @@ ribosomal RNA gene and internal transcribed spacer 2, complete
 sequence; and 25S ribosomal RNA gene, partial sequence
 Length=608
 
- Score = 291 bits (157),  Expect = 9e-74
+ Score = 291 bits (157),  Expect = 8e-74
  Identities = 162/164 (99%), Gaps = 1/164 (1%)
  Strand=Plus/Plus
 
@@ -3342,7 +3342,7 @@ RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3365,7 +3365,7 @@ RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3388,7 +3388,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3411,7 +3411,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3434,7 +3434,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3457,7 +3457,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=542
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3480,7 +3480,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=542
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3503,7 +3503,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3526,7 +3526,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3549,7 +3549,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3572,7 +3572,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3599,7 +3599,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3622,7 +3622,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=542
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3729,7 +3729,7 @@ RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=543
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3752,7 +3752,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=539
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3774,7 +3774,7 @@ spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete
 sequence; and internal transcribed spacer 2, partial sequence
 Length=539
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3796,7 +3796,7 @@ spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete
 sequence; and internal transcribed spacer 2, partial sequence
 Length=540
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3818,7 +3818,7 @@ spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete
 sequence; and internal transcribed spacer 2, partial sequence
 Length=540
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3840,7 +3840,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
 and internal transcribed spacer 2, partial sequence
 Length=550
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3862,7 +3862,7 @@ partial sequence; 5.8S ribosomal RNA gene, complete sequence;
 and internal transcribed spacer 2, partial sequence
 Length=550
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3884,7 +3884,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
 and internal transcribed spacer 2, partial sequence
 Length=550
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3911,7 +3911,7 @@ ribosomal RNA gene, and internal transcribed spacer 2, complete
 sequence; and 28S ribosomal RNA gene, partial sequence
 Length=540
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3932,7 +3932,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
  AJ583826.1 Tuber melanosporum ITS1, 5.8S rRNA gene, and ITS2, isolate M110
 Length=539
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3954,7 +3954,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
  AJ583569.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isolate M212
 Length=550
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3974,7 +3974,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
 >AJ583565.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isolate M127
 Length=536
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -3994,7 +3994,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
 >AJ583564.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isolate M122
 Length=542
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -4081,7 +4081,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
  AJ583636.1 Tuber melanosporum 5.8S rRNA gene, ITS1 and ITS2, isolate M278
 Length=550
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -4105,7 +4105,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
  AJ459577.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isolate M59
 Length=535
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -4147,7 +4147,7 @@ Sbjct  121  CTGTCTGAGCTGGCCATGTGTCAGATTTAG  150
  AJ459582.1 Tuber melanosporum ITS1, 5.8S rRNA gene and ITS2, isolate M35
 Length=560
 
- Score = 278 bits (150),  Expect = 7e-70
+ Score = 278 bits (150),  Expect = 6e-70
  Identities = 150/150 (100%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -4170,7 +4170,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=611
 
- Score = 276 bits (149),  Expect = 3e-69
+ Score = 276 bits (149),  Expect = 2e-69
  Identities = 160/165 (97%), Gaps = 1/165 (1%)
  Strand=Plus/Plus
 
@@ -4193,7 +4193,7 @@ complete sequence; and internal transcribed spacer 2, partial
 sequence
 Length=601
 
- Score = 274 bits (148),  Expect = 9e-69
+ Score = 274 bits (148),  Expect = 8e-69
  Identities = 159/164 (97%), Gaps = 1/164 (1%)
  Strand=Plus/Plus
 
@@ -4215,7 +4215,7 @@ transcribed spacer 1, 5.8S ribosomal RNA gene, internal
 transcribed spacer 2, and 28S ribosomal RNA gene, region
 Length=574
 
- Score = 274 bits (148),  Expect = 9e-69
+ Score = 274 bits (148),  Expect = 8e-69
  Identities = 151/152 (99%), Gaps = 1/152 (1%)
  Strand=Plus/Plus
 
@@ -4237,7 +4237,7 @@ Sbjct  121  TGCTGTCTGAGCTGGCCATG-GTCAGATTTAG  151
 and internal transcribed spacer 2, partial sequence
 Length=550
 
- Score = 274 bits (148),  Expect = 9e-69
+ Score = 274 bits (148),  Expect = 8e-69
  Identities = 149/150 (99%), Gaps = 0/150 (0%)
  Strand=Plus/Plus
 
@@ -4828,7 +4828,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=561
 
- Score = 265 bits (143),  Expect = 6e-66
+ Score = 265 bits (143),  Expect = 5e-66
  Identities = 143/143 (100%), Gaps = 0/143 (0%)
  Strand=Plus/Plus
 
@@ -4849,7 +4849,7 @@ Sbjct  121  AGCTGGCCATGTGTCAGATTTAG  143
 isolate F047
 Length=464
 
- Score = 259 bits (140),  Expect = 3e-64
+ Score = 259 bits (140),  Expect = 2e-64
  Identities = 141/142 (99%), Gaps = 0/142 (0%)
  Strand=Plus/Plus
 
@@ -4893,7 +4893,7 @@ sequence; and large subunit ribosomal RNA gene, partial
 sequence
 Length=642
 
- Score = 248 bits (134),  Expect = 6e-61
+ Score = 248 bits (134),  Expect = 5e-61
  Identities = 153/162 (94%), Gaps = 1/162 (1%)
  Strand=Plus/Plus
 
@@ -4917,7 +4917,7 @@ sequence; and large subunit ribosomal RNA gene, partial
 sequence
 Length=647
 
- Score = 248 bits (134),  Expect = 6e-61
+ Score = 248 bits (134),  Expect = 5e-61
  Identities = 153/162 (94%), Gaps = 1/162 (1%)
  Strand=Plus/Plus
 
@@ -4940,7 +4940,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and large subunit ribosomal RNA gene, partial sequence
 Length=640
 
- Score = 243 bits (131),  Expect = 3e-59
+ Score = 243 bits (131),  Expect = 2e-59
  Identities = 151/161 (94%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -4963,7 +4963,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and large subunit ribosomal RNA gene, partial sequence
 Length=644
 
- Score = 243 bits (131),  Expect = 3e-59
+ Score = 243 bits (131),  Expect = 2e-59
  Identities = 151/161 (94%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -4986,7 +4986,7 @@ spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=543
 
- Score = 231 bits (125),  Expect = 6e-56
+ Score = 231 bits (125),  Expect = 5e-56
  Identities = 125/125 (100%), Gaps = 0/125 (0%)
  Strand=Plus/Plus
 
@@ -5077,7 +5077,7 @@ spacer 2, complete sequence; and 28S ribosomal RNA
 gene, partial sequence
 Length=543
 
- Score = 228 bits (123),  Expect = 7e-55
+ Score = 228 bits (123),  Expect = 6e-55
  Identities = 123/123 (100%), Gaps = 0/123 (0%)
  Strand=Plus/Plus
 
@@ -5100,7 +5100,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and large subunit ribosomal RNA gene, partial sequence
 Length=640
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5123,7 +5123,7 @@ RNA gene, complete sequence; and internal transcribed spacer
 2, partial sequence
 Length=632
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5147,7 +5147,7 @@ sequence; and large subunit ribosomal RNA gene, partial
 sequence
 Length=621
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5170,7 +5170,7 @@ gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=612
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5197,7 +5197,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=566
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5220,7 +5220,7 @@ transcribed spacer 2, complete sequence; and large subunit
 ribosomal RNA gene, partial sequence
 Length=621
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5244,7 +5244,7 @@ complete sequence; and large subunit ribosomal RNA gene, partial
 sequence
 Length=627
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5267,7 +5267,7 @@ transcribed spacer 2, complete sequence; and large subunit
 ribosomal RNA gene, partial sequence
 Length=618
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5289,7 +5289,7 @@ partial sequence; 5.8S ribosomal RNA gene, complete sequence;
 and internal transcribed spacer 2, partial sequence
 Length=635
 
- Score = 226 bits (122),  Expect = 3e-54
+ Score = 226 bits (122),  Expect = 2e-54
  Identities = 148/161 (92%), Gaps = 0/161 (0%)
  Strand=Plus/Plus
 
@@ -5310,7 +5310,7 @@ Sbjct  181  TACTTGATTATGCTGTCTGAGCTGGCCATGTGTCAGATTTA  221
 28S rRNA, partial and complete sequence
 Length=595
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5331,7 +5331,7 @@ Sbjct  146  AGTATTTGATCACGCCGTCTGAGCTGGCCACGTGTCAGATTTA  188
 28S rRNA, partial and complete sequence
 Length=596
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5352,7 +5352,7 @@ Sbjct  147  AGTATTTGATCACGCCGTCTGAGCTGGCCACGTGTCAGATTTA  189
 rRNA, partial and complete sequence, isolate: BSH1-12
 Length=606
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Minus
 
@@ -5373,7 +5373,7 @@ Sbjct  427  AGTATTTGATTACGCCGTCTGAGCTGGCCATGTGTCAGATTTA  385
 rRNA, partial and complete sequence, isolate: BSH1-11
 Length=606
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Minus
 
@@ -5396,7 +5396,7 @@ spacer 2, complete sequence; and 28S ribosomal RNA
 gene, partial sequence
 Length=551
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 121/121 (100%), Gaps = 0/121 (0%)
  Strand=Plus/Plus
 
@@ -5420,7 +5420,7 @@ sequence; and large subunit ribosomal RNA gene, partial
 sequence
 Length=610
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5443,7 +5443,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=621
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5466,7 +5466,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=624
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5489,7 +5489,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=624
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5512,7 +5512,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=621
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5535,7 +5535,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=624
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5558,7 +5558,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=619
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5581,7 +5581,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=621
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5604,7 +5604,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=619
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5627,7 +5627,7 @@ transcribed spacer 2, complete sequence; and large subunit ribosomal
 RNA gene, partial sequence
 Length=617
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5650,7 +5650,7 @@ spacer 2, complete sequence; and 28S ribosomal RNA gene, partial
 sequence
 Length=580
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5673,7 +5673,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=646
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5696,7 +5696,7 @@ RNA gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=635
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5719,7 +5719,7 @@ gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=615
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5742,7 +5742,7 @@ gene, and internal transcribed spacer 2, complete sequence;
 and 28S ribosomal RNA gene, partial sequence
 Length=611
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 149/163 (91%), Gaps = 0/163 (0%)
  Strand=Plus/Plus
 
@@ -5762,7 +5762,7 @@ Sbjct  151  AGTATTTGATTACGCCGTCTGAGCTGGCCATGTGTCAGATTTA  193
 >Y09789.1 T.melanosporum ITS DNA, isolate ascocarpe M1
 Length=442
 
- Score = 224 bits (121),  Expect = 1e-53
+ Score = 224 bits (121),  Expect = 8e-54
  Identities = 135/141 (96%), Gaps = 3/141 (2%)
  Strand=Plus/Plus
 
@@ -6453,7 +6453,7 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 384696844739840
+Effective search space used: 335288764830336
 
 
   Database: Nucleotide collection (nt)

@@ -1,0 +1,26 @@
+# STOCKHOLM 1.0
+#=GF ID 168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned
+#=GF AU hmmsearch (HMMER 3.4)
+
+#=GS CAZ86302.1/8-399 DE [subseq from] unnamed protein product [Tuber melanosporum]
+
+CAZ86302.1/8-399         -----------------STTAPTRYKKPNYHLLHALPLPLSVSPLPPLIPHNPLSLIHIIIAYL--FPSNP-SHPSPLHRGFFHASTRSVHITDPETIKAFWNHGFFGKGNLSRSEPTWVTRRRRALGVigrDEALTAEEVTERRRGERKEFKKERARLEKEKLDRQLAEEGKLNPEGNEDQ------------------
+#=GR CAZ86302.1/8-399 PP .................477899*****************************************..44555.78******************************************************9********************************************777776655..................
+#=GC PP_cons             .................477899*****************************************..44555.78******************************************************9...*****************************************777776655..................
+#=GC RF                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CAZ86302.1/8-399         ----EGT------GSGSSSSAARAVHFAPL--------ESPSSRRRSLERPVADVEDIEHLQLTLEEAFFLSFGLGVLELTDADTNKKISQKDMLRLFRGHACFPPRDPQSSFEPDDPFMLSYVVYHHFRSLGWVVKPGVKFAVDYLLYNRGPVFSHAEFGVLILPAYSHTHWANDKsrkEGKELRPWHWLHSINRVSSQ
+#=GR CAZ86302.1/8-399 PP ....222......23445666777887665........3456666777999****************************************************************************************************************************9988888999***************
+#=GC PP_cons             ....222......23445666777887665........3456666777999****************************************************************************************************************************99...88999***************
+#=GC RF                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxx
+
+CAZ86302.1/8-399         VKKTVVLVFVEVPPPLDD---DGKIGVADLLARYSVREVALRRWLVSRNRD-----------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR CAZ86302.1/8-399 PP ****************85...7899*************************8.....................................................................................................................................................
+#=GC PP_cons             ****************85...7899*************************8.....................................................................................................................................................
+#=GC RF                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CAZ86302.1/8-399         --------------------------------------------------------------------------------------
+#=GR CAZ86302.1/8-399 PP ......................................................................................
+#=GC PP_cons             ......................................................................................
+#=GC RF                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

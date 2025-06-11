@@ -8,7 +8,7 @@ Comput Biol 2000; 7(1-2):203-14.
 
 
 Database: 16S ribosomal RNA (Bacteria and Archaea type strains)
-           27,035 sequences; 39,158,143 total letters
+           27,204 sequences; 39,404,289 total letters
 
 
 
@@ -28,13 +28,13 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 5433623658
+Effective search space used: 5467782177
 
 
   Database: 16S ribosomal RNA (Bacteria and Archaea type strains)
-    Posted date:  Apr 29, 2025  5:36 AM
-  Number of letters in database: 39,158,143
-  Number of sequences in database:  27,035
+    Posted date:  May 24, 2025  5:36 AM
+  Number of letters in database: 39,404,289
+  Number of sequences in database:  27,204
 
 
 

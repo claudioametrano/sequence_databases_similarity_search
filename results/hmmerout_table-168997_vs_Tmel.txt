@@ -1,0 +1,14 @@
+#                                                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAZ86302.1           -          168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned -           7.1e-171  569.1   7.6  6.2e-170  566.0   7.6   1.9   1   1   0   1   1   1   1 unnamed protein product [Tuber melanosporum]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm
+# Target file:     ./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa
+# Option settings: /usr/local/bin/hmmsearch -o ./results/hmmerout-168997_vs_Tmel.txt -A ./results/hmmerout_alignment-168997_vs_Tmel.txt --tblout ./results/hmmerout_table-168997_vs_Tmel.txt -E 1e-5 --cpu 4 ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm ./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa 
+# Current dir:     /usr/people/EDVZ/ametrano/sequence_databases_similarity_search
+# Date:            Wed Jun 11 13:20:36 2025
+# [ok]

@@ -1,0 +1,69 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Small subunit ribosomal nucleic acid for Eukaryotes
+           8,784 sequences; 15,817,265 total letters
+
+
+
+Query= Who_am_i_?
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Z33469.1 Neomeris dumetosa small subunit ribosomal RNA gene, part...  31.9    0.53 
+MF077710.1 Archimisophria discoveryi small subunit ribosomal RNA ...  30.1    1.8  
+
+
+>Z33469.1 Neomeris dumetosa small subunit ribosomal RNA gene, partial sequence
+Length=1784
+
+ Score = 31.9 bits (34),  Expect = 0.53
+ Identities = 28/34 (82%), Gaps = 1/34 (3%)
+ Strand=Plus/Plus
+
+Query  75    GTTAAGTGACCATGCTGGCACC-TGTGGGAGATC  107
+             ||| ||||||| ||| |||||| |||| || |||
+Sbjct  1049  GTTTAGTGACCCTGCCGGCACCCTGTGAGAAATC  1082
+
+
+>MF077710.1 Archimisophria discoveryi small subunit ribosomal RNA gene, partial 
+sequence
+Length=1681
+
+ Score = 30.1 bits (32),  Expect = 1.8
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  128   GATTGTGCTGTCTGAG  143
+             ||||||||||||||||
+Sbjct  1632  GATTGTGCTGTCTGAG  1647
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2184902860
+
+
+  Database: Small subunit ribosomal nucleic acid for Eukaryotes
+    Posted date:  Dec 5, 2022  10:18 AM
+  Number of letters in database: 15,817,265
+  Number of sequences in database:  8,784
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

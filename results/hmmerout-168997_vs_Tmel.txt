@@ -1,0 +1,97 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm
+# target sequence database:        ./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa
+# output directed to file:         ./results/hmmerout-168997_vs_Tmel.txt
+# MSA of all hits saved to file:   ./results/hmmerout_alignment-168997_vs_Tmel.txt
+# per-seq hits tabular output:     ./results/hmmerout_table-168997_vs_Tmel.txt
+# sequence reporting threshold:    E-value <= 1e-05
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned  [M=680]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   7.1e-171  569.1   7.6   6.2e-170  566.0   7.6    1.9  1  CAZ86302.1  unnamed protein product [Tuber melanosporum]
+
+
+Domain annotation for each sequence (and alignments):
+>> CAZ86302.1  unnamed protein product [Tuber melanosporum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  566.0   7.6  8.3e-174  6.2e-170      18     445 ..       8     399 .]       1     399 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 566.0 bits;  conditional E-value: 8.3e-174
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned  18 kkkrkkrpkrpnlnqiyrkplPievfpLPaliphNPlSllsvalsyls 65 
+                                                                    ++++++r k+pn++ ++++plP++v+pLP+liphNPlSl++++++yl 
+                                                     CAZ86302.1   8 STTAPTRYKKPNYHLLHALPLPLSVSPLPPLIPHNPLSLIHIIIAYL- 54 
+                                                                    477899*****************************************. PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned  66 qlisppssepsevyvgyfssetssvhVtDeksiraLWeqGFFGKGsLS 113
+                                                                     + s p s+ps+++ g+f+ +t+svh+tD+++i+a W++GFFGKG+LS
+                                                     CAZ86302.1  55 -FPSNP-SHPSPLHRGFFHASTRSVHITDPETIKAFWNHGFFGKGNLS 100
+                                                                    .44555.78*************************************** PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 114 RSEPtWlerekkRlgl...eegktsEevTrqRReeRrefKleRarlek 158
+                                                                    RSEPtW +r+++ lg+   +e+ t+EevT++RR eR+efK+eRarlek
+                                                     CAZ86302.1 101 RSEPTWVTRRRRALGVigrDEALTAEEVTERRRGERKEFKKERARLEK 148
+                                                                    ***************9******************************** PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 159 eaieqrlkeeaaaresgeaeeeellalenskekleelrkkesangtss 206
+                                                                    e+++++l ee +++ +g++++                      +gt  
+                                                     CAZ86302.1 149 EKLDRQLAEEGKLNPEGNEDQ----------------------EGT-- 172
+                                                                    ************777776655......................222.. PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 207 asqdseskklkreksvrfsptvedtefessdppspesseeeeeeeien 254
+                                                                         + ++++  + v+f p         ++p+s ++s e+   ++e+
+                                                     CAZ86302.1 173 ----GSGSSSSAARAVHFAPL--------ESPSSRRRSLERPVADVED 208
+                                                                    ....23445666777887665........3456666777999****** PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 255 lEhLqLspeEafFLsyaLgvlevvdpetkkvlstssLlslfrqhsyfP 302
+                                                                     EhLqL++eEafFLs++Lgvle +d +t+k +s++++l+lfr h+ fP
+                                                     CAZ86302.1 209 IEHLQLTLEEAFFLSFGLGVLELTDADTNKKISQKDMLRLFRGHACFP 256
+                                                                    ************************************************ PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 303 prsasaslepddpFllsYvVYHHFRSlGWvvRsGiKFGvDyLLYkRGP 350
+                                                                    pr++++s+epddpF+lsYvVYHHFRSlGWvv++G+KF+vDyLLY+RGP
+                                                     CAZ86302.1 257 PRDPQSSFEPDDPFMLSYVVYHHFRSLGWVVKPGVKFAVDYLLYNRGP 304
+                                                                    ************************************************ PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 351 vFsHAEFavvvlpsysdpywsete...kekqeksWwwlhcvnRVqsqV 395
+                                                                    vFsHAEF+v++lp+ys+++w +++   + k+ + W+wlh++nRV sqV
+                                                     CAZ86302.1 305 VFSHAEFGVLILPAYSHTHWANDKsrkEGKELRPWHWLHSINRVSSQV 352
+                                                                    **********************9988888999**************** PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 396 kKtLVlvYVdvPppaefeekaskedigalLkrYkvrEvlvrRWvpnRn 443
+                                                                    kKt Vlv+V+vPpp +    + k ++++lL+rY+vrEv +rRW+++Rn
+                                                     CAZ86302.1 353 KKTVVLVFVEVPPPLDD---DGKIGVADLLARYSVREVALRRWLVSRN 397
+                                                                    ***************85...7899************************ PP
+
+  168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned 444 Rd 445
+                                                                    Rd
+                                                     CAZ86302.1 398 RD 399
+                                                                    *8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (680 nodes)
+Target sequences:                       7496  (3280570 residues searched)
+Passed MSV filter:                       772  (0.102988); expected 149.9 (0.02)
+Passed bias filter:                      352  (0.0469584); expected 149.9 (0.02)
+Passed Vit filter:                        72  (0.00960512); expected 7.5 (0.001)
+Passed Fwd filter:                        23  (0.0030683); expected 0.1 (1e-05)
+Initial search space (Z):               7496  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.24u 0.02s 00:00:00.26 Elapsed: 00:00:00.25
+# Mc/sec: 8624.93
+//
+# Alignment of 1 hits satisfying inclusion thresholds saved to: ./results/hmmerout_alignment-168997_vs_Tmel.txt
+[ok]

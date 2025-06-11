@@ -9,7 +9,7 @@ Comput Biol 2000; 7(1-2):203-14.
 
 Database: Internal transcribed spacer region (ITS) from Fungi type and
 reference material
-           18,500 sequences; 10,990,630 total letters
+           18,548 sequences; 11,018,584 total letters
 
 
 
@@ -29,14 +29,14 @@ Gapped
 Lambda      K        H
     1.28    0.460    0.850 
 
-Effective search space used: 1516104590
+Effective search space used: 1519957868
 
 
   Database: Internal transcribed spacer region (ITS) from Fungi type and
 reference material
-    Posted date:  Apr 30, 2025  5:36 AM
-  Number of letters in database: 10,990,630
-  Number of sequences in database:  18,500
+    Posted date:  Jun 6, 2025  5:36 AM
+  Number of letters in database: 11,018,584
+  Number of sequences in database:  18,548
 
 
 

@@ -34,7 +34,7 @@ Effective search space used: 1535264302
 
   Database: 28S ribosomal RNA sequences (LSU) from Fungi type and reference
 material
-    Posted date:  May 1, 2025  5:36 AM
+    Posted date:  Jun 5, 2025  5:36 AM
   Number of letters in database: 10,974,548
   Number of sequences in database:  11,354
 

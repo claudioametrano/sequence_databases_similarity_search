@@ -32,7 +32,7 @@ Effective search space used: 8308519470
 
 
   Database: ITS eukaryote BLAST
-    Posted date:  Apr 28, 2025  5:36 AM
+    Posted date:  Jun 2, 2025  5:36 AM
   Number of letters in database: 60,710,056
   Number of sequences in database:  77,582
 
