@@ -92,7 +92,7 @@ What are the different databases?**
 >- Are these sequences representing the same locus/i? How would you assess this?
 > Why they vary so much in length?
 
-> Once done with the query, sort sequecne by lenght and download the file as tuber_rDNA.fasta
+> Once done with the query, sort sequecne by lenght and download the file as tuber_rDNA.fasta and upload in in results/task1/
 ______________________________________________________________________
 
 ### 2- Sequence Alignment 
