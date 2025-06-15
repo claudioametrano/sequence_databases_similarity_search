@@ -371,7 +371,7 @@ $ singularity exec blast\:2.16.0--h66d330f_4 makeblastdb -in ./data/GCA_00015164
 
 $ singularity exec blast\:2.16.0--h66d330f_4 blastp -num_threads 4 -evalue 1e-5 -query ./data/168997at4890_tRNA-splicing_endonuclease_subunit.fasta -db ./results/GCA_000151645.1_protein_db -out ./results/blastout_168997at4890_protein_vs_GCA_000151645.1_protein_db.txt
 
-$ grep "significant"  blastout_168997at4890_protein_vs_GCA_000151645.1_protein_db.txt
+$ grep "significant" results/ blastout_168997at4890_protein_vs_GCA_000151645.1_protein_db.txt
 ```
 In this case the output is equivalent, except HMMER is able to compare the profile containing all the in formation of a multifasta, outputting only one alignment, with the advantage of also being faster here (one blastp search alone, would be faster though).
 On less straightforward, more variable/distantly related sequences, HMMER methods have an advantage, but for both methods the reference query sequences are crucial.
