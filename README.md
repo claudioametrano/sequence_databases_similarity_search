@@ -325,16 +325,15 @@ d->i and i->d are not modeled (it simplify the model without reducing its power)
 ```bash 
 $ wget https://busco-data.ezlab.org/v5/data/lineages/ascomycota_odb12.2025-04-11.tar.gz
 
-$ mv ascomycota_odb12.2025-04-11.tar.gz data/
+$ mv ascomycota_odb12.2025-04-11.tar.gz results/
 
-$ tar -xvzf data/ascomycota_odb12.2025-04-11.tar.gz -C data/
+$ tar -xvzf results/ascomycota_odb12.2025-04-11.tar.gz -C results/
 ```
- You may think about it as block profile with simple position-specific residue frequencies (no gaps; from AUGUSTUS)
+ Two file format, one position-specific residue frequencies (from AUGUSTUS)
 ```bash
-less ./data/ascomycota_odb12/prfl/555at4890.prfl
+less ./results/ascomycota_odb12/prfl/555at4890.prfl
 ```
-... but it is a little more complex than this...
-open a profile-HMM
+...and the actual profile-HMM file used for BUSCO search
 ```bash
 less ./data/ascomycota_odb12/hmms/555at4890.hmm
 ```
