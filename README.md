@@ -41,7 +41,9 @@ We will work on the HPC cluster (High Performance Computing) using Singularity a
 You can either run commands interactively with the container  staying open (`singularity shell`)
 ```bash
 $ singularity pull https://container_address/container_name
+```
 
+```bash
 $ singularity shell container_name # Start the shell  showing  Sungularity> as long as you stay in the container
  
 $ commands you want to run 
