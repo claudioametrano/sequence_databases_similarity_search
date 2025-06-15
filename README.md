@@ -203,7 +203,7 @@ singularity exec blast:2.16.0--h66d330f_4 blastp -query query.fasta -db path/to/
 > - With what blast command would you start? Is any other blast tool suitable?
 > - Why you are not getting meaningful results? How can you try solve it? (hint: did you run it at default parameters?)
 > - What locus/i is it? How can you visualize this? (hint: do you have "by chance", among the file we produced, one that can help?) 
-> - To what organism does the sequence belongs?... Can you tell without any doubt?
+> - To what organism does the sequence belong?... Can you tell without any doubt?
 
 ![DNA](images/rDNA.png)
 
