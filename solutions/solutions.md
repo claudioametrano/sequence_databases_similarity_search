@@ -110,7 +110,7 @@ for db in "${databases[@]}"; do
     # blastn command
     singularity exec blast:2.16.0--h66d330f_4 blastn \
         -query ./data/sequence.fasta \
-        -db "./data/NCBI_databases/${db}" \
+        -db "./results/NCBI_databases/${db}" \
         -num_threads 4 \
         -out "./results/task3/blastout_relaxed_sequence_vs_${db}.txt" \
         -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -word_size 7
@@ -123,9 +123,9 @@ $ cat results/task3/blastout_relaxed_sequence_vs_*
 we got hits! quite short but we have some.
 Parse the output (but we do not know from which database the hits come from, except for the name of hits):
 ``` bash
-$ cat results/task3/blastout_relaxed_sequence_vs_* | grep -A 2 --with-filename "significant alignments"
+$ grep  -A 2 --with-filename "significant alignments" results/task3/blastout_relaxed_sequence_vs_*
 ```
-Better luck with:
+Or also...
 ```bash
 $ find ./results/task3 -name blastout_relaxed_sequence_vs_* -exec  grep -A 2 --with-filename "significant alignments" {} \;
 ```
@@ -135,15 +135,15 @@ It is an ITS from Fungi, putatively *Tuber cryptobrumale*
 
 To clearly delimit which ITS we can build a MSA that more clearly shows the boundaries of each locus in rDNA, for example using task1 tuber_rDNA.fas file:
 ```bash
-# get the first (longest) seqs from file
-$ head -n 3000 ./results/task1/tuber_rDNA.fas > results/task3/tuber_rDNA_longest_plus_sequence.fas
+# get the first (the longest, if you sorted them in the beginning) seqs from file
+$ head -n 3000 ./results/task1/tuber_rDNA.fasta > results/task3/tuber_rDNA_longest_plus_sequence.fas
 # add the query sequence
 $ cat ./data/sequence.fasta >> results/task3/tuber_rDNA_longest_plus_sequence.fas
-
+# Here you can grep -c the fasta, to see how many you got
 $ singularity exec mafft\:7.525--h031d066_1 mafft --thread 4 results/task3/tuber_rDNA_longest_plus_sequence.fas > results/task3/tuber_rDNA_longest_plus_sequence_mafft_aligned.fas
 ```
 download and visualize in aliview (or similar software). 
-The file in results/backup is manually edited to keep only meaningful sequences, as downloaded sequence are often non-overlapping portions of rDNA. It is an ITS1.
+The file in results_backup is manually edited to keep only meaningful sequences, as downloaded sequence are often non-overlapping portions of rDNA. It is an ITS1.
 
 ### **TASK 4**
 
