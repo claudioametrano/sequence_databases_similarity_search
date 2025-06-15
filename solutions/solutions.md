@@ -56,11 +56,11 @@ $ mkdir results/task3
 ```
 First check file integrity and unzip the databases 
 ```shell
-$ cd data/NCBI_databases/
+$ cd results/NCBI_databases/
 $ md5sum -c *.md5
 $ cd -
 
-$ for i in ./data/NCBI_databases/*.gz ; do tar -xvzf $i -C ./data/NCBI_databases; done
+$ for i in ./results/NCBI_databases/*.gz ; do tar -xvzf $i -C ./results/NCBI_databases; done
 
 ```
 Check the fasta:
