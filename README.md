@@ -96,7 +96,7 @@ What are the different databases?**
 ______________________________________________________________________
 
 ### 2- Sequence Alignment 
-All nice and useful but... most of the time, we want to interrogate these database with a query that is a sequence itself! Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
+All nice and useful but... Let's say you just got your shiny sequence of a possibly uknown organism out of a Sanger sequencing run, most of the time, we want to interrogate these database with a query that is a sequence itself, not a species name. Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
 One widely used example is **[Basic Local Alignment Search Tool: BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)**
 It has the enormous advantage to be developed by NBCI itself and it is integrated in its web-services. Let's take a look at what it can do!
 
