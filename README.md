@@ -182,7 +182,7 @@ $ mv SSU_eukaryote_rRNA* results/
 
 $ md5sum -c *.md5 # check downloaded files integrity
 ```
-Download some compact databases for common rDNA barcode markers: **SSU_eukaryote_rRNA, LSU_prokaryote_rRNA, LSU_eukaryote_rRNA,  ITS_RefSeq_Fungi, ITS_eukaryote, 28S_fungal, 18S_fungal,  16S_ribosomal_RNA **
+Download some compact databases for common rDNA barcode markers: **SSU_eukaryote_rRNA, LSU_prokaryote_rRNA, LSU_eukaryote_rRNA,  ITS_RefSeq_Fungi, ITS_eukaryote_sequences, 28S_fungal_sequences, 18S_fungal_sequences,  16S_ribosomal_RNA **
 
 
 Example of protein-protein BLAST (blastp) query example:
