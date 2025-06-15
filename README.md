@@ -107,10 +107,9 @@ Highly similar sequences will have stretches of similarity, we can pre-screen th
 
 BLAST algorithm steps:
 1. Split query into overlapping **words of length W** (the W-mers)
-2. Find a **“neighborhood” of similar words** for each word (see below)
-3. Lookup each word in the neighborhood in a hash table to **find the location in the database** where each word occurs. Call these the **seeds**.
-4. Extend the seeds (Smith-Waterman algorithm for local alignment) until the score of the alignment drops off below some threshold _X_.
-5. Report matches with overall highest scores
+2. Find exact matches: the seeds ->Lookup each word in indexed table to find the location in the database where the seeds occur.
+4. Extend the seeds (Smith-Waterman algorithm for local alignment) until the score of the alignment drops off below some threshold (local to global alignment).
+5. Report matches with overall highest scores -> what score?
 
 **Bit Score**:	Quality of alignment, higher score -> better alignment;	Normalized measure of similarity, BLAST first computes a **raw alignment score** S from the substitution matrix + gap penalties you chose.  That raw score is then put on a universal “bits” scale so different scoring systems can be compared:
 
@@ -131,7 +130,7 @@ $$
 Where:
 - m is the length of the query sequence.
 - n is the length of the database (i.e., the sum of all the lengths of all the sequences in the database).
-- K and λ are the Karlin-Altschul parameters. The λ parameter normalizes the alignment score, while the K parameter scales the _E_-value based on the database and sequence lengths.
+- K and λ. The λ parameter normalizes the alignment score, while the K parameter scales the _E_-value based on the database and sequence lengths.
 - S is the alignment score. It is calculated based on the selected scoring matrix and the given sequence alignment. The score reflects the sum of substitution and gap scores for the aligned residues.
 
 
