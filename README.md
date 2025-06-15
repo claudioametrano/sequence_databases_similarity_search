@@ -144,7 +144,6 @@ Where:
 >- Use iqtree2 to infer the Maximum Likelihood tree (container at https://depot.galaxyproject.org/singularity/iqtree:2.3.6--h503566f_1)
 >-  Visualize you tree with iTOL.  [iTOL:iteractiveTreeOfLife](https://itol.embl.de/itol.cgi). You probably already have a rough idea on how related are these organism, but in case you do not iTOL has a nice Tree of Life welcoming you on their website, compare it with the one you got!
 
-
 ### 2b- Use of BLAST+ Command Line Interface (CLI) 
 manual [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 
