@@ -139,7 +139,7 @@ $ cat ./data/sequence.fasta >> results/task3/tuber_rDNA_longest_plus_sequence.fa
 $ singularity exec mafft\:7.525--h031d066_1 mafft --thread 4 results/task3/tuber_rDNA_longest_plus_sequence.fas > results/task3/tuber_rDNA_longest_plus_sequence_mafft_aligned.fas
 ```
 download and visualize in aliview (or similar software). 
-The file in results/backup is manually edited to keep only meaningful sequences, as downloaded sequence are often unlinked portions of rDNA. It is an ITS1.
+The file in results/backup is manually edited to keep only meaningful sequences, as downloaded sequence are often non-overlapping portions of rDNA. It is an ITS1.
 
 ### **TASK 4**
 
