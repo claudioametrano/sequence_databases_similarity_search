@@ -268,10 +268,11 @@ $ cat results/blastout_sequence_vs_GCA_000151645.1_tabfmt.txt
 
 -outfmt 6 has its own default fields, but you can customize it, as we just did listing the information we want in the output file 
 
-#### **TASK4**
+#### **TASK 4**
 > Parse the previous blast result: 
 > - How many copies of rDNA are present in the assembly?
 > - Can you tell if they are located on the same chromosome using this assembly?
+
 
 redirect the hit in a fasta file
 ```bash
