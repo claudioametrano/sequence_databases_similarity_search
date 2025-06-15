@@ -118,9 +118,11 @@ $$
 
 **E-Value** : Expected value measures the expected number of “random” sequences with
 a score S or better in a random sequence database of equal size. Lower E-value = less likely the hit was a false-positive -> it might have a biological relationship with the query sequence (but can only infer homology with this, not prove it).
+
 $$
 E \;=\; K\,m\,n\,e^{-\lambda S}
 $$
+
 Where:
 - m is the length of the query sequence.
 - n is the length of the database (i.e., the sum of all the lengths of all the sequences in the database).
