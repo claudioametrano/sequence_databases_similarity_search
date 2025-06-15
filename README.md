@@ -86,15 +86,13 @@ What are the different databases?**
 > - Limit the length range to exclude sequences much longer than rRNA
 > - Exclude **environmental** sequences
 > - Visualize one sequence in GenBank format, and in fasta
-> - Download all of them as a fasta file ordered by sequence length and rename it to "tuber_rDNA.fas" (it will come handy later)
+> - Download all of them as a fasta file ordered by sequence length and rename it to "tuber_rDNA.fas" (upload in in "results/task1/" it will come handy later)
 > 
 **Questions:**
 >- What is the number of sequences retrieved for each step with the query becoming more stringent?
 >- Are these sequences representing the same locus/i? How would you assess this?
 > Why they vary so much in length?
 
-> Once done with the query, sort sequecne by lenght and download the file as tuber_rDNA.fasta and upload in in results/task1/
-______________________________________________________________________
 
 ### 2- Sequence Alignment 
 All nice and useful but... Let's say you just got your shiny sequence of a possibly uknown organism out of a Sanger sequencing run, most of the time, we want to interrogate these database with a query that is a sequence itself, not a species name. Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
