@@ -87,7 +87,8 @@ What are the different databases?**
 > - Exclude **environmental** sequences
 > - Visualize one sequence in GenBank format, and in fasta
 > - Download all of them as a fasta file ordered by sequence length and rename it to "tuber_rDNA.fas" (it will come handy later)
-> **Questions:**
+> 
+**Questions:**
 >- What is the number of sequences retrieved for each step with the query becoming more stringent?
 >- Are these sequences representing the same locus/i? How would you assess this?
 > Why they vary so much in length?
