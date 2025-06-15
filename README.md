@@ -73,6 +73,7 @@ Sequence databases are scientifically invaluable, they serve as comprehensive re
 
 Let's have a look at the available resources! 
 [National Center for Biotechnology Information: NCBI](https://www.ncbi.nlm.nih.gov/)
+
 **In the main page search for an organism you would like to know more about:
 What are the different databases?**
 
