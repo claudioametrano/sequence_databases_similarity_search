@@ -178,9 +178,10 @@ $ mkdir data/NCBI_databases
 
 $ singularity exec blast:2.16.0--h66d330f_4  update_blastdb.pl SSU_eukaryote_rRNA
 
-$ mv SSU_eukaryote_rRNA* results/
+$ mv *.gz ./data/NCBI_databases/
+$ mv *.md5 ./data/NCBI_databases/
 
-$ cd results/
+$ cd data/NCBI_databases
 
 $ md5sum -c *.md5 # check downloaded files integrity
 
