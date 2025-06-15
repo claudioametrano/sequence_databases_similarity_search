@@ -302,8 +302,7 @@ awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequ
 - It need a trusted MSA (as less biased as possible toward specific taxa) to build an effective profile that can obtain homologous sequences from a wide range of organisms.
 - HMMs do have important limitations. One is that HMMs do not capture any higher-order correlations. An HMM assumes that the identity of a particular position is independent of the identity of all other positions (e.g. does not include scoring terms for nearby amino acids in a three-dimensional protein structure)
 
-**Difference to BLAST and other pairwise alignment algorithms**
-
+#### Difference to BLAST and other pairwise alignment algorithms
 Profile HMMs are statistical descriptions of the consensus of a multiple sequence alignment. They use position-specific scores for amino acids (or nucleotides) and position specific scores for opening and extending an insertion or deletion. Traditional pairwise alignment (for example, BLAST (Altschul et al., 1990), FASTA (Pearson and Lipman, 1988), or the Smith/Waterman algorithm (Smith and Waterman, 1981)) uses position-
 independent scoring parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
 
@@ -313,7 +312,7 @@ d: deletion
 i: insertion
 Possible transitions: m->m, m->i, m->d, i->m, i->i, d->m, d->d ...
 what is missing?
-d->i and i->d are not modeled (it simplify the model without reducing its power that much)
+d->i and i->d are not modeled (it simplify the model without reducing its power)
 
 ![hmm](images/hmm_profile.png)
 
