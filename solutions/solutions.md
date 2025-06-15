@@ -1,8 +1,12 @@
 ### **TASK 1**
 Tuber[Organism]  -->  118562 seqs
+
 Tuber[Organism] AND (ribosomal RNA) --> 5746 seqs
+
 Tuber[Organism] AND (ribosomal RNA) AND ( "500"[SLEN] : "5000"[SLEN] )   --> 5087 seqs
+
 Tuber[Organism] AND (ribosomal RNA) AND ( "500"[SLEN] : "5000"[SLEN] ) NOT environmental  --> 4773 seqs
+
 (Sequence number generated on Apr 15 2025)
 Download the sequences ordered by length (useful later) in fasta 
 ### **TASK 2**
