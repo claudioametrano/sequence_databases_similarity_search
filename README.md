@@ -12,7 +12,7 @@ Github URL: https://github.com/claudioametrano/sequence_databases_similarity_sea
 - Iqtree2
 - mafft
 ### Software required (locally)
-- a fasta file reader (Aliview, MEGA, Jalview, Bioedit ...)
+- A fasta file reader (Aliview, MEGA, Jalview, Bioedit ...)
 - Terminal (Linux and Mac), Mobaxterm (Win), to ssh into the HPC and  GUI file client (e.g. Filezilla, Mobaxterm)
 - iTOL (works from browser) 
 
