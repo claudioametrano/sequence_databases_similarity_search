@@ -115,8 +115,9 @@ BLAST algorithm steps:
 
 **Bit Score**:	Quality of alignment, higher score -> better alignment;	Normalized measure of similarity, BLAST first computes a **raw alignment score** S from the substitution matrix + gap penalties you chose.  That raw score is then put on a universal “bits” scale so different scoring systems can be compared:
 
+
 $$
-S' \;=\; \frac{\lambda S - \ln K}{\ln 2}
+S' = \frac{\lambda S - \ln K}{\ln 2}
 $$
 
 **E-Value** : Expected value measures the expected number of “random” sequences with
