@@ -174,14 +174,14 @@ $ singularity exec blast:2.16.0--h66d330f_4  update_blastdb.pl --showall
 
 To download a db from NCBI: 
 ```bash
-$ mkdir data/NCBI_databases
+$ mkdir results/NCBI_databases
 
 $ singularity exec blast:2.16.0--h66d330f_4  update_blastdb.pl SSU_eukaryote_rRNA
 
-$ mv *.gz ./data/NCBI_databases/
-$ mv *.md5 ./data/NCBI_databases/
+$ mv *.gz ./results/NCBI_databases/
+$ mv *.md5 ./results/NCBI_databases/
 
-$ cd data/NCBI_databases
+$ cd results/NCBI_databases
 
 $ md5sum -c *.md5 # check downloaded files integrity
 
