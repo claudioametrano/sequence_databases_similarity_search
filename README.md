@@ -36,7 +36,7 @@ mv results results_backup
 mkdir results
 ```
 
-We will work on the HPC cluster (High Performance Computing) using Singularity and containers which have the specific software we need (often from [Biocontainers.pro](https://biocontainers.pro/);[Biocontainers paper](https://academic.oup.com/bioinformatics/article/33/16/2580/3096437))
+We will work on the HPC cluster (High Performance Computing) using Singularity and containers which have the specific software we need (often from [Biocontainers.pro](https://biocontainers.pro/); [Biocontainers paper](https://academic.oup.com/bioinformatics/article/33/16/2580/3096437))
 
 You can either run commands interactively with the container  staying open (`singularity shell`)
 ```bash
