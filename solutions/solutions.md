@@ -75,7 +75,7 @@ $ grep -v "^>" data/sequence.fasta | wc -c
 - Blastn, we do not know if it is coding DNA, so we should stick to blastn for now
 BLAST on the databases the query sequence
 ```bash
-singularity exec blast:2.16.0--h66d330f_4 blastn -num_threads 4 -query ./data/sequence.fasta -db ./data/NCBI_BLAST_databases/16S_ribosomal_RNA -out ./results/task3/blastout_sequence_vs_16S.txt
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -num_threads 4 -query ./data/sequence.fasta -db ./data/NCBI_BLAST_databases/16S_ribosomal_RNA -out ./results/task3/blastout_sequence_vs_16S.txt
 
 ```
 and so on...
@@ -89,7 +89,7 @@ for db in "${databases[@]}"; do
     #blastn command
     singularity exec blast:2.16.0--h66d330f_4 blastn \
         -query ./data/sequence.fasta \
-        -db "./data/NCBI_databases/${db}" \
+        -db "./results/NCBI_databases/${db}" \
         -num_threads 4 \
         -out "./results/task3/blastout_sequence_vs_${db}.txt"
 done
