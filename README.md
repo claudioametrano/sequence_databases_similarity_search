@@ -180,7 +180,11 @@ $ singularity exec blast:2.16.0--h66d330f_4  update_blastdb.pl SSU_eukaryote_rRN
 
 $ mv SSU_eukaryote_rRNA* results/
 
+$ cd results/
+
 $ md5sum -c *.md5 # check downloaded files integrity
+
+cd -
 ```
 Download some compact databases for common rDNA barcode markers: **SSU_eukaryote_rRNA, LSU_prokaryote_rRNA, LSU_eukaryote_rRNA,  ITS_RefSeq_Fungi, ITS_eukaryote_sequences, 28S_fungal_sequences, 18S_fungal_sequences,  16S_ribosomal_RNA **
 
