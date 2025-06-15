@@ -210,17 +210,17 @@ singularity exec blast:2.16.0--h66d330f_4 blastp -query query.fasta -db path/to/
 #### Remote blast in command line! 
 As some BLAST databases are huge (hundreds of Gb) you can still BLAST remotely (exactly as you would do on NCBI website using a browser), let's try the default BLASTn using the complete nucleotide Genbank collection 
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastn -remote -query ./data/sequence.fasta -db nt -out ./results/task3/blastout_sequences_vs_nt.txt
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -remote -query ./data/sequence.fasta -db nt -out ./results/task3/blastout_sequence_vs_nt.txt
 
-$ less ./results/task3/blastout_sequences_vs_nt.txt
+$ less ./results/task3/blastout_sequence_vs_nt.txt
 ```
 
 How the results differ from what you got so far? Why? 
 If you check the databases you used locally, searching for the *Tuber* species from you sequence you will find out... 
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastdbcmd -db ./data/NCBI_databases/ITS_eukaryote_sequences  -entry all | grep "Tuber "  
+$ singularity exec blast:2.16.0--h66d330f_4 blastdbcmd -db ./results/NCBI_databases/ITS_eukaryote_sequences  -entry all | grep "Tuber "  
 
-$ singularity exec blast:2.16.0--h66d330f_4 blastdbcmd -db ./data/NCBI_databases/ITS_eukaryote_sequences  -entry all | grep "Tuber melanosporum"
+$ singularity exec blast:2.16.0--h66d330f_4 blastdbcmd -db ./results/NCBI_databases/ITS_eukaryote_sequences  -entry all | grep "Tuber melanosporum"
 ```
 #### **NOTE**
 >Your results are dependent both on the method and the reference database!
@@ -234,6 +234,7 @@ From command line (works as well from the NCBI webpage under genome/dataset)
 ```bash
 $ singularity pull https://depot.galaxyproject.org/singularity/ncbi-datasets-cli:14.26.0
 $ singularity exec ncbi-datasets-cli:14.26.0 datasets download genome accession GCA_000151645.1
+$ mv ncbi_dataset.zip ./data
 ```
 
 unzip and build  the database
