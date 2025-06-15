@@ -307,10 +307,14 @@ Profile HMMs are statistical descriptions of the consensus of a multiple sequenc
 independent scoring parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
 
 **The seven states modeled** (page 210 of[HMMER manual](http://eddylab.org/software/hmmer/Userguide.pdf) for accurate description of .hmm file format): 
-m: match ()
+m: match
+
 d: deletion
+
 i: insertion
+
 Possible transitions: m->m, m->i, m->d, i->m, i->i, d->m, d->d ...
+
 what is missing?
 d->i and i->d are not modeled (it simplify the model without reducing its power)
 
