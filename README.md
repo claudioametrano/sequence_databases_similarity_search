@@ -132,7 +132,7 @@ $$
 Where:
 - m is the length of the query sequence.
 - n is the length of the database (i.e., the sum of all the lengths of all the sequences in the database).
-- K and λ. The λ parameter normalizes the alignment score for the type of scoring matrix and gap penalties.
+- K and λ normalize the alignment score for the type of scoring matrix and gap penalties.
 - S is the alignment score. It is calculated based on the selected scoring matrix and the given sequence alignment. The score reflects the sum of substitution and gap scores for the aligned residues.
 - Expectation value (E-value): Contianing m and n, E value also normalize for the length of the query and of the database.
 
