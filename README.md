@@ -299,7 +299,7 @@ awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequ
 
 - It is based on probabilistic models known as profile **hidden Markov models** (profile HMMs) --> it can use a profile based on a multiple-sequence alignment (MSA) to captures which positions are conserved or variable across a gene. A profile turns those position-specific patterns into quantitative scores.
 - Profile hidden Markov models (profile HMMs) are statistical models of the primary structure consensus of a sequence family. It can model both insertions and deletions, it copes better than a single sequence with "gappy" sequence evolution. WHAT IS HIDDEN, THEN?: the state path that generated the sequence we observe.
-- It need a trusted MSA (as less biased as possible toward specific taxa) to build an effective profile that can obtain homologous sequences from a wide range of organisms.
+- It needs a trusted MSA (as less biased as possible toward specific taxa) to build an effective profile that can obtain homologous sequences from a wide range of organisms.
 - HMMs do have important limitations. One is that HMMs do not capture any higher-order correlations. An HMM assumes that the identity of a particular position is independent of the identity of all other positions (e.g. does not include scoring terms for nearby amino acids in a three-dimensional protein structure)
 
 #### Difference to BLAST and other pairwise alignment algorithms
