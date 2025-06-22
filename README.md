@@ -393,22 +393,17 @@ THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR
 > - Query (NCBI) for the genes in close organims (the closer the better, as we did in TASK1).
 > - Search for the genome assembly of *T. fuciformis* (`datasets download` command, or NCBI webpage).
 > - Set up suitable BLAST searches using what you learnt so far (nucleotide, protein query)
-> - for multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course):
-> - 
+> - For multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course):
+> - Starting from the same gene set you built, Use HMMER3 to mine for the same meiosis genes in the genome assembly of *T.  fuciformis*
+>  
 > **Questions:**
-> 1) Did you find more hits on the meiosis genes using nucleotide or amino acid sequences as query? What works better for remote homology and why?
+> 1) Did you find more hits on the meiosis genes using BLAST with nucleotide or amino acid sequences as query? What should work better for remote homology? Why?
 > 2) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions in the genome assembly?
-> 3) What other approach would work to search for specific genes of an organism? Is this information available for *T. fuciformis*?
-> 4) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Gather some information about the target organisms, from both generalist and specialized literature, such as scientific papers searched via Google Scholar or similar search engine).
-
-####  **FINAL TASK B **
-> Starting from the same gene set you built in TASK A Use HMMER3 to mine for the same meiosis genes in the genome assembly of *T.  fuciformis*
-
-> **Questions**
-> 1) What are the advantages/disadvantages of this approach? (hint: are nucleotide as effective as aminoacid? yes/no Why?)
-> 2) Could you use HMMER with protein profiles for those genes? Why?
-> 3) What analysis would need to be performed on the assembly before using protein hmm profile in search of possible homologs of these meiosis genes?
-> 4) Compare the results of the two approaches (method, number of genes obtained, length of the hits)
+> 3) What other information would you need (other than the genome assembly) to look for specific genes of an organism? Is this information available for *T. fuciformis*?
+> 4) What are the advantages/disadvantages of HMMER in comparison to BLAST? Could you use HMMER with protein profiles for those genes? Why?
+> 5) What analysis would need to be performed on the genome assembly before using protein hmm profile in search of possible homologs of these meiosis genes?
+> 6) Compare the results of the two approaches (method, number of genes obtained, length of the hits)
+> 7) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Gather some information about the target organisms, from both generalist and specialized literature, such as scientific papers searched via Google Scholar or similar search engine).
 
 
 
