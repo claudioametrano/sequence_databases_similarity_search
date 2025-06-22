@@ -380,35 +380,35 @@ $ grep -A 2 "significant" results/blastout_168997at4890_protein_vs_GCA_000151645
 In this case the output is equivalent, except HMMER is able to compare the profile containing all the information of a multifasta, outputting only one alignment, with the advantage of also being faster here (one blastp search alone, would be faster though).
 On less straightforward, more variable/distantly related sequences, HMMER methods have an advantage, but for both methods the reference query sequences are crucial.
 
-### FINAL TASKS
-BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output are large!): 
+### FINAL TASK
+BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output are large!).
+THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR MARKDOWN TEXT FILE.
+
 #### **FINAL TASK A ** 
 >
 > **Try to find out if the basidiomycetes fungus *Tremella fuciformis* (aka white jelly mushroom, snow ear or and silver ear fungus [wiki page](https://en.wikipedia.org/wiki/Tremella_fuciformis)) has the genetic potential of doing meiosis.**
 > 
 > **Hints:**
-> - Look for the so called meiosis genes in eukaryotes. For example in [Ramesh et al., 2005](https://www.cell.com/current-biology/fulltext/S0960-9822(05)00028-X?large_figure=true) or [Schurko & Logsdon, 2008](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20764). You will need gene names to search for them
-> - Query (NCBI) for the genes in close organims (as we did in TASK1).
+> - Look for the so called meiosis genes in eukaryotes. For example in [Ramesh et al., 2005](https://www.cell.com/current-biology/fulltext/S0960-9822(05)00028-X?large_figure=true) or [Schurko & Logsdon, 2008](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20764). You will need gene names to search for them.
+> - Query (NCBI) for the genes in close organims (the closer the better, as we did in TASK1).
 > - Search for the genome assembly of *T. fuciformis* (`datasets download` command, or NCBI webpage).
-> - Set up suitable BLAST searches using what you learnt so far (nucleotide or protein query?)
-> - for multiple repeated commands, launched over many files is convenient to set up a `for` loop (here used to unzip multiple .tar.gz files):
-```bash
-for i in ./data/NCBI_BLAST_databases/*.gz ; do tar -xvzf $i -C ./data/NCBI_BLAST_databases; done 
-```
+> - Set up suitable BLAST searches using what you learnt so far (nucleotide, protein query)
+> - for multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course):
+> - 
 > **Questions:**
 > 1) Did you find more hits on the meiosis genes using nucleotide or amino acid sequences as query? What works better for remote homology and why?
-> 2) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions along the genome assembly?
-> 3) What other approach would work to search for specific genes of an organism? Does directly involve you performing an alignment?
-> 4) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Starting from the wiki page above to more specialized sources, such as Google Scholar)
+> 2) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions in the genome assembly?
+> 3) What other approach would work to search for specific genes of an organism? Is this information available for *T. fuciformis*?
+> 4) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Gather some information about the target organisms, from both generalist and specialized literature, such as scientific papers searched via Google Scholar or similar search engine).
 
 ####  **FINAL TASK B **
->
->Starting from the same gene set you built in TASK A Use HMMER3 to mine for the same meiosis genes in the genome assembly of *T.  fuciformis*
+> Starting from the same gene set you built in TASK A Use HMMER3 to mine for the same meiosis genes in the genome assembly of *T.  fuciformis*
+
 > **Questions**
 > 1) What are the advantages/disadvantages of this approach? (hint: are nucleotide as effective as aminoacid? yes/no Why?)
 > 2) Could you use HMMER with protein profiles for those genes? Why?
-> 3) What analysis would need to be performed on the assembly to use protein hmm profile in search of homologs?
-> 4) Compare the results of the two approaches (number of genes obtained, length of the hits, ...)
+> 3) What analysis would need to be performed on the assembly before using protein hmm profile in search of possible homologs of these meiosis genes?
+> 4) Compare the results of the two approaches (method, number of genes obtained, length of the hits)
 
 
 
