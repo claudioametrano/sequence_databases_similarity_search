@@ -396,8 +396,7 @@ THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR
 >  
 >
 > **Questions**
->
-> **Read them carefully before starting and use them to guide your analyses**
+> Read them carefully before starting and use them to guide your analyses
 > 1) Did you find more hits on the meiosis genes using BLAST with nucleotide or amino acid sequences as query? With what setting?
 > 2)  What should work better for remote homology, Why?
 > 3) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions in the genome assembly? Are they located on the same chromosome? Is the genome assembly of T. fuciformis good enough to verify this?
