@@ -394,9 +394,9 @@ THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR
 > - For multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course) and/or blast using multifasta files as query.
 > - Starting from the same gene set you built, build an .hmm profiles and use HMMER3 to search for the same meiosis genes in the genome assembly of *T.  fuciformis*.
 >  
-
+>
 > **Questions**
-
+>
 > **Read them carefully before starting and use them to guide your analyses**
 > 1) Did you find more hits on the meiosis genes using BLAST with nucleotide or amino acid sequences as query? With what setting?
 > 2)  What should work better for remote homology, Why?
