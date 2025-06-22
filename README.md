@@ -383,27 +383,26 @@ On less straightforward, more variable/distantly related sequences, HMMER method
 ### FINAL TASK
 BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output is large!).
 THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR MARKDOWN TEXT FILE.
-
-#### **FINAL TASK A ** 
->
-> **Try to find out if the basidiomycetes fungus *Tremella fuciformis* (aka white jelly mushroom, snow ear or and silver ear fungus [wiki page](https://en.wikipedia.org/wiki/Tremella_fuciformis)) has the genetic potential of doing meiosis.**
+ 
+> **Does the basidiomycetes fungus *Tremella fuciformis* (aka white jelly mushroom, snow ear or and silver ear fungus [wiki page](https://en.wikipedia.org/wiki/Tremella_fuciformis)) have the genetic potential of doing meiosis?**
 > 
 > **Hints:**
-> - Look for the so called meiosis genes in eukaryotes. For example in [Ramesh et al., 2005](https://www.cell.com/current-biology/fulltext/S0960-9822(05)00028-X?large_figure=true) or [Schurko & Logsdon, 2008](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20764). You will need gene names to search for them.
-> - Query (NCBI) for the genes in close organims (the closer the better, as we did in TASK1).
+> - Look for the so called meiosis genes in eukaryotes. For example in [Ramesh et al., 2005](https://www.cell.com/current-biology/fulltext/S0960-9822(05)00028-X?large_figure=true) or [Schurko & Logsdon, 2008](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20764). You will need gene names.
+> - Query (NCBI) for the genes in close organisms (as we did in TASK1). Help for taxonomy of the target organism at NCBI taxonomy (useful for any organism) or https://www.mycobank.org/ (specific for Fungi)
 > - Search for the genome assembly of *T. fuciformis* (`datasets download` command, or NCBI webpage).
 > - Set up suitable BLAST searches using what you learnt so far (nucleotide, protein query)
-> - For multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course):
-> - Starting from the same gene set you built, Use HMMER3 to mine for the same meiosis genes in the genome assembly of *T.  fuciformis*
+> - For multiple repeated commands, launched over many files is convenient to set up a `for` loop (look at the many examples along the course) and/or blast using multifasta files as query.
+> - Starting from the same gene set you built, build an .hmm profiles and use HMMER3 to search for the same meiosis genes in the genome assembly of *T.  fuciformis*.
 >  
-> **Questions:**
-> 1) Did you find more hits on the meiosis genes using BLAST with nucleotide or amino acid sequences as query? What should work better for remote homology? Why?
-> 2) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions in the genome assembly?
-> 3) What other information would you need (other than the genome assembly) to look for specific genes of an organism? Is this information available for *T. fuciformis*?
-> 4) What are the advantages/disadvantages of HMMER in comparison to BLAST? Could you use HMMER with protein profiles for those genes? Why?
-> 5) What analysis would need to be performed on the genome assembly before using protein hmm profile in search of possible homologs of these meiosis genes?
-> 6) Compare the results of the two approaches (method, number of genes obtained, length of the hits)
-> 7) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Gather some information about the target organisms, from both generalist and specialized literature, such as scientific papers searched via Google Scholar or similar search engine).
+> **Questions**
+> **Read them carefully before starting and use them to guide your analyses**
+> 1) Did you find more hits on the meiosis genes using BLAST with nucleotide or amino acid sequences as query? With what setting?
+> 2)  What should work better for remote homology, Why?
+> 3) Verify in the blast output if meiosis genes are in single copy. Is any of your blast search finding hits in multiple positions in the genome assembly? Are they located on the same chromosome? Is the genome assembly of T. fuciformis good enough to verify this?
+> 5) What are the advantages/disadvantages of HMMER in comparison to BLAST? Could you use HMMER with protein profiles in this case?
+> 6) What analysis would need to be performed on the genome assembly before using protein hmm profile in search of possible homologs of these meiosis genes?
+> 7) Compare the the two approaches (in term of method method, number of genes obtained, length of the hits).
+> 8) What you found looking at the genomic sequence makes sense biologically? (hint: do you know the biology/ecology of the organism? Gather some information about the target organisms, from both generalist and specialized literature, such as scientific papers searched via Google Scholar or similar search engine).
 
 
 
