@@ -38,11 +38,12 @@ mkdir results
 
 We will work on the HPC cluster (High Performance Computing) using Singularity and containers which have the specific software we need (often from [Biocontainers.pro](https://biocontainers.pro/); [Biocontainers paper](https://academic.oup.com/bioinformatics/article/33/16/2580/3096437))
 
-You can either run commands interactively with the container  staying open (`singularity shell`)
+You can either run commands interactively with the container staying open (`singularity shell`):
+Download the container
 ```bash
 $ singularity pull https://container_address/container_name
 ```
-
+Run container interactively
 ```bash
 $ singularity shell container_name # Start the shell  showing  Sungularity> as long as you stay in the container
  
@@ -51,12 +52,12 @@ $ commands you want to run
 $ exit # to exit the container
 ```
 
-... or just executing a single command (`singularity exec`), useful if you need to submit something running for longer
+... or just execute a single command (`singularity exec`) in the container, useful if you need to run something for longer
 ```bash
 $ singularity exec  container_name command_to_run
 ```
 
-It is also possible to install software via Conda, in this case the commands can be run without `singularity run` or `singularity exec`, but you will need to install Anaconda/Miniconda and the following software:
+It is also possible to install the needed software via Conda, in this case the commands can be run without `singularity run` or `singularity exec`, but you will need to install Anaconda/Miniconda and the following software before starting:
 ```bash
 conda install conda-forge::mamba
 mamba install bioconda::blast=2.16.0
@@ -76,11 +77,50 @@ Sequence databases are scientifically invaluable, they serve as comprehensive re
 Let's have a look at the available resources! 
 [National Center for Biotechnology Information: NCBI](https://www.ncbi.nlm.nih.gov/)
 
-**In the main page search for an organism you would like to know more about:
-What are the different databases?**
+**What are the different databases?**
+
+| Database                        | Description                                                                                              |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| PubMed                          | Biomedical and life-science citations and abstracts.                                                     |
+| PubMed Central / PMC            | Full-text open-access biomedical and life-science articles.                                              |
+| Bookshelf                       | Books, reports, manuals, GeneReviews, and NCBI documentation.                                            |
+| MeSH                            | Controlled vocabulary used to index PubMed articles.                                                     |
+| NLM Catalog                     | Records for journals, books, and other NLM collection items.                                             |
+| **Nucleotide**                  | DNA and RNA sequences from GenBank, RefSeq, TPA, PDB-linked records, and other sources.                  |
+| **RefSeq**                      | Curated, non-redundant reference sequences for genomes, transcripts, and proteins.                       |
+| **Genome**                      | Genome-level information organized by organism and sequencing project.                                   |
+| **Assembly**                    | Genome assembly records                                                                                  |
+| **SRA — Sequence Read Archive** | Raw high-throughput sequencing reads from genomics, transcriptomics, metagenomics, and amplicon studies. |
+| **BioProject**                  | Project-level metadata linking related sequencing studies, samples, reads, and assemblies.               |
+| **BioSample**                   | Sample-level metadata such as organism, isolate, tissue, environment, location, and experimental source. |
+| **Taxonomy**                    | Organism names, taxonomic classification, synonyms, and NCBI TaxIDs.                                     |
+| Gene                            | Gene-centered information including loci, transcripts, proteins, homologs, phenotypes, and publications. |
+| GEO — Gene Expression Omnibus   | Functional genomics data such as RNA-seq, microarray, expression, and molecular abundance datasets.      |
+| GEO DataSets                    | Curated datasets derived from GEO submissions.                                                           |
+| GEO Profiles                    | Individual gene expression or molecular abundance profiles from GEO data.                                |
+| Protein                         | Protein sequences from RefSeq, GenPept, Swiss-Prot, PIR, PRF, PDB, and other sources.                    |
+| CDD — Conserved Domain Database | Conserved protein domains, domain models, alignments, and functional annotations.                        |
+| Identical Protein Groups        | Groups of identical protein sequences across organisms and databases.                                    |
+| Protein Family Models           | Protein family models, including HMMs and conserved architecture-based classifications.                  |
+| Structure / MMDB                | Experimentally determined 3D biomolecular structures.                                                    |
+| dbSNP                           | Short genetic variants such as SNPs, small indels, and microsatellites.                                  |
+| dbVar                           | Large structural variants such as CNVs, deletions, insertions, inversions, and translocations.           |
+| ClinVar                         | Human genetic variants and their reported clinical significance.                                         |
+| dbGaP                           | Genotype–phenotype association studies                                                                   |
+| MedGen                          | Medical genetics concepts linked to genes, variants, diseases, and publications.                         |
+| GTR — Genetic Testing Registry  | Information about genetic tests and testing laboratories.                                                |
+| OMIM                            | Human genes and genetic disorders, integrated with NCBI resources.                                       |
+| PubChem Compound                | Chemical structures and compound-level records.                                                          |
+| PubChem Substance               | Depositor-submitted chemical substances and descriptions.                                                |
+| PubChem BioAssay                | Biological screening assays and activity results for chemical substances.                                |
+| PubChem Pathways                | Molecular pathways linking genes, proteins, chemicals, and biological processes.                         |
+
+
+In the main page search for an organism you would like to know more about and check the results.
+
 
 #### **TASK 1**
-> Let's now create some queries in the **nucleotide** database (click search then "advanced"):
+> Let's now create some queries in the **nucleotide** database (Select Nucleotide, then click search then "advanced"):
 >
  Progressively refine your query with the following steps:
 > - Create a simple query that search for all the DNA sequences belonging to **truffles**
@@ -89,7 +129,11 @@ What are the different databases?**
 > - Exclude **environmental** sequences
 > - Visualize one sequence in GenBank format, and in fasta
 > - Download all of them as a fasta file ordered by sequence length and rename it to "tuber_rDNA.fas" (upload in in "results/task1/" it will come handy later)
-> 
+> **Hints:**
+> - You can use logical "AND", "OR" and "NOT"
+> - To search a combination of more than one word consecutively put them in "()"
+> -  Most of the filters are also available on the left column of the search page 
+
 **Questions:**
 >- What is the number of sequences retrieved for each step with the query becoming more stringent?
 >- Are these sequences representing the same locus/i? How would you assess this?
@@ -97,23 +141,23 @@ What are the different databases?**
 
 
 ### 2- Sequence Alignment 
-All nice and useful but... Let's say you just got your shiny sequence of a possibly uknown organism out of a Sanger sequencing run, most of the time, we want to interrogate these database with a query that is a sequence itself, not a species name. Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
+Now, let's say you just got your shiny new sequence from an unknown organism out of a Sanger sequencing run, most of the time, we want to interrogate these database with a query that is a sequence itself, not a species name. Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
 One widely used example is **[Basic Local Alignment Search Tool: BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)**
 It has the enormous advantage to be developed by NBCI itself and it is integrated in its web-services. Let's take a look at what it can do!
 
 ![blastn_blastp_etc](images/blastn_blastp_etc.png) ![blastscreen](images/blast_browser.png)
 credit: [allan.haldane@temple.edu](mailto:allan.haldane@temple.edu)
 
-### The BLAST algorithm
-Highly similar sequences will have stretches of similarity, we can pre-screen the sequences for common long stretches. This idea is used in BLAST by breaking up the query sequence into W-mers .
+### The BLAST algorithm and scoring system
+Highly similar sequences will have stretches of similarity, we can pre-screen the sequences for common long stretches. This idea is used in BLAST by breaking up the query sequence into W-mers.
 
 BLAST algorithm steps:
-1. Split query into overlapping **words of length W** (the W-mers)
+1. Split query into overlapping **words of length W** (the W-mers, same as kmers)
 2. Find exact matches: the seeds ->Lookup each word in indexed table to find the location in the database where the seeds occur.
 4. Extend the seeds (Smith-Waterman algorithm for local alignment) until the score of the alignment drops off below some threshold (local to global alignment).
 5. Report matches with overall highest scores -> what score?
 
-**Bit Score**:	Quality of alignment, higher score -> better alignment;	Normalized measure of similarity, BLAST first computes a **raw alignment score** S from the substitution matrix + gap penalties you chose.  That raw score is then put on a universal “bits” scale so different scoring systems can be compared:
+**Bit Score**:	Quality of alignment, **higher score -> better alignment**;	Normalized measure of similarity, BLAST first computes a **raw alignment score** S from the substitution matrix + gap penalties you chose.  That raw score is then put on a universal “bits” scale so different scoring systems can be compared:
 
 
 $$
@@ -134,7 +178,11 @@ Where:
 - n is the length of the database (i.e., the sum of all the lengths of all the sequences in the database).
 - K and λ normalize the alignment score for the type of scoring matrix and gap penalties.
 - S is the alignment score. It is calculated based on the selected scoring matrix and the given sequence alignment. The score reflects the sum of substitution and gap scores for the aligned residues.
-- Expectation value (E-value): Contianing m and n, E value also normalize for the length of the query and of the database.
+- **Expectation value (E-value)**: Containing m and n, E value also normalize for the length of the query and of the database.
+
+### BLAST algorithm parameters
+![BLAST parameters](/images/blast_param.png)
+
 
 ### 2a- Use of BLAST+ suite via web browser
 #### **TASK 2**
@@ -149,14 +197,16 @@ Where:
 >- Revise your alignment by eye before and after deleting not well aligned columns (optionally use Trimal, container at https://depot.galaxyproject.org/singularity/trimal:1.5)
 >- Use iqtree2 to infer the Maximum Likelihood tree (container at https://depot.galaxyproject.org/singularity/iqtree:2.3.6--h503566f_1)
 >-  Visualize you tree with iTOL.  [iTOL:iteractiveTreeOfLife](https://itol.embl.de/itol.cgi). You probably already have a rough idea on how related are these organism, but in case you do not iTOL has a nice Tree of Life welcoming you on their website, compare it with the one you got!
+>- Does your tree reflect the known phylogenetic relationships among those organisms? If not, can you think why this may happen? How would you try to fix this outcome?
+
 
 ### 2b- Use of BLAST+ Command Line Interface (CLI) 
 manual [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 
 Why should I learn command line BLAST when BLAST via browser is so convenient?
-- BLAST on custom database
-- Automation: run on server/cluster, part of a bioinformatic pipeline
-- Speed and limit of online BLAST (e.g. number of max sequences per sumbmission)
+- BLAST on custom database (e.g. something new you sequenced)
+- Automation: run it on server/cluster, as part of a bioinformatic automatized workflow
+- Speed and limit of online BLAST (e.g. number of max sequences per submission (200), maximum allowed length (1Mb) )
 
 We will learn how to use the command line blast tools, also known as BLAST+. We will use it to:
 - Blast search NCBI databases
@@ -178,16 +228,15 @@ $ mkdir results/NCBI_databases
 
 $ singularity exec blast:2.16.0--h66d330f_4  update_blastdb.pl SSU_eukaryote_rRNA
 
-$ mv *.gz ./results/NCBI_databases/
-$ mv *.md5 ./results/NCBI_databases/
+$ mv *.gz *.md5 ./results/NCBI_databases/
 
 $ cd results/NCBI_databases
 
 $ md5sum -c *.md5 # check downloaded files integrity
-
 $ cd -
 ```
-Download some compact databases for common rDNA barcode markers: **SSU_eukaryote_rRNA, LSU_prokaryote_rRNA, LSU_eukaryote_rRNA,  ITS_RefSeq_Fungi, ITS_eukaryote_sequences, 28S_fungal_sequences, 18S_fungal_sequences,  16S_ribosomal_RNA**
+Download some compact databases for common rDNA barcode markers (update_blastdb.pl can tadiscoveryingke a space-separated list): **SSU_eukaryote_rRNA, LSU_eukaryote_rRNA, ITS_eukaryote_sequences**
+Check for errors in downloads and if the number of files check out (sometimes NCBI server does not respond on time)
 
 
 Example of protein-protein BLAST (blastp) query example:
@@ -205,10 +254,23 @@ singularity exec blast:2.16.0--h66d330f_4 blastp -query query.fasta -db path/to/
 > - What locus/i is it? How can you visualize this? (hint: do you have "by chance", among the file we produced, one that can help?) 
 > - To what organism does the sequence belong?... Can you tell without any doubt?
 
+
 ![DNA](images/rDNA.png)
 
+### ADD ON:  build a MSA (Multiple sequence alignment)
+After discovering which locus was contained in the query sequence, to clearly delimit which ITS we can build a MSA that more clearly shows the boundaries of each locus in rDNA, for example using task1 tuber_rDNA.fas file:
+```bash
+# get the first (the longest, if you sorted them in the beginning) seqs from file
+$ head -n 3000 ./results/task1/tuber_rDNA.fas > results/task3/tuber_rDNA_longest_plus_sequence.fas
+# add the query sequence
+$ cat ./data/sequence.fasta >> results/task3/tuber_rDNA_longest_plus_sequence.fas
+# Here you can grep -c the fasta, to see how many you got
+$ singularity exec mafft\:7.525--h031d066_1 mafft --thread 4 results/task3/tuber_rDNA_longest_plus_sequence.fas > results/task3/tuber_rDNA_longest_plus_sequence_mafft_aligned.fas
+```
+download and visualize in aliview (or similar software). 
+The file in results_backup is manually edited to keep only fewer meaningful sequences, as downloaded sequence are often non-overlapping portions of rDNA. **It is an ITS1!**
 #### Remote blast in command line! 
-As some BLAST databases are huge (hundreds of Gb) you can still BLAST remotely (exactly as you would do on NCBI website using a browser), let's try the default BLASTn using the complete nucleotide Genbank collection 
+As some BLAST databases are huge (hundreds of Gbs to some Tb) you can still BLAST remotely (exactly as you would do on NCBI website using a browser), let's try a BLASTn using the complete nucleotide Genbank collection 
 ```bash
 $ singularity exec blast:2.16.0--h66d330f_4 blastn -remote -query ./data/sequence.fasta -db nt -out ./results/task3/blastout_sequence_vs_nt.txt
 
@@ -233,27 +295,25 @@ Let's create a BLAST database using as input the genome assembly of *Tuber melan
 From command line (works as well from the NCBI webpage under genome/dataset)
 ```bash
 $ singularity pull https://depot.galaxyproject.org/singularity/ncbi-datasets-cli:14.26.0
-$ singularity exec ncbi-datasets-cli:14.26.0 datasets download genome accession GCA_000151645.1
-$ mv ncbi_dataset.zip ./data
+$ wget -P data/ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/151/645/GCF_000151645.1_ASM15164v1/GCF_000151645.1_ASM15164v1_genomic.fna.gz
+
 ```
 
 unzip and build  the database
 ```bash
 # extract using 7zip
-$ 7z x ./data/ncbi_dataset.zip -o./results/
+$ 7z x ./data/GCF_000151645.1_ASM15164v1_genomic.fna.gz -o./results/^C 7z x ./data/ncbi_dataset.zip -o./results/
 
 # or using unzip
-$ unzip ./data/ncbi_dataset.zip -d ./results/
+$ unzip ./data/GCF_000151645.1_ASM15164v1_genomic.fna.gz -d ./results/
 
-# move to results folder the assembly file only
-$ mv results/ncbi_dataset/data/GCA_000151645.1/GCA_000151645.1_ASM15164v1_genomic.fna ./results
-
-$ singularity exec blast:2.16.0--h66d330f_4 makeblastdb -in ./results/GCA_000151645.1_ASM15164v1_genomic.fna -dbtype nucl -out ./results/GCA_000151645.1_assembly_db 
+# Build the database  from the assembly fasta
+$ singularity exec blast:2.16.0--h66d330f_4 makeblastdb -in ./results/GCF_000151645.1_ASM15164v1_genomic.fna -dbtype nucl -out ./results/GCF_000151645.1_assembly_db 
 ```
 
 now try to query the newly created database with ./data/sequence.fasta, what do you expect?
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCA_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCA_000151645.1.txt
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCF_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCA_000151645.1.txt
 ```
  
 ### Extract BLAST results from the database
@@ -261,9 +321,9 @@ $ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta 
 #### A more efficient way to store (and re-use in bioinformatic pipelines) your blast results, and extract aligned sequences 
 
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCA_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCA_000151645.1_tabfmt.txt  -outfmt "6 qseqid sseqid qstart qend sstart send sstrand evalue bitscore pident qcovs sseq"
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCF_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  -outfmt "6 qseqid sseqid qstart qend sstart send sstrand evalue bitscore pident qcovs sseq"
 
-$ cat results/blastout_sequence_vs_GCA_000151645.1_tabfmt.txt
+$ cat results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt
 ``` 
 
 -outfmt 6 has its own default fields, but you can customize it, as we just did listing the information we want in the output file 
@@ -276,7 +336,7 @@ $ cat results/blastout_sequence_vs_GCA_000151645.1_tabfmt.txt
 
 redirect the hit in a fasta file
 ```bash
-awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequence_vs_GCA_000151645.1_tabfmt.txt  > ./results/sequence_vs_GCA_000151645.1_first_hit.fasta
+awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  > ./results/sequence_vs_GCF_000151645.1_first_hit.fasta
 
 ```
 !seen[$2]++ only keeps the first result per subject name ("$2" is the second tab separated field) 
@@ -298,19 +358,16 @@ awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequ
 **Its aim is to sum up all the information and columns variability of a multiple sequence alignment, modelling substitution probabilities, insertion and deletion.** 
 
 - It is based on probabilistic models known as profile **hidden Markov models** (profile HMMs) --> it can use a profile based on a multiple-sequence alignment (MSA) to captures which positions are conserved or variable across a gene. A profile turns those position-specific patterns into quantitative scores.
-- Profile hidden Markov models (profile HMMs) are statistical models of the primary structure consensus of a sequence family. It can model both insertions and deletions, it copes better than a single sequence with "gappy" sequence evolution. WHAT IS HIDDEN, THEN?: the state path that generated the sequence we observe.
+- Profile hidden Markov models (profile HMMs) are statistical models of the primary structure consensus of a sequence family. They can model both insertions and deletions, they cope better than a single sequence with "gappy" sequence evolution. WHAT IS HIDDEN, THEN?: the state path that generated the sequence we observe.
 - It needs a trusted MSA (as less biased as possible toward specific taxa) to build an effective profile that can obtain homologous sequences from a wide range of organisms.
-- HMMs do have important limitations. One is that HMMs do not capture any higher-order correlations. An HMM assumes that the identity of a particular position is independent of the identity of all other positions (e.g. does not include scoring terms for nearby amino acids in a three-dimensional protein structure)
+- HMMs do have limitations. For example they cannot capture any higher-order correlations. An HMM assumes that the identity of a particular position is independent of the identity of all other positions (e.g. does not include scoring terms for nearby amino acids in a three-dimensional protein structure)
 
 #### Difference to BLAST and other pairwise alignment algorithms
-Profile HMMs are statistical descriptions of the consensus of a multiple sequence alignment. They use position-specific scores for amino acids (or nucleotides) and position specific scores for opening and extending an insertion or deletion. Traditional pairwise alignment (for example, BLAST (Altschul et al., 1990), FASTA (Pearson and Lipman, 1988), or the Smith/Waterman algorithm (Smith and Waterman, 1981)) uses position-
-independent scoring parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
+Profile HMMs are statistical descriptions of the consensus of a multiple sequence alignment. They use position-specific scores for amino acids (or nucleotides) and position specific scores for opening and extending an insertion or deletion. Traditional pairwise alignment (for example, BLAST (Altschul et al., 1990), FASTA (Pearson and Lipman, 1988), or the Smith/Waterman algorithm (Smith and Waterman, 1981)) uses position-independent scoring parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
 
 **The seven states modeled** (page 210 of[HMMER manual](http://eddylab.org/software/hmmer/Userguide.pdf) for accurate description of .hmm file format): 
 m: match
-
 d: deletion
-
 i: insertion
 
 Possible transitions: m->m, m->i, m->d, i->m, i->i, d->m, d->d ...
@@ -327,19 +384,20 @@ d->i and i->d are not modeled (it simplify the model without reducing its power)
 
 #### Open an HMM profile and check yourself (from BUSCOs OrthoDB genes sets)
 ```bash 
-$ wget https://busco-data.ezlab.org/v5/data/lineages/ascomycota_odb12.2025-04-11.tar.gz
+$ wget -P results/ https://busco-data.ezlab.org/v5/data/lineages/ascomycota_odb12.2025-07-01.tar.gz
 
-$ mv ascomycota_odb12.2025-04-11.tar.gz results/
+# extract only one profile from the BUSCO set
+$ tar -xvzf results/ascomycota_odb12.2025-07-01.tar.gz -C results/  --wildcards '*685555at4890.*'
 
-$ tar -xvzf results/ascomycota_odb12.2025-04-11.tar.gz -C results/
 ```
  Two file format, one position-specific residue frequencies (from AUGUSTUS)
 ```bash
-less ./results/ascomycota_odb12/prfl/555at4890.prfl
+less -S ./results/ascomycota_odb12/prfl/685555at4890.prfl
 ```
 ...and the actual profile-HMM file used for BUSCO search
 ```bash
-less ./data/ascomycota_odb12/hmms/555at4890.hmm
+less -S ./results/ascomycota_odb12/hmms/685555at4890.hmm
+
 ```
 ![hmm_file](images/hmm_file.png)
 #### Building a profile:
@@ -353,11 +411,11 @@ $ singularity pull https://depot.galaxyproject.org/singularity/hmmer:3.4--h50356
 
 $ singularity exec hmmer:3.4--h503566f_3 hmmbuild --cpu 4 --amino ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.fasta
 
-$ less results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm 
+$ less -S results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm 
 ```
 
 Search for homologous sequences in the proteome using the profile.
-We run it on the proteome because hmm profiles only work within the same alphabet (no method like tblastn) -> if you want to search a nucleotide sequence (e.g. assemblies, transcriptome) you need a nucleotide hmm profile  
+We will run it on the proteome (.fasta file with amino-acidic sequences) because **hmm profiles only work within the same alphabet (no method like tblastn)** -> if you want to search a nucleotide sequence (e.g. assemblies, transcriptome) you need a nucleotide hmm profile  
 ```bash
 $ singularity exec hmmer\:3.4--h503566f_3 hmmsearch --cpu 4 -E  1e-5  -o ./results/hmmerout-168997_vs_Tmel.txt -A ./results/hmmerout_alignment-168997_vs_Tmel.txt  --tblout ./results/hmmerout_table-168997_vs_Tmel.txt ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm ./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa 
 
