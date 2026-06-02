@@ -235,7 +235,7 @@ $ cd results/NCBI_databases
 $ md5sum -c *.md5 # check downloaded files integrity
 $ cd -
 ```
-Download some compact databases for common rDNA barcode markers (update_blastdb.pl can tadiscoveryingke a space-separated list): **SSU_eukaryote_rRNA, LSU_eukaryote_rRNA, ITS_eukaryote_sequences**
+Download some compact databases for common rDNA barcode markers (update_blastdb.pl can take a space-separated list): **SSU_eukaryote_rRNA LSU_eukaryote_rRNA ITS_eukaryote_sequences**
 Check for errors in downloads and if the number of files check out (sometimes NCBI server does not respond on time)
 
 
