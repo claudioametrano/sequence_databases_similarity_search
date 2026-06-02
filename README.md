@@ -294,7 +294,6 @@ Let's create a BLAST database using as input the genome assembly of *Tuber melan
 
 From command line (works as well from the NCBI webpage under genome/dataset)
 ```bash
-$ singularity pull https://depot.galaxyproject.org/singularity/ncbi-datasets-cli:14.26.0
 $ wget -P data/ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/151/645/GCF_000151645.1_ASM15164v1/GCF_000151645.1_ASM15164v1_genomic.fna.gz
 
 ```
