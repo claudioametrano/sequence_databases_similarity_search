@@ -57,7 +57,7 @@ $ exit # to exit the container
 $ singularity exec  container_name command_to_run
 ```
 
-It is also possible to install the needed software via Conda, in this case the commands can be run without `singularity run` or `singularity exec`, but you will need to install Anaconda/Miniconda and the following software before starting:
+It is also possible to install the needed software via Conda, in this case the commands can be run without `singularity run` or `singularity exec`, but you will need to install Anaconda/Miniconda and the following software (maybe in a dedicated Conda environemnt) before starting:
 ```bash
 conda install conda-forge::mamba
 mamba install bioconda::blast=2.16.0
