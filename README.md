@@ -338,7 +338,7 @@ redirect the hit in a fasta file
 awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  > ./results/sequence_vs_GCF_000151645.1_first_hit.fasta
 
 ```
-!seen[$2]++ only keeps the first result per subject name ("$2" is the second tab separated field) 
+!seen[$2]++ only keeps the first result per subject name ("$2" is the second tab separated field), $NF selected the last field (NF: number of fields), in this case the sequence. 
 
 ### 3- The right method for every occasion: other commonly used alignment/mapping tools
  BLAST is not the only tool available, some examples of widely used alignment/mapping tools are summarized below. Alignment/mapping, and in general search by sequences similarity is one of the most frequent activity in bioinformatics, so literally a plethora of algorithms exist and are developed.
@@ -438,8 +438,7 @@ In this case the output is equivalent, except HMMER is able to compare the profi
 On less straightforward, more variable/distantly related sequences, HMMER methods have an advantage, but for both methods the reference query sequences are crucial.
 
 ### FINAL TASK
-BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output is large!).
-THE REPORT IS DUE THE LATEST ON JULY 4th, IT CAN BE DELIVERED IN .docx, .pdf, OR MARKDOWN TEXT FILE.
+BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output is large!). IT CAN BE DELIVERED IN .docx, .pdf, OR MARKDOWN TEXT FILE.
  
 > **Does the basidiomycetes fungus *Tremella fuciformis* (aka white jelly mushroom, snow ear or and silver ear fungus [wiki page](https://en.wikipedia.org/wiki/Tremella_fuciformis)) have the genetic potential of doing meiosis?**
 > 
