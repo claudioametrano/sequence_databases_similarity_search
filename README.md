@@ -129,6 +129,7 @@ In the main page search for an organism you would like to know more about and ch
 > - Exclude **environmental** sequences
 > - Visualize one sequence in GenBank format, and in fasta
 > - Download all of them as a fasta file ordered by sequence length and rename it to "tuber_rDNA.fas" (upload in in "results/task1/" it will come handy later)
+> 
 > **Hints:**
 >   You can use logical "AND", "OR" and "NOT"; 
 >   To search a combination of more than one word consecutively put them in "()"; 
