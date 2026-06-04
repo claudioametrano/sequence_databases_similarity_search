@@ -1,0 +1,79 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'MT648702.1_Aedes_aegypti_voucher_AE01_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial'
+[2] 'NC_001606.1_6465-7103'
+[3] 'MF170952.1_Danio_rerio_voucher_ZMUD_055/B_cytochrome_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial'
+[4] 'MG605130.1_Drosophila_melanogaster_voucher_dromel87_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial'
+[5] 'MT445415.1_Gallus_gallus_isolate_VT1638_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial'
+[6] 'KC292251.1_Homo_sapiens_cytochrome_c_oxidase_subunit_I__COX1__gene__COX1-C6128T_allele__complete_cds__mitochondrial'
+[7] 'MN228578.1_Mus_musculus_musculus_voucher_24133_cytochrome_oxidase_subunit_I__Cox1__gene__partial_cds__mitochondrial'
+[8] 'AY972718.1_Pan_troglodytes_isolate_PR00837_cytochrome_c_oxidase_subunit_I__COXI__gene__partial_cds__mitochondrial'
+[9] 'MH624134.1_Rattus_norvegicus_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial'
+[10] 'CP006555.1_16338-16851_Saccharomyces_cerevisiae_YJM1463_mitochondrion__complete_genome'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=54;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	98	 2 3,
+	100	 5,
+	100	 6,
+	100	 8,
+	99	 6 8,
+	92	 5 6 8,
+	100	 9,
+	34	 5 6 8 9,
+	100	 7,
+	8	 1 2 3 4 10,
+	88	 1 4 10,
+	100	 10,
+	90	 1 4,
+	100	 4,
+	100	 1,
+	4	 7 9,
+	34	 2 3 7 9,
+	55	 2 3 7,
+	3	 6 8 10,
+	3	 5 6 8 10,
+	10	 5 6 7 8,
+	25	 1 4 9 10,
+	11	 1 4 7 10,
+	3	 1 4 5 10,
+	9	 1 4 7 9 10,
+	9	 4 10,
+	0	 5 10,
+	6	 2 3 9,
+	2	 1 4 5 6 8,
+	0	 1 4 5 9 10,
+	0	 5 9,
+	1	 6 10,
+	0	 1 2 3 4 7,
+	1	 1 4 6 8 10,
+	2	 2 3 7 10,
+	1	 1 4 7,
+	3	 9 10,
+	2	 1 10,
+	1	 1 3 4 7 10,
+	1	 1 3 4 10,
+	1	 2 3 10,
+	0	 1 4 9,
+	1	 6 8 9,
+	1	 8 10,
+	1	 7 10,
+	0	 3 10,
+	0	 3 7,
+	0	 1 2 3 4,
+	0	 1 4 7 9,
+	0	 1 4 5,
+	0	 2 3 6 8,
+	0	 1 4 6 8,
+;
+END; [Splits]
+

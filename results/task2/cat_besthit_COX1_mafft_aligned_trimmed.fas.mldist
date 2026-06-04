@@ -1,0 +1,11 @@
+10
+MT648702.1_Aedes_aegypti_voucher_AE01_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial        0.0000000 0.8109623 0.7010849 0.3159216 0.7091134 0.7935320 0.6092289 0.8224490 0.6395761 1.2964261 
+NC_001606.1_6465-7103                                                                                               0.8109623 0.0000000 0.2760204 1.0091899 0.4651827 0.5293355 0.3526921 0.5919959 0.3520676 1.6818527 
+MF170952.1_Danio_rerio_voucher_ZMUD_055/B_cytochrome_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial       0.7010849 0.2760204 0.0000000 0.7950367 0.5534176 0.5949497 0.3654710 0.6606649 0.4232529 1.5986178 
+MG605130.1_Drosophila_melanogaster_voucher_dromel87_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial 0.3159216 1.0091899 0.7950367 0.0000000 0.8958188 1.2414470 0.7006850 1.1654725 0.7603283 1.2993875 
+MT445415.1_Gallus_gallus_isolate_VT1638_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial      0.7091134 0.4651827 0.5534176 0.8958188 0.0000000 0.3792074 0.3868239 0.4338945 0.3870034 2.0366164 
+KC292251.1_Homo_sapiens_cytochrome_c_oxidase_subunit_I__COX1__gene__COX1-C6128T_allele__complete_cds__mitochondrial 0.7935320 0.5293355 0.5949497 1.2414470 0.3792074 0.0000000 0.4117330 0.1374047 0.4353056 1.9971615 
+MN228578.1_Mus_musculus_musculus_voucher_24133_cytochrome_oxidase_subunit_I__Cox1__gene__partial_cds__mitochondrial 0.6092289 0.3526921 0.3654710 0.7006850 0.3868239 0.4117330 0.0000000 0.5036521 0.2533519 1.5973331 
+AY972718.1_Pan_troglodytes_isolate_PR00837_cytochrome_c_oxidase_subunit_I__COXI__gene__partial_cds__mitochondrial   0.8224490 0.5919959 0.6606649 1.1654725 0.4338945 0.1374047 0.5036521 0.0000000 0.4524405 1.8184158 
+MH624134.1_Rattus_norvegicus_cytochrome_c_oxidase_subunit_1_gene__partial_cds__mitochondrial                        0.6395761 0.3520676 0.4232529 0.7603283 0.3870034 0.4353056 0.2533519 0.4524405 0.0000000 1.4986215 
+CP006555.1_16338-16851_Saccharomyces_cerevisiae_YJM1463_mitochondrion__complete_genome                              1.2964261 1.6818527 1.5986178 1.2993875 2.0366164 1.9971615 1.5973331 1.8184158 1.4986215 0.0000000 
