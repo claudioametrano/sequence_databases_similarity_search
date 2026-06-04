@@ -418,11 +418,14 @@ $ singularity exec hmmer:3.4--h503566f_3 hmmbuild --cpu 4 --amino ./results/1689
 ```
 
 #### **TASK 5**
-Take a look at the profile we just built:
-Knowing how is the profile file format structured, can you guess what is the most likely amino acid at position 1? Does it make sense?
+>Take a look at the profile we just built:
+>Knowing how is the profile file format structured, can you guess what is the most likely amino
+>acid at position 1? Does it make sense?
 
-Search for homologous sequences in the proteome using the profile.
-We will run it on the proteome (.fasta file with amino-acidic sequences) because **hmm profiles only work within the same alphabet (no method like tblastn)** -> if you want to search a nucleotide sequence (e.g. assemblies, transcriptome) you need a nucleotide hmm profile  
+
+#### Search for homologous sequences in the proteome using the profile
+It comes from the NCBI annotation of the genome, and is already downloaded in data/.
+We will HMMER on the proteome (.fasta file with amino-acidic sequences) because **hmm profiles only work within the same alphabet (no method like tblastn)** -> if you want to search a nucleotide sequence (e.g. assemblies, transcriptome) you need a nucleotide hmm profile  
 ```bash
 $ singularity exec hmmer\:3.4--h503566f_3 hmmsearch --cpu 4 -E  1e-5  -o ./results/hmmerout-168997_vs_Tmel.txt -A ./results/hmmerout_alignment-168997_vs_Tmel.txt  --tblout ./results/hmmerout_table-168997_vs_Tmel.txt ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm ./data/GCA_000151645.1_ASM15164v1_Tmel_protein.faa 
 
@@ -444,6 +447,8 @@ $ grep -A 2 "significant" results/blastout_168997at4890_protein_vs_GCA_000151645
 ```
 In this case the output is equivalent, except HMMER is able to compare the profile containing all the information of a multifasta, outputting only one alignment, with the advantage of also being faster here (one blastp search alone, would be faster, but less sensitive!).
 On less straightforward, more variable/distantly related sequences, HMMER methods have an advantage, but for both methods the reference query sequences are crucial.
+
+
 
 ### FINAL TASK
 BUILD A REPORT CONTAINING EVERY STEP YOU TOOK, REPORTING THE COMMANDS USED AND THEIR OUTPUT (meaningful examples or summary tables are enough if the output is large!). IT CAN BE DELIVERED IN .docx, .pdf, OR MARKDOWN TEXT FILE.
