@@ -21,7 +21,7 @@ Login to your account on the HPC and start an interactive session (as we won't r
 ```bash
 ssh username@l2.gsc1.uni-graz.at
 
-srun --mem=8G --ntasks=4 --cpus-per-task=1 --time=10:00:00 --pty bash
+srun --mem=8G --ntasks=1 --cpus-per-task=4 --time=10:00:00 --pty bash
 ```
 
 download this repository:
@@ -144,7 +144,7 @@ In the main page search for an organism you would like to know more about and ch
 ### 2- Sequence Alignment 
 Now, let's say you just got your shiny new sequence from an unknown organism out of a Sanger sequencing run, most of the time, we want to interrogate these database with a query that is a sequence itself, not a species name. Then, we need  **alignment algorithms** that aligns our query sequence with those in the database.
 One widely used example is **[Basic Local Alignment Search Tool: BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)**
-It has the enormous advantage to be developed by NBCI itself and it is integrated in its web-services. Let's take a look at what it can do!
+It has the enormous advantage of being integrated in NBCI as web-service. Let's take a look at what it can do!
 
 ![blastn_blastp_etc](images/blastn_blastp_etc.png) ![blastscreen](images/blast_browser.png)
 credit: [allan.haldane@temple.edu](mailto:allan.haldane@temple.edu)
@@ -188,17 +188,18 @@ Where:
 ### 2a- Use of BLAST+ suite via web browser
 #### **TASK 2**
 >- Open the blast_me.fasta file and look what kind of sequence it is (DNA or AA), then select the most suitable BLAST service
->- Load the /data/blast_me.fasta file (or copy/paste the content)
+>- Load the /data/blast_me.fasta file (or copy/paste the content from less or cat )
 >- Start the BLAST alignment with everything left at default
 >- Check results, what is it?
->-  Now try to find it by BLAST in the following species: mouse, rat, chimpanzee, humans, chicken, zebrafish, mosquito, fruit fly and baker's yeast. Download a fasta for each (and put them in results/task2 ...create the directory first!)
+>-  Now try to find it by BLAST in the following species: mouse, rat, chimpanzee, humans, chicken, zebrafish, mosquito, fruit fly and baker's yeast (hints: use scientific name, relax blast parameter if needed!)
+>- Download a fasta for each (check query cover!) and put them in results/task2 togheter with your blast_me.fasta
 #### **Optional**: Build a phylogenetic tree with this tiny dataset
 >- Put everything in a multi-fasta file 
 >- Align using mafft (container at https://depot.galaxyproject.org/singularity/mafft:7.525--h031d066_1)
->- Revise your alignment by eye before and after deleting not well aligned columns (optionally use Trimal, container at https://depot.galaxyproject.org/singularity/trimal:1.5)
+>- Revise your alignment by eye before and after deleting not well aligned columns (use Trimal, container at https://depot.galaxyproject.org/singularity/trimal:1.5)
 >- Use iqtree2 to infer the Maximum Likelihood tree (container at https://depot.galaxyproject.org/singularity/iqtree:2.3.6--h503566f_1)
 >-  Visualize you tree with iTOL.  [iTOL:iteractiveTreeOfLife](https://itol.embl.de/itol.cgi). You probably already have a rough idea on how related are these organism, but in case you do not iTOL has a nice Tree of Life welcoming you on their website, compare it with the one you got!
->- Does your tree reflect the known phylogenetic relationships among those organisms? If not, can you think why this may happen? How would you try to fix this outcome?
+>- Does your tree reflect the known phylogenetic relationships among those organisms? If not, can you think why this may happen? How would you improve this phylogeny?
 
 
 ### 2b- Use of BLAST+ Command Line Interface (CLI) 
@@ -234,10 +235,11 @@ $ mv *.gz *.md5 ./results/NCBI_databases/
 $ cd results/NCBI_databases
 
 $ md5sum -c *.md5 # check downloaded files integrity
+
 $ cd -
 ```
 Download some compact databases for common rDNA barcode markers (update_blastdb.pl can take a space-separated list): **SSU_eukaryote_rRNA LSU_eukaryote_rRNA ITS_eukaryote_sequences**
-Check for errors in downloads and if the number of files check out (sometimes NCBI server does not respond on time)
+Check for errors in downloads and if the number of files checks out (sometimes NCBI server does not respond on time)
 
 
 Example of protein-protein BLAST (blastp) query example:
@@ -251,7 +253,7 @@ singularity exec blast:2.16.0--h66d330f_4 blastp -query query.fasta -db path/to/
 > **Questions:**
 > - Which kind of sequence is it? How long is it?
 > - With what blast command would you start? Is any other blast tool suitable?
-> - Why you are not getting meaningful results? How can you try solve it? (hint: did you run it at default parameters?)
+> - Why you are not getting meaningful results? How can you try solve it? (hint: did you run it at default parameters? check the -help for the use of: -reward -penalty -gapopen -gapextend -word_size; or check the -task argument )
 > - What locus/i is it? How can you visualize this? (hint: do you have "by chance", among the file we produced, one that can help?) 
 > - To what organism does the sequence belong?... Can you tell without any doubt?
 
@@ -262,7 +264,7 @@ singularity exec blast:2.16.0--h66d330f_4 blastp -query query.fasta -db path/to/
 After discovering which locus was contained in the query sequence, to clearly delimit which ITS we can build a MSA that more clearly shows the boundaries of each locus in rDNA, for example using task1 tuber_rDNA.fas file:
 ```bash
 # get the first (the longest, if you sorted them in the beginning) seqs from file
-$ head -n 3000 ./results/task1/tuber_rDNA.fas > results/task3/tuber_rDNA_longest_plus_sequence.fas
+$ head -n 1000 ./results/task1/tuber_rDNA.fas > results/task3/tuber_rDNA_longest_plus_sequence.fas
 # add the query sequence
 $ cat ./data/sequence.fasta >> results/task3/tuber_rDNA_longest_plus_sequence.fas
 # Here you can grep -c the fasta, to see how many you got
@@ -295,35 +297,37 @@ Let's create a BLAST database using as input the genome assembly of *Tuber melan
 
 From command line (works as well from the NCBI webpage under genome/dataset)
 ```bash
-$ wget -P data/ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/151/645/GCF_000151645.1_ASM15164v1/GCF_000151645.1_ASM15164v1_genomic.fna.gz
+
+$ mkdir results/task4
+
+$ wget -P results/task4 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/151/645/GCF_000151645.1_ASM15164v1/GCF_000151645.1_ASM15164v1_genomic.fna.gz
 
 ```
 
 unzip and build  the database
 ```bash
+# exteact using gzip
+$ gunzip results/task4/GCF_000151645.1_ASM15164v1_genomic.fna.gz
 # extract using 7zip
-$ 7z x ./data/GCF_000151645.1_ASM15164v1_genomic.fna.gz -o./results/^C 7z x ./data/ncbi_dataset.zip -o./results/
-
-# or using unzip
-$ unzip ./data/GCF_000151645.1_ASM15164v1_genomic.fna.gz -d ./results/
+$ 7z x ./results/GCF_000151645.1_ASM15164v1_genomic.fna.gz -o./results/^C 7z x ./data/ncbi_dataset.zip -o./results/
 
 # Build the database  from the assembly fasta
-$ singularity exec blast:2.16.0--h66d330f_4 makeblastdb -in ./results/GCF_000151645.1_ASM15164v1_genomic.fna -dbtype nucl -out ./results/GCF_000151645.1_assembly_db 
+$ singularity exec blast:2.16.0--h66d330f_4 makeblastdb -in ./results/task4/GCF_000151645.1_ASM15164v1_genomic.fna -dbtype nucl -out ./results/task4/GCF_000151645.1_assembly_db 
 ```
 
 now try to query the newly created database with ./data/sequence.fasta, what do you expect?
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCF_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCA_000151645.1.txt
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/task4/GCF_000151645.1_assembly_db -out ./results/task4/blastout_sequence_vs_GCA_000151645.1.txt
 ```
  
 ### Extract BLAST results from the database
 
-#### A more efficient way to store (and re-use in bioinformatic pipelines) your blast results, and extract aligned sequences 
+#### A more efficient way to store (and re-use in bioinformatic workflows) your blast results, and extract aligned sequences 
 
 ```bash
-$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/GCF_000151645.1_assembly_db -out ./results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  -outfmt "6 qseqid sseqid qstart qend sstart send sstrand evalue bitscore pident qcovs sseq"
+$ singularity exec blast:2.16.0--h66d330f_4 blastn -query ./data/sequence.fasta -db ./results/task4/GCF_000151645.1_assembly_db -out ./results/task4/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  -outfmt "6 qseqid sseqid qstart qend sstart send sstrand evalue bitscore pident qcovs sseq"
 
-$ cat results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt
+$ cat results/task4/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt
 ``` 
 
 -outfmt 6 has its own default fields, but you can customize it, as we just did listing the information we want in the output file 
@@ -336,7 +340,7 @@ $ cat results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt
 
 redirect the hit in a fasta file
 ```bash
-awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  > ./results/sequence_vs_GCF_000151645.1_first_hit.fasta
+awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/task4/blastout_sequence_vs_GCF_000151645.1_tabfmt.txt  > ./results/task4/sequence_vs_GCF_000151645.1_first_hit.fasta
 
 ```
 !seen[$2]++ only keeps the first result per subject name ("$2" is the second tab separated field), $NF selected the last field (NF: number of fields), in this case the sequence. 
@@ -344,14 +348,14 @@ awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequ
 ### 3- The right method for every occasion: other commonly used alignment/mapping tools
  BLAST is not the only tool available, some examples of widely used alignment/mapping tools are summarized below. Alignment/mapping, and in general search by sequences similarity is one of the most frequent activity in bioinformatics, so literally a plethora of algorithms exist and are developed.
 
-| Use-case                                                                | Tool                       | main feature                                                               |
-| ----------------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------- |
-| **Rapid protein and nucleotide search** (large databases, metagenomics) | **DIAMOND**;<br>**MMseq2** | faster than BLAST with similar recall                                      |
-| **Amplicon clustering/search**, small-to-medium nucleotide search       | **VSEARCH**; **USEARCH**   | faster than BLAST with similar recall<br>                                  |
-| **Short-read DNA mapping** (Illumina 50–300 bp)                         | **BWA**; <br>**Bowtie2**   | fast mapping of millions of reads on reference sequence, output in SAM/BAM |
-| **Long-read / assembly alignment** (ONT, PacBio, ≥ 1 kb reads)          | **Minimap2**               | mix of speed, accuracy, and splice awareness                               |
-| **Remote homology search** (detecting distant protein families/motifs)  | **HMMER3**                 | sensitivity for weakly conserved domains                                   |
-| Spliced transcript / protein to genome alignment                        | **EXONERATE**              | Good at finding intron/exon boundaries                                     |
+| Use-case                                                               | Tool                     | main feature                                                               |
+| ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------------- |
+| **Rapid protein**  (large databases, metagenomics)                     | **DIAMOND**;<br>         | faster than BLAST (in fast mode, various speed/sensitivity setting)        |
+| **Amplicon clustering/search**, small-to-medium nucleotide search      | **USEARCH**              | faster than BLAST with similar recall<br>                                  |
+| **Short-read DNA mapping** (Illumina 50–300 bp)                        | **BWA**; <br>**Bowtie2** | fast mapping of millions of reads on reference sequence, output in SAM/BAM |
+| **Long-read / assembly alignment** (ONT, PacBio, ≥ 1 kb reads)         | **Minimap2**             | mix of speed, accuracy, and splice awareness                               |
+| **Remote homology search** (detecting distant protein families/motifs) | **HMMER3**               | sensitivity for weakly conserved domains                                   |
+| Spliced transcript / protein to genome alignment                       | **EXONERATE**            | Good at finding intron/exon boundaries                                     |
 
 ### 3a HMMER
 **Used to search sequence databases for (possible) homologs of protein sequence.**
@@ -363,7 +367,7 @@ awk -F'\t' '!seen[$2]++ {print ">" $2 "_ITS1" "\n" $NF}' ./results/blastout_sequ
 - HMMs do have limitations. For example they cannot capture any higher-order correlations. An HMM assumes that the identity of a particular position is independent of the identity of all other positions (e.g. does not include scoring terms for nearby amino acids in a three-dimensional protein structure)
 
 #### Difference to BLAST and other pairwise alignment algorithms
-Profile HMMs are statistical descriptions of the consensus of a multiple sequence alignment. They use position-specific scores for amino acids (or nucleotides) and position specific scores for opening and extending an insertion or deletion. Traditional pairwise alignment (for example, BLAST (Altschul et al., 1990), FASTA (Pearson and Lipman, 1988), or the Smith/Waterman algorithm (Smith and Waterman, 1981)) uses position-independent scoring parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
+Profile HMMs are statistical descriptions of the consensus of a multiple sequence alignment. They use **position-specific scores** for amino acids (or nucleotides) and position specific scores for opening and extending an insertion or deletion. Traditional pairwise alignment (for example, BLAST (Altschul et al., 1990), FASTA (Pearson and Lipman, 1988), or the Smith/Waterman algorithm (Smith and Waterman, 1981)) uses **position-independent scoring** parameters. This property of profiles captures important information about the degree of conservation at various positions in the multiple alignment, and the varying degree to which gaps and insertions are permitted.
 
 **The seven states modeled** (page 210 of[HMMER manual](http://eddylab.org/software/hmmer/Userguide.pdf) for accurate description of .hmm file format): 
 m: match
@@ -411,8 +415,11 @@ $ singularity pull https://depot.galaxyproject.org/singularity/hmmer:3.4--h50356
 
 $ singularity exec hmmer:3.4--h503566f_3 hmmbuild --cpu 4 --amino ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm ./results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.fasta
 
-$ less -S results/168997at4890_tRNA-splicing_endonuclease_subunit_mafft_aligned.hmm 
 ```
+
+#### **TASK 5**
+Take a look at the profile we just built:
+Knowing how is the profile file format structured, can you guess what is the most likely amino acid at position 1? Does it make sense?
 
 Search for homologous sequences in the proteome using the profile.
 We will run it on the proteome (.fasta file with amino-acidic sequences) because **hmm profiles only work within the same alphabet (no method like tblastn)** -> if you want to search a nucleotide sequence (e.g. assemblies, transcriptome) you need a nucleotide hmm profile  
@@ -421,7 +428,7 @@ $ singularity exec hmmer\:3.4--h503566f_3 hmmsearch --cpu 4 -E  1e-5  -o ./resul
 
 # hmmer output
 $ less results/hmmerout-168997_vs_Tmel.txt
-# hit(s)
+# hit(s) as Stockholm alignment
 $ less results/hmmerout_alignment-168997_vs_Tmel.txt
 # parseable table
 $ less results/hmmerout_table-168997_vs_Tmel.txt
@@ -435,7 +442,7 @@ $ singularity exec blast\:2.16.0--h66d330f_4 blastp -num_threads 4 -evalue 1e-5 
 
 $ grep -A 2 "significant" results/blastout_168997at4890_protein_vs_GCA_000151645.1_protein_db.txt
 ```
-In this case the output is equivalent, except HMMER is able to compare the profile containing all the information of a multifasta, outputting only one alignment, with the advantage of also being faster here (one blastp search alone, would be faster though).
+In this case the output is equivalent, except HMMER is able to compare the profile containing all the information of a multifasta, outputting only one alignment, with the advantage of also being faster here (one blastp search alone, would be faster, but less sensitive!).
 On less straightforward, more variable/distantly related sequences, HMMER methods have an advantage, but for both methods the reference query sequences are crucial.
 
 ### FINAL TASK
